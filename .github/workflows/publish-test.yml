@@ -14,13 +14,16 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get install -y python3-paramiko python3-lxml
 
-    - uses: actions/checkout@v4.2.2
+    - uses: actions/checkout@v7
       with:
         submodules: 'recursive'
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v4.1.0
+      uses: actions/setup-dotnet@v5
       with:
         dotnet-version: 10.0.x
+
+    - name: Install dependencies
+      run: sudo apt-get install -y python3-paramiko python3-lxml
 
     - name: Get Engine Tag
       run: |
@@ -45,6 +48,7 @@ jobs:
         PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
 
+<<<<<<< HEAD:.github/workflows/publish-test.yml
     - name: Publish changelog (Discord)
       continue-on-error: true
       run: Tools/actions_changelogs_since_last_run.py
@@ -52,6 +56,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
 
+=======
+>>>>>>> 7c36908694ca1c994fa0c5a6aafda557e70f2d98:.github/workflows/publish-testing.yml
     - name: Publish changelog (RSS)
       continue-on-error: true
       run: Tools/actions_changelog_rss.py
