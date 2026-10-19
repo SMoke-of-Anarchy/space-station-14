@@ -102,12 +102,12 @@ jobs:
           fi
         fi
       env:
-        GH_TOKEN: ${{ secrets.CL_ACCESS_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Tag version commit
       if: ${{ github.event.inputs.version != '' }}
       env:
-        GH_TOKEN: ${{ secrets.CL_ACCESS_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         VERSION_TAG: ${{ github.event.inputs.version }}
       run: |
         HEAD_SHA=$(git rev-parse HEAD)
@@ -120,7 +120,7 @@ jobs:
 
     - name: Create PR from stable to master
       env:
-        GH_TOKEN: ${{ secrets.CL_ACCESS_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         if [ -z "$(gh pr list --repo "$GITHUB_REPOSITORY" --head stable --base master --state open --json number --jq '.[].number')" ]; then
           if [ "$DRY_RUN" = "true" ]; then
