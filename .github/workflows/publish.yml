@@ -65,6 +65,7 @@ jobs:
       run: Tools/actions_get_last_publish_sha.py
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        LAST_PUBLISH_SHA: "fda824c6b4d99a6910789e49f8c2d628be6e7518"
 
     - name: Update changelog
       run: |
