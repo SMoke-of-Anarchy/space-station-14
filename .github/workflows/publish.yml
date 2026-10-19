@@ -75,7 +75,7 @@ jobs:
         BRANCH: stable
         CHANGELOG_REPO_PATH: Resources/Changelog
         EXTRA_CATEGORIES: Admin,Maps,Rules
-        GITHUB_TOKEN: ${{ secrets.CL_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LAST_PUBLISH_SHA: ${{ steps.last-publish.outputs.last_publish_sha }}
 
     - name: Commit and push changelog changes
