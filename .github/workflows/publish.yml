@@ -118,19 +118,19 @@ jobs:
           git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "refs/tags/${VERSION_TAG}"
         fi
 
-    - name: Create PR from stable to master
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        if [ -z "$(gh pr list --repo "$GITHUB_REPOSITORY" --head stable --base master --state open --json number --jq '.[].number')" ]; then
-          if [ "$DRY_RUN" = "true" ]; then
-            gh pr create --dry-run --repo "$GITHUB_REPOSITORY" --base master --head stable --title "Stable to master sync after release" --body "Sync from release to master." || echo "::warning::DRY-RUN: PR would not be created (see gh output above)."
-          else
-            gh pr create --repo "$GITHUB_REPOSITORY" --base master --head stable --title "Update changelog" --body "Sync from release to master."
-          fi
-        else
-          echo "Merge from stable to master PR already exist, skipping."
-        fi
+#    - name: Create PR from stable to master
+#      env:
+#        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      run: |
+#        if [ -z "$(gh pr list --repo "$GITHUB_REPOSITORY" --head stable --base master --state open --json number --jq '.[].number')" ]; then
+#          if [ "$DRY_RUN" = "true" ]; then
+#            gh pr create --dry-run --repo "$GITHUB_REPOSITORY" --base master --head stable --title "Stable to master sync after release" --body "Sync from release to master." || echo "::warning::DRY-RUN: PR would not be created (see gh output above)."
+#          else
+#            gh pr create --repo "$GITHUB_REPOSITORY" --base master --head stable --title "Update changelog" --body "Sync from release to master."
+#          fi
+#        else
+#          echo "Merge from stable to master PR already exist, skipping."
+#        fi
 
     - name: Build Packaging
       run: dotnet build Content.Packaging --configuration Release --no-restore /m
