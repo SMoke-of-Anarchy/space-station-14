@@ -72,7 +72,7 @@ jobs:
         ss14-changelog update -d Resources/Changelog -s ${LAST_PUBLISH_SHA}
       env:
         REPO: ${{ github.repository }}
-        BRANCH: stable
+        BRANCH: main
         CHANGELOG_REPO_PATH: Resources/Changelog
         EXTRA_CATEGORIES: Admin,Maps,Rules
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
