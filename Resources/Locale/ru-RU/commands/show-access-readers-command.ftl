@@ -1,9 +1,9 @@
-cmd-showaccessreaders-desc = Toggles showing access reader permissions on the map
+cmd-showaccessreaders-desc = Переключает отображение разрешений считывателей доступа на карте
 cmd-showaccessreaders-help =
-    Overlay Info:
-    -Disabled | The access reader is disabled
-    +Unrestricted | The access reader has no restrictions
-    +Set [Index]: [Tag Name]| A tag in an access set (accessor needs all tags in the set to be allowed by the set)
-    +Key [StationUid]: [StationRecordKeyId] | A StationRecordKey that is allowed
-    -Tag [Tag Name] | A tag that is not allowed (takes priority over other allows)
-cmd-showaccessreaders-status = Set access reader debug overlay to { $status }.
+    Информация о слоях:
+    -Disabled | Считыватель доступа отключён
+    +Unrestricted | У считывателя доступа нет ограничений
+    +Set [Index]: [Tag Name]| Тег из набора доступа (для разрешения доступа субъект должен иметь все теги набора)
+    +Key [StationUid]: [StationRecordKeyId] | Разрешённый ключ StationRecordKey
+    -Tag [Tag Name] | Запрещённый тег (имеет приоритет над другими разрешениями)
+cmd-showaccessreaders-status = Слой отладки считывателей доступа: { $status }.

@@ -12,7 +12,8 @@ wieldable-component-not-enough-free-hands =
     Чтобы использовать { $item } вам понадобится ещё { $number } { $number ->
         [one] свободная рука
         [few] свободные руки
-       *[other] свободных рук
+        [many] свободных рук
+       *[other] свободной руки
     }.
 wieldable-component-not-in-hands = { CAPITALIZE($item) } не в ваших руках!
 wieldable-component-requires = { CAPITALIZE($item) } должно быть в двух руках!

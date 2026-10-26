@@ -196,3 +196,11 @@ guide-entry-rules-ban-types = Виды банов
 guide-entry-rules-ban-durations = Длительности банов
 guide-entry-writing = Разметка письма
 guide-entry-glossary = Словарь терминов
+
+guide-entry-analysisconsole = Анализатор
+guide-entry-changelings = Генокрады
+guide-entry-civilian = Гражданский отдел
+guide-entry-gasrecycling = Переработка газов
+guide-entry-lawsets = Наборы законов кремниевых
+guide-entry-xenoarchaeologyunlockingnodes = Открытие узлов
+guide-entry-xenoborgs = Ксеноборги

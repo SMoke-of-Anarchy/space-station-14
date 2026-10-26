@@ -44,3 +44,7 @@ borg-type-medical-transponder = киборг-доктор
 borg-type-service-name = Сервисный
 borg-type-service-desc = Помогайте членам экипажа в самых разных ситуациях — от подачи закусок и напитков до занятий ботаникой и развлечений.
 borg-type-service-transponder = киборг-официант
+borg-module-action-description = Выберите модуль «{$moduleName}», чтобы использовать его инструменты.
+borg-module-action-name = Активировать {$moduleName}
+borg-module-incompatible = Этот модуль несовместим с {THE($existing)}...
+borg-module-prerequisite-unfulfilled = Для работы этого модуля требуется другой модуль...

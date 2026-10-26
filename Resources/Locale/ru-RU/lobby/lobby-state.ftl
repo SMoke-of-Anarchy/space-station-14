@@ -13,11 +13,13 @@ lobby-state-player-status-round-time =
     Время раунда: { $hours } { $hours ->
         [one] час
         [few] часа
-       *[other] часов
+        [many] часов
+       *[other] часа
     } и { $minutes } { $minutes ->
         [one] минута
         [few] минуты
-       *[other] минут
+        [many] минут
+       *[other] минуты
     }
 lobby-state-song-text = Играет: [color=white]{ $songTitle }[/color], исполнитель [color=white]{ $songArtist }[/color]
 lobby-state-song-no-song-text = В лобби не играет песня.
@@ -32,3 +34,8 @@ lobby-state-playtime-comment-normal =
 lobby-state-playtime-comment-concerning = Сегодня вы наиграли { $hours } часов. Пожалуйста, отдохните.
 lobby-state-playtime-comment-grasstouchless = { $hours } часов. Подумайте о выходе из игры, чтобы заняться своими делами.
 lobby-state-playtime-comment-selfdestructive = { $hours } часов. Серьёзно?
+
+lobby-state-background-no-background-text = Иллюстрация меню не загружена.
+lobby-state-background-text = Иллюстрация меню: [color=white]{$backgroundTitle}[/color], автор — [color=white]{$backgroundArtist}[/color]
+lobby-state-background-unknown-artist = [color=dimgray]Неизвестный автор[/color]
+lobby-state-background-unknown-title = [color=dimgray]Неизвестное название[/color]

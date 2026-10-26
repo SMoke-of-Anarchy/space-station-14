@@ -62,3 +62,8 @@ reagent-name-posca = поска
 reagent-desc-posca = Напиток бедных воинов из забытой эпохи.
 reagent-name-mopwata = швабода
 reagent-desc-mopwata = Грязная, застоявшаяся вода из-под швабры, швабровая вода.
+
+reagent-desc-milk-sheep = Непрозрачная белая жидкость, которую даёт овца. Содержит много жира.
+reagent-desc-orange-lime-soda = Газировка должна быть апельсиновой! Нет, лимонно-лаймовой!
+reagent-name-milk-sheep = овечье молоко
+reagent-name-orange-lime-soda = цитрусовая дилемма

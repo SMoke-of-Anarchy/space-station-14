@@ -5,9 +5,9 @@ cmd-roleban-help = Использование: roleban <name or user ID> <job> <
 
 ## Completion result hints
 
-cmd-roleban-hint-1 = <name or user ID>
-cmd-roleban-hint-2 = <job>
-cmd-roleban-hint-3 = <reason>
+cmd-roleban-hint-1 = <имя или ID пользователя>
+cmd-roleban-hint-2 = <должность>
+cmd-roleban-hint-3 = <причина>
 cmd-roleban-hint-4 = [продолжительность в минутах, не указывать или 0 для навсегда]
 cmd-roleban-hint-5 = [тяжесть]
 cmd-roleban-hint-duration-1 = Навсегда
@@ -20,24 +20,24 @@ cmd-roleban-hint-duration-6 = 1 месяц
 ### Localization for role unban command
 
 cmd-roleunban-desc = Возвращает пользователю возможность играть на роли
-cmd-roleunban-help = Использование: roleunban <role ban id>
+cmd-roleunban-help = Использование: roleunban <ID запрета роли>
 cmd-roleunban-unable-to-parse-id =
     Не удалось спарсить { $id } как ban id integer.
     { $help }
 
 ## Completion result hints
 
-cmd-roleunban-hint-1 = <role ban id>
+cmd-roleunban-hint-1 = <ID запрета роли>
 
 ### Localization for roleban list command
 
 cmd-rolebanlist-desc = Список запретов ролей игрока
-cmd-rolebanlist-help = Использование: <name or user ID> [include unbanned]
+cmd-rolebanlist-help = Использование: <имя или ID пользователя> [включая снятые запреты]
 
 ## Completion result hints
 
-cmd-rolebanlist-hint-1 = <name or user ID>
-cmd-rolebanlist-hint-2 = [include unbanned]
+cmd-rolebanlist-hint-1 = <имя или ID пользователя>
+cmd-rolebanlist-hint-2 = [включая снятые запреты]
 cmd-roleban-minutes-parse = { $time } — недопустимое количество минут.\n{ $help }
 cmd-roleban-severity-parse = ${ severity } не является валидной тяжестью\n{ $help }.
 cmd-roleban-arg-count = Недопустимое количество аргументов.

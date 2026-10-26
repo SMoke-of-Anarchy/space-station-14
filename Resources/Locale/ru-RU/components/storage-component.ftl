@@ -6,6 +6,7 @@ comp-storage-invalid-container = Это сюда не лезет!
 comp-storage-anchored-failure = Невозможно поместить закреплённый предмет.
 comp-storage-cant-drop = Вы не можете отпустить { $entity }!
 comp-storage-window-title = Предмет хранилище
+comp-storage-window-dummy = Пустышка
 comp-storage-window-weight = { $weight }/{ $maxWeight }, Макс. размер: { $size }
 comp-storage-window-slots = Слоты: { $itemCount }/{ $maxCount }, Макс. размер: { $size }
 comp-storage-verb-open-storage = Открыть хранилище

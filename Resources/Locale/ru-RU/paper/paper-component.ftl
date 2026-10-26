@@ -2,7 +2,7 @@
 
 paper-ui-blank-page-message = Данная страница оставлена пустой специально
 # Shown when paper with words examined details
-paper-component-examine-detail-has-words = На листе что-то написано.
+paper-component-examine-detail-has-words = На { CAPITALIZE(THE($paper)) } что-то написано.
 # Shown when paper with stamps examined
 paper-component-examine-detail-stamped-by = На { CAPITALIZE($paper) } имеются следующие печати: { $stamps }.
 paper-component-illiterate = Вы не можете писать.

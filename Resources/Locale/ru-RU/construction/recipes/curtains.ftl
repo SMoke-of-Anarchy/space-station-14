@@ -1,4 +1,5 @@
 construction-recipe-curtains-cloth = шторы (ткань)
+construction-recipe-curtains-sky-blue = шторы (небесно-голубые)
 construction-recipe-curtains-black = шторы (чёрный)
 construction-recipe-curtains-blue = шторы (синий)
 construction-recipe-curtains-cyan = шторы (голубой)

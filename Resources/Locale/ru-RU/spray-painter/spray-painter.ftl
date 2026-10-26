@@ -1,10 +1,6 @@
 # Components
 spray-painter-ammo-on-examine =
-    Содержит { $charges } { $charge ->
-        [1] заряд
-        [few] заряда
-       *[other] зарядов
-    }.
+    Содержит { $charges } зарядов.
 spray-painter-ammo-after-interact-full = Краскопульт полон!
 spray-painter-ammo-after-interact-refilled = Вы заправляете краскопульт.
 spray-painter-interact-no-charges = Не хватает краски.
@@ -174,3 +170,7 @@ spray-painter-style-canisters-plasma = Плазма
 spray-painter-style-canisters-storage = Хранение
 spray-painter-style-canisters-tritium = Тритий
 spray-painter-style-canisters-water-vapor = Водяной пар
+
+spray-painter-interact-color-picked = Цвет взят с «{$id}».
+spray-painter-interact-no-color-pick = Не удалось найти цвет для выбора!
+spray-painter-style-airlockstandard-service = Сервисное помещение

@@ -161,3 +161,7 @@ food-sequence-taco-gen = тако с { $content }
 # SKEWER
 
 food-sequence-skewer-gen = шашлык с { $content }
+
+food-sequence-cotton-burger-content-plushie-sheep = шерстяной
+food-sequence-cotton-burger-content-plushie-sheepspace = космически-шерстяной
+food-sequence-cotton-burger-content-plushie-vulp = вульп

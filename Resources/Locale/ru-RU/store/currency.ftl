@@ -6,9 +6,12 @@ store-currency-display-debugdollar =
     { $amount ->
         [one] { $amount } Дебаг доллар
         [few] { $amount } Дебаг доллара
-       *[other] { $amount } Дебаг долларов
+        [many] { $amount } Дебаг долларов
+       *[other] { $amount } Дебаг доллара
     }
 store-currency-display-telecrystal = ТК
 store-currency-display-stolen-essence = Украденная эссенция
 store-currency-display-silicon-memory = Память
 store-currency-display-wizcoin = Маг₭øин™
+
+store-currency-display-dna = ДНК

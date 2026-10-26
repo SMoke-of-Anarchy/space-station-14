@@ -1,6 +1,6 @@
-cmd-showmarkers-desc = Toggles visibility of markers such as spawn points.
-cmd-showmarkers-help = Usage: { $command }
-cmd-showsubfloor-desc = Makes entities below the floor always visible.
-cmd-showsubfloor-help = Usage: { $command }
-cmd-notify-desc = Send a notify client side.
-cmd-notify-help = Usage: { $command } <message>
+cmd-showmarkers-desc = Переключает видимость маркеров, например точек появления.
+cmd-showmarkers-help = Использование: { $command }
+cmd-showsubfloor-desc = Всегда отображает сущности под полом.
+cmd-showsubfloor-help = Использование: { $command }
+cmd-notify-desc = Отправляет уведомление на клиент.
+cmd-notify-help = Использование: { $command } <message>

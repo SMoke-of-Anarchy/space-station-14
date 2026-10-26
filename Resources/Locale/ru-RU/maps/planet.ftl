@@ -1,5 +1,5 @@
 cmd-planet-desc = Конвертирует указанную карту в планету с определённым биомом.
-cmd-planet-help = { $command } <mapid> <biome>.
+cmd-planet-help = { $command } <идентификатор карты> <биом>.
 cmd-planet-args = Требуется только 2 аргумента.
 cmd-planet-map = Не удалось спарсить { $map } как существующую карту.
 cmd-planet-map-prototype = Не удалось проиндексировать { $prototype } как существующий прототип шаблона биома.

@@ -1,10 +1,13 @@
 guidebook-reagent-effect-description =
-    { $chance ->
+    { $quantity ->
+        [0] {""}
+       *[other] Если присутствует не менее {$quantity}u {$reagent},{" "}
+    }{ $chance ->
         [1] { $effect }
-       *[other] Имеет { NATURALPERCENT($chance, 2) } шанс { $effect }
+       *[other] с вероятностью { NATURALPERCENT($chance, 2) } срабатывает эффект: { $effect }
     }{ $conditionCount ->
         [0] .
-       *[other] { " " }, пока { $conditions }.
+       *[other] {" "}если { $conditions }.
     }
 guidebook-reagent-name = [bold][color={ $color }]{ CAPITALIZE($name) }[/color][/bold]
 guidebook-reagent-recipes-header = Рецепт
@@ -29,4 +32,8 @@ guidebook-reagent-recipes-mix-info =
                *[false] выше { $minTemp }K
             }
     }
-guidebook-reagent-physical-description = [italic]На вид вещество { $description }.[/italic].
+guidebook-reagent-physical-description = [italic]На вид вещество { $description }.[/italic]
+
+guidebook-reagent-effects-metabolism-stage-rate = [bold]{$stage}[/bold] [color=gray]({$rate} единиц в секунду)[/color]
+guidebook-reagent-effects-metabolite-item = {$reagent} со скоростью { NATURALPERCENT($rate, 2) }
+guidebook-reagent-effects-metabolites = Метаболизируется в { $items }.

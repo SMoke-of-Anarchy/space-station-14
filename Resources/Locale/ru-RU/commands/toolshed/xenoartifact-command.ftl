@@ -1,0 +1,14 @@
+command-description-xenoartifact-printmatrix = Выводит матрицу, отображающую все связи между узлами.
+command-description-xenoartifact-totalresearch = Получает все очки исследований, которые можно извлечь из артефакта в данный момент.
+command-description-xenoartifact-addedge = Добавляет связь между двумя узлами ксеноартефакта.
+command-description-xenoartifact-averageresearch = Рассчитывает среднее количество очков исследований, которое выдаст сгенерированный ксеноартефакт после полной активации.
+command-description-xenoartifact-unlockallnodes = Открывает все узлы артефакта.
+command-description-xenoartifact-createnode = Создаёт узел артефакта (новый на глубине 0 или рядом с существующим).
+command-description-xenoartifact-createnodeatdepth = Добавляет новый узел к указанному артефакту.
+command-description-xenoartifact-spawnartwithnode = Создаёт новый ксеноартефакт с одним узлом, указанными триггером и эффектом.
+command-description-xenoartifact-unlocknode = Помечает узел как открытый.
+command-description-xenoartifact-removenode = Удаляет узел из ксеноартефакта.
+command-spawnartifactwithnode-spawn-artifact-item-hint = использовать переносной артефакт
+command-spawnartifactwithnode-spawn-artifact-structure-hint = использовать стационарный артефакт в виде сооружения
+command-spawnartifactwithnode-spawn-artifact-type-hint = <ID прототипа сущности артефакта>
+command-xenoartifact-common-node-hint = глубина {$depth}, узел {$nodeId}, триггер: «{$trigger}», эффект: «{$effect}»

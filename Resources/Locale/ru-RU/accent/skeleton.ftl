@@ -1,5 +1,5 @@
 accent-skeleton-words-1 = fuck you
-accent-skeleton-words-replace-1 = I've got a BONE to pick with you
+accent-skeleton-words-replace-1 = У меня к тебе КОСТЯНОЙ разговор
 accent-skeleton-words-2 = fucked
 accent-skeleton-words-replace-2 = boned
 accent-skeleton-words-3 = fuck

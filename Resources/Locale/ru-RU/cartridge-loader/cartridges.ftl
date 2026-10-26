@@ -27,24 +27,30 @@ med-tek-program-name = МедТек
 
 nano-task-ui-heading-high-priority-tasks =
     { $amount ->
+        [0] Нет задач высокого приоритета
         [zero] Нет задач высокого приоритета
-        [one] 1 задача высокого приоритета
+        [one] { $amount } задача высокого приоритета
         [few] { $amount } задачи высокого приоритета
-       *[other] { $amount } задач высокого приоритета
+        [many] { $amount } задач высокого приоритета
+       *[other] { $amount } задачи высокого приоритета
     }
 nano-task-ui-heading-medium-priority-tasks =
     { $amount ->
+        [0] Нет задач среднего приоритета
         [zero] Нет задач среднего приоритета
-        [one] 1 задача среднего приоритета
+        [one] { $amount } задача среднего приоритета
         [few] { $amount } задачи среднего приоритета
-       *[other] { $amount } задач среднего приоритета
+        [many] { $amount } задач среднего приоритета
+       *[other] { $amount } задачи среднего приоритета
     }
 nano-task-ui-heading-low-priority-tasks =
     { $amount ->
+        [0] Нет задач низкого приоритета
         [zero] Нет задач низкого приоритета
-        [one] 1 задача низкого приоритета
+        [one] { $amount } задача низкого приоритета
         [few] { $amount } задачи низкого приоритета
-       *[other] { $amount } задач низкого приоритета
+        [many] { $amount } задач низкого приоритета
+       *[other] { $amount } задачи низкого приоритета
     }
 nano-task-ui-done = Готово
 nano-task-ui-revert-done = Отмена
@@ -84,8 +90,11 @@ wanted-list-status-label = [color=darkgray]статус:[/color] { $status ->
         [detained] [color=#b18644]под арестом[/color]
         [paroled] [color=green]освобождён по УДО[/color]
         [discharged] [color=green]освобождён[/color]
+        [hostile] [color=darkred]враждебен[/color]
+        [eliminated] [color=gray]ликвидирован[/color]
        *[other] нет
     }
 wanted-list-history-table-time-col = Время
 wanted-list-history-table-reason-col = Преступление
 wanted-list-history-table-initiator-col = Инициатор
+crew-manifest-cartridge-loading-failed = Не удалось загрузить манифест экипажа!

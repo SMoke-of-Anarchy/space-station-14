@@ -4,6 +4,11 @@ ui-escape-title = Игровое меню
 ui-escape-options = Настройки
 ui-escape-rules = Правила
 ui-escape-guidebook = Руководство
-ui-escape-wiki = Wiki
+ui-escape-wiki = Вики
 ui-escape-disconnect = Отключиться
 ui-escape-quit = Выйти
+
+ui-escape-bug-report = Сообщить об ошибке
+ui-escape-feedback = Обратная связь
+ui-escape-remarks = Замечания администрации
+ui-escape-remarks-button-disabled = Эта функция отключена сервером.

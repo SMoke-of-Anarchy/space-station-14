@@ -1,6 +1,6 @@
 ## UI
 
-ui-disposal-unit-title = Утилизационный блок
+ui-disposal-unit-title = { CAPITALIZE($name) }
 ui-disposal-unit-label-state = Состояние:
 ui-disposal-unit-label-pressure = Давление:
 ui-disposal-unit-label-status = Готов
@@ -21,3 +21,7 @@ disposal-unit-state-Pressurizing = Нагнетание
 disposal-unit-being-inserted = { CAPITALIZE($user) } пытается затолкать вас в мусоропровод!
 disposal-self-insert-verb-get-data-text = Залезть внутрь
 disposal-eject-verb-get-data-text = Извлечь всё
+
+disposal-unit-is-full = Внутри больше нет места.
+disposal-unit-state-Unpowered = Нет питания
+ui-disposal-unit-button-routing = Маршрутизация

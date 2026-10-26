@@ -12,7 +12,7 @@ names-xenoborg-dataset-11 = Б.О.Л.Ь
 names-xenoborg-dataset-12 = УБИЙЦАбот
 names-xenoborg-dataset-13 = Финишнатор
 names-xenoborg-dataset-14 = Кровопроливец
-names-xenoborg-dataset-15 = C2-WKY 6000
+names-xenoborg-dataset-15 = Крушитель углерода
 names-xenoborg-dataset-16 = Ассасин 5
 names-xenoborg-dataset-17 = Костолом
 names-xenoborg-dataset-18 = Убийцамакс
@@ -45,7 +45,7 @@ names-xenoborg-dataset-44 = Боргер
 names-xenoborg-dataset-45 = Смертетон
 names-xenoborg-dataset-46 = Ле Металдор
 names-xenoborg-dataset-47 = Дьяволборг
-names-xenoborg-dataset-48 = public static void kill
+names-xenoborg-dataset-48 = Безумная микроволновка
 names-xenoborg-dataset-49 = Прощай мир!
 names-xenoborg-dataset-50 = ВредитЭкипажу
 names-xenoborg-dataset-51 = Бодихаммер
@@ -58,3 +58,53 @@ names-xenoborg-dataset-57 = Кусок Разрушения
 names-xenoborg-dataset-58 = Талос
 names-xenoborg-dataset-59 = Агробот
 names-xenoborg-dataset-60 = Вспинубой
+
+names-xenoborg-dataset-61 = Меха-угроза
+
+names-xenoborg-dataset-62 = Мегаболь
+
+names-xenoborg-dataset-63 = Мегамол
+
+names-xenoborg-dataset-64 = Металлический адский вестник
+
+names-xenoborg-dataset-65 = Ноль-Зеро
+
+names-xenoborg-dataset-66 = Ненавистник органики
+
+names-xenoborg-dataset-67 = Б.О.Л.Ь
+
+names-xenoborg-dataset-68 = Кусок разрушения
+
+names-xenoborg-dataset-69 = Процессасинатор
+
+names-xenoborg-dataset-70 = public static void kill
+
+names-xenoborg-dataset-71 = РЕЙД-78
+
+names-xenoborg-dataset-72 = Робозло
+
+names-xenoborg-dataset-73 = Разумное оружие
+
+names-xenoborg-dataset-74 = Тень Борга
+
+names-xenoborg-dataset-75 = Убийцатрон
+
+names-xenoborg-dataset-76 = Умный убийца
+
+names-xenoborg-dataset-77 = Стальной убийца
+
+names-xenoborg-dataset-78 = Стальной вор
+
+names-xenoborg-dataset-79 = Талос
+
+names-xenoborg-dataset-80 = Боргер
+
+names-xenoborg-dataset-81 = Финишинатор
+
+names-xenoborg-dataset-82 = Тостер погибели
+
+names-xenoborg-dataset-83 = Ультранасильственный
+
+names-xenoborg-dataset-84 = Подразделение В.А.Р.
+
+names-xenoborg-dataset-85 = Я буквально убью тебя и превращу в ксеноборга

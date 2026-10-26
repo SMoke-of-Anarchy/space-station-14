@@ -19,12 +19,14 @@ ghost-roles-window-raffle-in-progress-button =
     Участвовать в лотерее (Осталось { $time }, { $players ->
         [one] { $players } игрок
         [few] { $players } игрока
+        [many] { $players } игроков
        *[other] { $players } игроков
     })
 ghost-roles-window-leave-raffle-button =
     Покинуть (Осталось { $time }, { $players ->
         [one] { $players } игрок
         [few] { $players } игрока
+        [many] { $players } игроков
        *[other] { $players } игроков
     })
 ghost-roles-window-request-role-button = Запросить
@@ -34,3 +36,12 @@ ghost-roles-window-no-roles-available-label = В настоящее время �
 ghost-roles-window-rules-footer = Кнопка станет доступна через { $time } секунд (эта задержка нужна, чтобы убедиться, что вы прочитали правила).
 ghost-return-to-body-title = Вернуться в тело
 ghost-return-to-body-text = Вас воскрешают! Вернуться в своё тело?
+
+ghost-gui-toggle-all-ghosts-visibility-popup-off = Видимость всех призраков (включая вашу) отключена.
+ghost-gui-toggle-lighting-manager-popup-half-bright = Половинная яркость.
+ghost-target-window-warp-to-most-followed-tooltip = Телепортироваться к игроку, за которым следят чаще всего
+ghost-target-window-warp-to-random = Случайный игрок
+ghost-target-window-warp-to-random-followed = Случайный игрок среди отслеживаемых
+ghost-target-window-warp-to-random-followed-tooltip = Телепортироваться к случайному отслеживаемому игроку
+ghost-target-window-warp-to-random-tooltip = Телепортироваться к случайному игроку
+ghost-target-window-warp-to-title = [bold]Быстрый телепорт[/bold]

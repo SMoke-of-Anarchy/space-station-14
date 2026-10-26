@@ -20,3 +20,8 @@ suit-sensor-examine-off = Похоже, все датчики [color=darkred]о�
 suit-sensor-examine-binary = Похоже, датчики включены в бинарном режиме.
 suit-sensor-examine-vitals = Похоже, датчики включены в режиме отслеживания здоровья.
 suit-sensor-examine-cords = Похоже, датчики включены в режиме отслеживания координат и здоровья.
+
+suit-sensor-description-binary = О смерти носителя сообщается на станцию.
+suit-sensor-description-cords = Сведения о здоровье и местоположении носителя передаются на станцию.
+suit-sensor-description-off = Сведения на станцию не передаются.
+suit-sensor-description-vitals = Общие сведения о здоровье носителя передаются на станцию.

@@ -26,18 +26,8 @@ emergency-shuttle-nearby = Эвакуационный шаттл не может
 emergency-shuttle-extended = { " " }Время до запуска было продлено в связи с непредвиденными обстоятельствами.
 # Emergency shuttle console popup / announcement
 emergency-shuttle-console-no-early-launches = Досрочный запуск отключён
-emergency-shuttle-console-auth-left =
-    { $remaining } { $remaining ->
-        [one] авторизация осталась
-        [few] авторизации остались
-       *[other] авторизаций осталось
-    } для досрочного запуска шаттла.
-emergency-shuttle-console-auth-revoked =
-    Авторизации на досрочный запуск шаттла отозваны, { $remaining } { $remaining ->
-        [one] авторизация необходима
-        [few] авторизации необходимы
-       *[other] авторизаций необходимо
-    }.
+emergency-shuttle-console-auth-left = До досрочного запуска шаттла нужно авторизаций: { $remaining }.
+emergency-shuttle-console-auth-revoked = Авторизация на досрочный запуск шаттла отозвана. Нужно авторизаций: { $remaining }.
 emergency-shuttle-console-denied = Доступ запрещён
 # UI
 emergency-shuttle-console-window-title = Консоль эвакуационного шаттла

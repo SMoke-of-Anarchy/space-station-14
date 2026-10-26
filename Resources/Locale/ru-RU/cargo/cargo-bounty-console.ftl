@@ -7,6 +7,9 @@ bounty-console-manifest-label = Манифест: [color=orange]{ $item }[/color
 bounty-console-manifest-entry =
     { $amount ->
         [1] { $item }
+        [one] { $item } x{ $amount }
+        [few] { $item } x{ $amount }
+        [many] { $item } x{ $amount }
        *[other] { $item } x{ $amount }
     }
 bounty-console-manifest-reward = Награда: ${ $reward }

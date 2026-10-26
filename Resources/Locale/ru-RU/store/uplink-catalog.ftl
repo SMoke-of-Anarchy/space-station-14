@@ -285,7 +285,7 @@ uplink-slipocalypse-clustersoap-desc = После приземления раз�
 uplink-mobcat-microbomb-name = Телепорт СиндиКота
 uplink-mobcat-microbomb-desc = Призывает ручного кота, оснащённого имплантом Микробомба. Взрывается при серьёзном ранении. Может больно кусаться.
 uplink-chameleon-projector-name = Маскировочный проектор
-uplink-chameleon-projector-desc = Исчезните из поля зрения, создав вокруг себя голограмму какого-либо предмета. Не используйте его для игры «Prop Hunt».
+uplink-chameleon-projector-desc = Растворитесь на виду, создав вокруг себя голограмму предмета и замаскировавшись под него! Не используйте устройство для игры «Прятки с предметами».
 # Pointless
 uplink-revolver-cap-gun-name = Игрушечный пистолет
 uplink-revolver-cap-gun-desc = Выглядит почти как настоящий! От 8 лет и старше.

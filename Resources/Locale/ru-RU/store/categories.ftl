@@ -1,6 +1,6 @@
 # Uplink
-store-category-debug = debug category
-store-category-debug2 = debug category 2
+store-category-debug = отладочная категория
+store-category-debug2 = отладочная категория 2
 store-category-weapons = Вооружение
 store-category-ammo = Боеприпасы
 store-category-explosives = Взрывчатка
@@ -12,6 +12,7 @@ store-category-wearables = Экипировка
 store-category-implants = Импланты
 store-category-job = Работа
 store-category-pointless = Безделушки
+store-category-objective = Цель
 store-discounted-items = Скидки
 # Revenant
 store-category-abilities = Способности
@@ -21,3 +22,11 @@ store-caregory-spellbook-defensive = Защитные заклинания
 store-caregory-spellbook-utility = Вспомогательные заклинания
 store-caregory-spellbook-equipment = Волшебное снаряжение
 store-caregory-spellbook-events = Заклинания событий
+
+# Геноморф
+store-category-combat = Бой
+store-category-utility = Полезное
+store-category-stealth = Скрытность
+
+# Доставка ядерных оперативников
+store-category-nukie-delivery = Предложения

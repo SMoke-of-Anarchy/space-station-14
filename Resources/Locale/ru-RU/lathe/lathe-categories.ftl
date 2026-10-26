@@ -46,3 +46,8 @@ lathe-category-command = Командование
 lathe-category-hats = Шляпы
 lathe-category-jumpsuits = Комбинезоны
 lathe-category-neck = Шея
+
+lathe-category-industrial-tile = Промышленная
+lathe-category-plastic-tile = Пластиковая
+lathe-category-precious-tile = Драгоценная
+lathe-category-shuttle-tile = Шаттл

@@ -13,5 +13,6 @@ swap-teleporter-examine-time-remaining =
     Время до перезарядки: [color=purple]{ $second } { $second ->
         [one] секунда.
         [few] секунды.
-       *[other] секунд.
+        [many] секунд.
+       *[other] секунды.
     }[/color]

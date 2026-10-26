@@ -1,0 +1,34 @@
+changeling-catalog-arm-blade-desc = Превратите руку в устрашающий клинок из плоти и костей. Им также можно вскрывать запитанные двери. Способность можно переключать.
+changeling-catalog-arm-blade-name = Выдвижной клинок
+changeling-catalog-armblade-sting-desc = Заставляет цель отрастить затупленный клинок после длительной задержки. На трупах действует мгновенно, но эффект длится дольше. Можно применить на себя.
+changeling-catalog-armblade-sting-name = Жало-клинок
+changeling-catalog-biodegrade-desc = Вы научитесь использовать кислотные железы, чтобы выплёвывать кислоту на сковывающие вас предметы и освобождаться.
+changeling-catalog-biodegrade-name = Биодеградация
+changeling-catalog-blind-sting-desc = Повреждает глаза цели и временно ослепляет её. Помогает скрыться или начать бой. Можно применить на себя.
+changeling-catalog-blind-sting-name = Ослепляющее жало
+changeling-catalog-cryogenic-sting-desc = Замедляет цель. Идеально, чтобы не дать добыче убежать. Можно применить на себя.
+changeling-catalog-cryogenic-sting-name = Криогенное жало
+changeling-catalog-flesh-clothing-desc = Ваша кожа будет имитировать одежду любого существа, в которое вы превращаетесь. Эта одежда не работает и выдаст в вас генокрада, если кто-то попытается её снять. Способность можно переключать.
+changeling-catalog-flesh-clothing-name = Одежда из плоти
+changeling-catalog-fleshtomb-desc = Сохраните труп в тюрьме из плоти, постепенно извлекая его генетический код. Она медленно производит ДНК, но очень хрупкая и требует подходящей атмосферы, иначе развалится.
+changeling-catalog-fleshtomb-name = Плотяная гробница
+changeling-catalog-hemotoxin-sting-desc = Наносит клеткам крови цели крайне сильный урон. Эффект заметен, но смертельно опасен без лечения. Можно применить на себя.
+changeling-catalog-hemotoxin-sting-name = Гемотоксичное жало
+changeling-catalog-horror-form-desc = Превращает вас в почти неудержимого громилу. Способность истощает вас, расходуя очки ДНК. Если ДНК закончится, вы выйдете из формы и будете оглушены. Для покупки нужно поглотить 3 существа.
+changeling-catalog-horror-form-name = Форма ужаса
+changeling-catalog-last-resort-desc = Расчлените своё тело и спаситесь в виде слабого головастого слизня. Заразив труп гуманоида, вы сможете вернуть полноценное тело генокрада. Можно купить, только если вы поглотили хотя бы одно тело.
+    
+    Внимание! Это сбросит ваш прогресс генокрада, включая покупки и поглощённые личности!
+changeling-catalog-last-resort-name = Последний шанс
+changeling-catalog-lethal-sting-desc = Медленно наносит цели урон. Бесполезно в бою, но гарантирует, что ей понадобится медицинская помощь. Можно применить на себя.
+changeling-catalog-lethal-sting-name = Смертельное жало
+changeling-catalog-mute-sting-desc = Лишает цель способности говорить. Эффект незаметен, пока цель не попытается заговорить. Можно применить на себя.
+changeling-catalog-mute-sting-name = Немое жало
+changeling-catalog-night-vision-desc = Вы изменяете фоторецепторы и обостряете чувства, чтобы видеть в полной темноте.
+changeling-catalog-night-vision-name = Ночное зрение
+changeling-catalog-sting-dna-desc = Научитесь использовать жало, чтобы поглощать личность ничего не подозревающих жертв. Не даёт ДНК в хранилище и не считается поглощением.
+changeling-catalog-sting-dna-name = Извлечение ДНК
+changeling-catalog-voice-mimic-desc = Изменяйте голосовые связки, имитируя существующих и вымышленных членов экипажа. Идеально, чтобы заманивать добычу.
+changeling-catalog-voice-mimic-name = Имитация голоса
+changeling-catalog-voice-mindshield-desc = Измените естественные волны нейронов, скопировав сигнал импланта защиты разума NanoTrasen. Служба безопасности будет видеть вас защищённым от контроля разума. Способность можно переключать.
+changeling-catalog-voice-mindshield-name = Поддельная защита разума

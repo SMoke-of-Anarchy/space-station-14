@@ -37,16 +37,27 @@ device-address-prefix-freezer = ОХЛ-
 device-address-prefix-volume-pump = ОБН-
 device-address-prefix-smes = СМС-
 device-address-prefix-turret = ТРЛ-
-#PDAs and terminals
+# PDAs and terminals
 device-address-prefix-console = Конс-
 device-address-prefix-fire-alarm = Пож-
 device-address-prefix-air-alarm = Возд-
 device-address-prefix-sensor-monitor = МОН-
 device-address-examine-message = Адрес устройства: { $address }.
-#Device net ID names
+# Device net ID names
 device-net-id-private = Частные
 device-net-id-wired = Проводные
 device-net-id-wireless = Беспроводные
 device-net-id-apc = ЛКП
 device-net-id-atmos-devices = Атмос-устройства
 device-net-id-reserved = Резерв
+
+device-address-prefix-camera = КАМ-
+device-address-prefix-camera-monitor = МОН-КАМ-
+device-address-prefix-camera-router = МРТ-КАМ-
+device-address-prefix-camera-router-wireless = БСР-КАМ-
+device-address-prefix-crew-monitor = МОН-ЭКИП-
+device-address-prefix-crew-monitoring-server = СЕРВ-МОН-
+device-address-unknown = ????-????
+device-frequency-prototype-name-arrivals-shuttle-timer = Таймер шаттла прибытия
+device-frequency-prototype-name-shuttle-timer = Таймер эвакуационного шаттла
+device-frequency-prototype-name-surveillance-camera = Камеры

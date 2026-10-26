@@ -21,3 +21,8 @@ guardian-host-critical-warn = ВАШ ХОЗЯИН РАНЕН!
 guardian-host-death-warn = ВЫ ПЕРЕСТАЁТЕ СУЩЕСТВОВАТЬ
 guardian-death-warn = ВАШЕ ТЕЛО ПРОНЗАЕТ СУБАТОМНАЯ БОЛЬ, КОГДА ОНО РАСПАДАЕТСЯ!
 guardian-attack-host = Вы не можете атаковать своего хозяина.
+
+guardian-deck-invalid-creation = Колода может создать только одного стража за раз!
+guardian-deck-used-examine = [color=#ba1919]Магия колоды иссякла.[/color]
+guardian-injector-empty-examine = [color=#ba1919]Инъектор израсходован.[/color]
+guardian-injector-empty-invalid-creation = Инъектор израсходован.

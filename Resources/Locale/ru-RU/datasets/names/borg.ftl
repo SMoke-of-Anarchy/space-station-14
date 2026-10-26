@@ -41,3 +41,19 @@ names-borg-dataset-40 = Лязгающий
 names-borg-dataset-41 = Это-Робот
 names-borg-dataset-42 = 9 из 7
 names-borg-dataset-43 = Промозглый бот
+
+names-borg-dataset-44 = Подхалим
+
+names-borg-dataset-45 = Тур Гайд-о-трон
+
+names-borg-dataset-46 = Тэффи
+
+names-borg-dataset-47 = Тостер
+
+names-borg-dataset-48 = Близнец
+
+names-borg-dataset-49 = Вектор
+
+names-borg-dataset-50 = Уитли
+
+names-borg-dataset-51 = Ксенос

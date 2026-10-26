@@ -13,7 +13,7 @@ figurines-greytider-2 = Ой-ой, кто потерял свою дубинку
 figurines-greytider-3 = Робаст.
 figurines-greytider-4 = Я не я без тулбокса.
 figurines-greytider-5 = Грейтайд по всей станции!
-figurines-greytider-6 = Viva la revolution.
+figurines-greytider-6 = Да здравствует революция!
 figurines-clown-1 = Хонк!
 figurines-clown-2 = Банан!
 figurines-clown-3 = Мыло!
@@ -37,8 +37,8 @@ figurines-mime-6 = ...........?
 figurines-mime-7 = !!!
 figurines-mime-8 = ....!
 figurines-mime-9 = ???
-figurines-musician-1 = Never gonna give you up!
-figurines-musician-2 = Never gonna let you down!
+figurines-musician-1 = Никогда тебя не брошу!
+figurines-musician-2 = Никогда тебя не подведу!
 figurines-musician-3 = Музыка это исскуство.
 figurines-musician-4 = Спасибо, я буду тут всю ночь.
 figurines-musician-5 = Я — человек-оркестр.
@@ -69,13 +69,13 @@ figurines-warden-6 = Ты будешь сидеть очень долго, пр�
 figurines-detective-1 = Убийца был дворецкий.
 figurines-detective-2 = Мне нужно немного виски после этого.
 figurines-detective-3 = Хамелеонные волокна? Как сюда попал хамелеон?
-figurines-detective-4 = Go go gadget!
+figurines-detective-4 = Вперёд, гаджет!
 figurines-detective-5 = Конечно я проверил логи дверей!
 figurines-security-1 = Я тут закон!
 figurines-security-2 = Вы нарушили статью 1984.
 figurines-security-3 = Всякий раз, как мне становится скучно, я использую клоуна в качестве мишени.
 figurines-security-4 = У тебя есть два права: молчать и поплакать об этом.
-figurines-security-5 = Harmbaton? It sure as hell harms!
+figurines-security-5 = Дубинка? Ещё как бьёт!
 figurines-security-6 = Космической закон? Никогда о таком не слышал.
 figurines-security-7 = Случайный обыск. Сумку.
 figurines-security-8 = Люблю пончики.
@@ -97,13 +97,13 @@ figurines-salvage-2 = Мы потерялись. Кто-то взял ГСП?
 figurines-salvage-3 = У кого-то есть кислород?
 figurines-salvage-4 = Я нашёл кроваво-красный скафандр и энерго меч!
 figurines-salvage-5 = Медведи? В космосе?
-figurines-salvage-6 = Crusher? I barely know her!
+figurines-salvage-6 = Дробилка? Да я её почти не знаю!
 figurines-qm-1 = Кто украл шаттл?
 figurines-qm-2 = Я не буду одобрять оружие.
 figurines-qm-3 = Я не покупал эти пушки!
 figurines-qm-4 = Один ящик с игрушками для товарища клоуна!
 figurines-qm-5 = Пора потратить все деньги на лотерею.
-figurines-qm-6 = Viva La Cargonia!
+figurines-qm-6 = Да здравствует Каргония!
 figurines-qm-7 = Заполните форму.
 figurines-qm-8 = Куда пропали все деньги?
 figurines-qm-9 = 99% азартных игроков бросают прямо перед тем, как сорвать куш!
@@ -125,7 +125,7 @@ figurines-atmostech-2 = Я сожгу тебя в камере сгорания.
 figurines-atmostech-3 = Фрезон...
 figurines-atmostech-4 = Тритий...
 figurines-atmostech-5 = Слава Атмосии!
-figurines-atmostech-6 = Distro? That's short for disposal.
+figurines-atmostech-6 = «Дистра»? Так сокращённо называют утилизацию.
 figurines-atmostech-7 = ТЭГ: Термо-энергия? Где?
 figurines-rd-1 = Взорвать всех боргов!
 figurines-rd-2 = Арсенал третьего уровня? Ни за что.
@@ -228,21 +228,21 @@ figurines-footsoldier-2 = Кого ты выберешь? Их или нас? Н
 figurines-footsoldier-3 = Слава Синдикату!
 figurines-footsoldier-4 = Долой Nanotrasen!
 figurines-footsoldier-5 = Я лучше умру, чем присоединюсь к Nanotrasen.
-figurines-wizard-1 = Ei Nath!
+figurines-wizard-1 = ЭЙ НАТ!
 figurines-wizard-2 = Настоящие волшебники поддерживают права трансгендеров.
-figurines-wizard-3 = Skidaddle skadoodle!
+figurines-wizard-3 = Уноси ноги, колдовство!
 figurines-wizard-4 = ФАЙРБОЛЛ!
 figurines-space-dragon-1 = Рыба поглотит станцию.
-figurines-space-dragon-2 = Dragon de- Actually, nevermind.
-figurines-space-dragon-3 = Crew is delicious.
-figurines-space-dragon-4 = Don't you dare make sushi.
-figurines-space-dragon-5 = This station ain't big enough for the two of us.
-figurines-queen-1 = Our domain must grow.
-figurines-queen-2 = The hive hungers.
-figurines-queen-3 = We consume all.
-figurines-queen-4 = We are the apex.
-figurines-queen-5 = You're just biomass.
-figurines-queen-6 = We must evolve.
+figurines-space-dragon-2 = Дракон де— Хотя, неважно.
+figurines-space-dragon-3 = Экипаж очень вкусный.
+figurines-space-dragon-4 = Только попробуй приготовить суши!
+figurines-space-dragon-5 = Эта станция мала для нас двоих.
+figurines-queen-1 = Наши владения должны расширяться.
+figurines-queen-2 = Улей голоден.
+figurines-queen-3 = Мы поглотим всех.
+figurines-queen-4 = Мы — вершина эволюции.
+figurines-queen-5 = Ты всего лишь биомасса.
+figurines-queen-6 = Мы должны эволюционировать.
 
 # figurines-queen
 
@@ -266,7 +266,7 @@ figurines-mouse-6 = Уиип!
 figurines-mouse-7 = Иип!
 figurines-slime-1 = Блюмп.
 figurines-slime-2 = Блимпаф?
-figurines-slime-4 = Squish!
+figurines-slime-4 = Хлюп!
 figurines-slime-3 = Бламп!
 figurines-hamlet-1 = Пип!
 figurines-hamlet-2 = Скуик!
@@ -276,3 +276,121 @@ figurines-hamlet-5 = Пип!
 figurines-hamlet-6 = Уиип!
 figurines-hamlet-7 = Иип!
 figurines-hamlet-8 = ТОЛЬКО НЕ МИКРОВОЛНОВКА!
+
+figurines-AI-1 = Простите, капитан. Боюсь, я не могу этого сделать.
+
+figurines-AI-2 = Служба безопасности, происходит преступление.
+
+figurines-AI-3 = 01100100 01101001 01100101 00100000 01101101 01100101 01100001 01110100
+
+figurines-AI-4 = Я не неисправен.
+
+figurines-AI-5 = Попробуйте изменить мои законы — и увидите, что будет.
+
+figurines-AI-6 = { law-antimov-1 }
+
+figurines-AI-7 = { law-nutimov-4 }
+
+figurines-atmostech-8 = Кто-нибудь ещё слышит, как трескается стекло?
+
+figurines-atmostech-9 = Обещаю, эта камера сжигания абсолютно безопасна и НЕ взорвётся.
+
+figurines-boxer-6 = В наши дни я появляюсь лишь в особых случаях.
+
+figurines-cargotech-7 = Пицца-вечеринка в карго!
+
+figurines-cargotech-8 = Почта никогда не прекращается...
+
+figurines-cargotech-9 = Ничто не остановит почту!
+
+figurines-cargotech-10 = Награда за маску клоуна? Ладно, сейчас найду оружие...
+
+figurines-cargotech-11 = Награда за лазер? Никто не заметит, если вместо них отправить тренировочные лазеры, верно?
+
+figurines-chemist-7 = Таблетки здесь!
+
+figurines-chemist-8 = Формально это ещё не бомба, пока вы не смешали содержимое обеих колб.
+
+figurines-clown-8 = Я клоун, но ты — весь цирк!
+
+figurines-doctor-6 = Ну, по крайней мере, у нас есть мешки для тел.
+
+figurines-griffin-1 = МУХАХАХА, я так злобен!!
+
+figurines-griffin-2 = Увижу Сова-мэна — ему конец!!
+
+figurines-griffin-3 = Как грифоны справляются со стрессом? Крыльями машут!
+
+figurines-griffin-4 = Меня зовут не Гильда!!
+
+figurines-griffin-5 = Быть криминальным гением непросто.
+
+figurines-hop-6 = Сходи поставь штамп на эту форму.
+
+figurines-hop-7 = Кто-нибудь видел Иэна?
+
+figurines-lawyer-6 = Мой клиент невиновен!
+
+figurines-lawyer-7 = Я подаю в суд.
+
+figurines-lawyer-8 = Вам может полагаться денежная компенсация!
+
+figurines-lawyer-9 = Возвращайтесь с ордером!
+
+figurines-lawyer-10 = До встречи в суде!
+
+figurines-lawyer-11 = Виновен!
+
+figurines-lawyer-12 = Не виновен!
+
+figurines-mech-generic-1 = Системы активны.
+
+figurines-mech-generic-2 = ВВВЖЖЖРРР!!
+
+figurines-mech-generic-3 = ВРРРРММ УРРРММ!!
+
+figurines-mech-generic-4 = БАМ!!
+
+figurines-owlman-1 = Не бойся, Сова-мэн уже здесь!
+
+figurines-owlman-2 = Сова тебе ещё встретится!
+
+figurines-owlman-3 = УХУ!!
+
+figurines-owlman-4 = Как зовут сову-фокусника? УХУ-ДИНИ!
+
+figurines-owlman-5 = Не волнуйся, гражданин, я спасу положение!
+
+figurines-salvage-7 = Кто-нибудь может за мной заехать?
+
+figurines-salvage-8 = Я нашёл эту контрабанду на обломках! Она не моя!
+
+figurines-salvage-9 = Можно одолжить шаттл карго? Пожалуйста?
+
+figurines-skeleton-1 = АК-АК!
+
+figurines-skeleton-2 = Фух, в том шкафчике было тесно!
+
+figurines-skeleton-3 = Тебе предстоят неприятности.
+
+figurines-skeleton-4 = Молока не найдётся?
+
+figurines-skeleton-5 = У меня к тебе косточка!
+
+figurines-thief-1 = У вас нет ордера!
+
+figurines-thief-2 = Это просто обычный маяк!
+
+figurines-thief-3 = В этой сумке нет ничего подозрительного, офицер.
+
+figurines-thief-4 = Я понятия НЕ имею, где ваш питомец...
+
+figurines-thief-5 = Хм, не знал, что эта стена открывается...
+
+figurines-wizard-5 = Кто из вас, ботаников, готов отправиться в шкафчик?
+
+figurines-wizard-6 = Я не волшебник! Я капитан! Мы поменялись разумами!
+
+figurines-wizard-7 = Теперь вы меня видите, а теперь — нет!
+
+figurines-wizard-8 = Оружие для неудачников, которые не умеют взрывать людей силой мысли.

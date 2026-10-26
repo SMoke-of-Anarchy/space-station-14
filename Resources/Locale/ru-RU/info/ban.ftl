@@ -5,8 +5,8 @@ cmd-ban-player = Не удалось найти игрока с таким им�
 cmd-ban-invalid-minutes = { $minutes } не является допустимым количеством минут!
 cmd-ban-invalid-severity = { $severity } не является допустимой тяжестью!
 cmd-ban-invalid-arguments = Недопустимое число аргументов
-cmd-ban-hint = <name/user ID>
-cmd-ban-hint-reason = <reason>
+cmd-ban-hint = <имя/ID пользователя>
+cmd-ban-hint-reason = <причина>
 cmd-ban-hint-duration = [продолжительность]
 cmd-ban-hint-severity = [тяжесть]
 cmd-ban-hint-duration-1 = Навсегда
@@ -24,7 +24,7 @@ cmd-banpanel-player-err = Указанный игрок не может быть
 cmd-banlist-desc = Список активных банов пользователя.
 cmd-banlist-help = Использование: banlist <name or user ID>
 cmd-banlist-empty = Нет активных банов у пользователя { $user }
-cmd-banlist-hint = <name/user ID>
+cmd-banlist-hint = <имя/ID пользователя>
 cmd-ban_exemption_update-desc = Установить исключение на типы банов игрока.
 cmd-ban_exemption_update-help =
     Использование: ban_exemption_update <player> <flag> [<flag> [...]]
@@ -34,8 +34,8 @@ cmd-ban_exemption_update-nargs = Ожидается хотя бы 2 аргуме
 cmd-ban_exemption_update-locate = Не удалось найти игрока '{ $player }'.
 cmd-ban_exemption_update-invalid-flag = Недопустимый флаг '{ $flag }'.
 cmd-ban_exemption_update-success = Обновлены флаги исключений банов для '{ $player }' ({ $uid }).
-cmd-ban_exemption_update-arg-player = <player>
-cmd-ban_exemption_update-arg-flag = <flag>
+cmd-ban_exemption_update-arg-player = <игрок>
+cmd-ban_exemption_update-arg-flag = <флаг>
 cmd-ban_exemption_get-desc = Показать исключения банов для определённого игрока.
 cmd-ban_exemption_get-help = Использование: ban_exemption_get <player>
 cmd-ban_exemption_get-nargs = Ожидается ровно 1 аргумент
@@ -69,10 +69,12 @@ ban-panel-permanent = Навсегда
 ban-panel-ip-hwid-tooltip = Оставьте пустым и установите флажок ниже, чтобы использовать данные последнего подключения
 ban-panel-severity = Тяжесть:
 # Ban string
-server-ban-string = { $admin } created a { $severity } severity server ban that expires { $expires } for [{ $name }, { $ip }, { $hwid }], with reason: { $reason }
+server-ban-string = Администратор { $admin } выдал серверный бан степени { $severity } до { $expires } пользователю [{ $name }, { $ip }, { $hwid }]. Причина: { $reason }
 ban-panel-erase = Стереть сообщения в чате и игрока из раунда
 server-ban-string-never = никогда
 server-ban-string-no-pii = { $admin } установил серверный бан { $severity } тяжести, который истечёт { $expires } у { $name } с причиной: { $reason }
-cmd-ban_exemption_get-arg-player = <player>
+cmd-ban_exemption_get-arg-player = <игрок>
 # Kick on ban
 ban-kick-reason = Вы были забанены
+
+ban-panel-expiry-error = ошибка

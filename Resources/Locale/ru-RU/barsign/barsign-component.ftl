@@ -137,3 +137,4 @@ barsign-prototype-description-empbarsign = Что-то пошло совсем �
 ## SignOff
 
 barsign-prototype-description-sign-off = Эта вывеска, похоже, не включёна.
+barsign-prototype-name-empbarsign = глючная вывеска бара

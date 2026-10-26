@@ -3,9 +3,8 @@
 injector-draw-text = Забор
 injector-inject-text = Введение
 injector-invalid-injector-toggle-mode = Неверный режим
-injector-volume-label =
-    Объём: [color=white]{ $currentVolume }/{ $totalVolume }[/color]
-    Режим: [color=white]{ $modeString }[/color] ([color=white]{ $transferVolume } ед.[/color])
+injector-volume-label = Объём: [color=white]{ $currentVolume }/{ $totalVolume }u[/color]
+    Режим: [color=white]{ $modeString }[/color]
 
 ## Entity
 
@@ -36,3 +35,23 @@ injector-component-drawing-user = Вы начинаете набирать шп�
 injector-component-injecting-user = Вы начинаете вводить содержимое шприца.
 injector-component-drawing-target = { CAPITALIZE($user) } начинает набирать шприц из вас!
 injector-component-injecting-target = { CAPITALIZE($user) } начинает вводить содержимое шприца в вас!
+
+injector-component-blocked-other = {CAPITALIZE(THE(POSS-ADJ($target)))} броня заблокировала инъекцию {THE($user)}!
+injector-component-blocked-user = Защитная экипировка помешала вам сделать инъекцию!
+injector-component-cannot-toggle-dynamic-message = Нельзя переключить динамический режим!
+injector-component-draw-mode-name = забор
+injector-component-dynamic-mode-name = динамический
+injector-component-empty-message = {CAPITALIZE(THE($injector))} пуст!
+injector-component-feel-prick-message = Вы чувствуете лёгкий укол!
+injector-component-ignore-mobs = Этот инъектор взаимодействует только с контейнерами!
+injector-component-inject-mode-name = введение
+injector-component-mode-changed-text = Режим: {$mode}
+injector-component-needle-drawing-target = {CAPITALIZE(THE($user))} пытается набрать у вас жидкость иглой!
+injector-component-needle-drawing-user = Вы начинаете набирать жидкость иглой.
+injector-component-needle-injecting-target = {CAPITALIZE(THE($user))} пытается ввести вам иглу!
+injector-component-needle-injecting-user = Вы начинаете вводить иглу.
+injector-component-spray-injecting-target = {CAPITALIZE(THE($user))} пытается приложить к вам распылитель!
+injector-component-spray-injecting-user = Вы подготавливаете распылитель.
+injector-toggle-verb-text = Переключить режим инъектора
+injector-volume-transfer-label = Объём: [color=white]{$currentVolume}/{$totalVolume}u[/color]
+    Режим: [color=white]{$modeString}[/color] ([color=white]{$transferVolume}u[/color])

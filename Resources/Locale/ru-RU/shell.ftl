@@ -16,16 +16,7 @@ shell-must-have-body = У вас должно быть тело, чтобы вы
 ## Arguments
 
 shell-need-exactly-one-argument = Нужен ровно один аргумент.
-shell-wrong-arguments-number-need-specific =
-    Нужно { $properAmount } { $properAmount ->
-        [one] аргумент
-        [few] аргумента
-       *[other] аргументов
-    }, было { $currentAmount } { $currentAmount ->
-        [one] аргумент
-        [few] аргумента
-       *[other] аргументов
-    }.
+shell-wrong-arguments-number-need-specific = Требуется аргументов: { $properAmount }; получено: { $currentAmount }.
 shell-argument-must-be-number = Аргумент должен быть числом.
 shell-argument-must-be-boolean = Аргумент должен быть boolean.
 shell-wrong-arguments-number = Неправильное количество аргументов.
@@ -53,11 +44,15 @@ shell-invalid-color-hex = Недопустимый HEX-цвет!
 shell-target-player-does-not-exist = Целевой игрок не существует!
 shell-target-entity-does-not-have-message = Целевая сущность не имеет { $missing }!
 shell-timespan-minutes-must-be-correct = { $span } не является допустимым промежутком времени в минутах.
-shell-argument-must-be-prototype = Аргумент { $index } должен быть ${ prototypeName }!
+shell-argument-must-be-prototype = Аргумент { $index } должен быть прототипом { LOC($prototypeName) }!
 shell-argument-number-must-be-between = Аргумент { $index } должен быть числом от { $lower } до { $upper }!
 shell-argument-station-id-invalid = Аргумент { $index } должен быть валидным station id!
 shell-argument-map-id-invalid = Аргумент { $index } должен быть валидным map id!
 shell-argument-number-invalid = Аргумент { $index } должен быть валидным числом!
 # Hints
-shell-argument-username-hint = <username>
-shell-argument-username-optional-hint = [username]
+shell-argument-username-hint = <имя пользователя>
+shell-argument-username-optional-hint = [имя пользователя]
+
+shell-argument-chat-invalid = Аргумент {$index} должен быть допустимым сообщением чата!
+shell-invalid-bool-value = Недопустимое логическое значение: «{$value}»
+shell-unknown-error = Произошла неизвестная ошибка.

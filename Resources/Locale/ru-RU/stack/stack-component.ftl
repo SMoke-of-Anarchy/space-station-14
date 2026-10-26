@@ -5,7 +5,8 @@ comp-stack-examine-detail-count =
     В стопке [color={ $markupCountColor }]{ $count }[/color] { $count ->
         [one] предмет
         [few] предмета
-       *[other] предметов
+        [many] предметов
+       *[other] предмета
     }.
 # Stack status control
 comp-stack-status = Количество: [color=white]{ $count }[/color]

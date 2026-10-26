@@ -1,0 +1,12 @@
+uplink-bulldog-bundle-desc = Комплект для серьёзных дел: популярный дробовик Bulldog, барабан с 12-калиберными пулями и четыре барабана с картечью.
+uplink-bulldog-bundle-name = Комплект Bulldog
+uplink-bulldog-desc = Компактный и мощный — популярный дробовик Bulldog.
+uplink-bulldog-name = Bulldog
+uplink-c20r-desc = Старая добрая классика — пистолет-пулемёт C-20r.
+uplink-c20r-name = C-20r
+uplink-energycrossbow-desc = Излюбленное оружие оперативников, предпочитающих неподвижных жертв. Выпускает регенерирующие токсичные стрелы, мгновенно валящие цель с ног.
+uplink-energycrossbow-name = Миниатюрный энергетический арбалет
+uplink-grenade-launcher-desc = Старый гранатомёт China Lake в комплекте с пятью противопехотными боеприпасами.
+uplink-grenade-launcher-name = China Lake
+uplink-hushpup-desc = Мощный бесшумный дробовик с небольшим магазином. Использует патроны .50 калибра.
+uplink-hushpup-name = Hushpup

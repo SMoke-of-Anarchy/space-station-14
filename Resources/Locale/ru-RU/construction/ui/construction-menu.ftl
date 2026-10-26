@@ -1,9 +1,16 @@
-## ConstructionMenu.xaml.cs
+construction-menu-history-select-previous-recipe = ◄ Назад
+construction-menu-history-select-next-recipe = Далее ►
+
+construction-menu-clear-all = Очистить всё
+
+construction-menu-craft = Создание
+
+construction-menu-eraser-mode = Режим ластика
+
+construction-menu-grid-view = Вид плиткой
+
+construction-menu-place-ghost = Разместить призрак конструкции
+
+construction-menu-search = Поиск
 
 construction-menu-title = Строительство
-construction-menu-place-ghost = Разместить призрак конструкции
-construction-menu-clear-all = Очистить всё
-construction-menu-eraser-mode = Режим ластика
-construction-menu-craft = Создание
-construction-menu-search = Поиск
-construction-menu-grid-view = Вид плиткой

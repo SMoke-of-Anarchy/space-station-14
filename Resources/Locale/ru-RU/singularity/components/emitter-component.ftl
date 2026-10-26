@@ -10,3 +10,8 @@ comp-emitter-not-anchored = { $target } не закреплён!
 # Upgrades
 emitter-component-current-type = Установленный тип: { $type }.
 emitter-component-type-set = Установить тип: { $type }
+
+emitter-destroyed-broadcast = Работавший от питания излучатель {$location} был уничтожен.
+emitter-turn-off-broadcast = Работавший от питания излучатель {$location} был выключен.
+emitter-unlocked-broadcast = Работавший от питания излучатель {$location} был разблокирован.
+emitter-unpowered-broadcast = Работавший от питания излучатель {$location} отключился от питания.

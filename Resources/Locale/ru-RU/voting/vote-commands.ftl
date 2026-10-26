@@ -7,21 +7,21 @@ cmd-createvote-desc = Создаёт голосование
 cmd-createvote-help = Использование: createvote <'restart'|'preset'|'map'>
 cmd-createvote-cannot-call-vote-now = Сейчас вы не можете запустить голосование!
 cmd-createvote-invalid-vote-type = Неверный тип голосования
-cmd-createvote-arg-vote-type = <vote type>
+cmd-createvote-arg-vote-type = <тип голосования>
 
 ## 'customvote' command
 
 cmd-customvote-desc = Создаёт настраиваемое голосование
-cmd-customvote-help = Использование: customvote <title> <option1> <option2> [option3...]
+cmd-customvote-help = Использование: customvote <заголовок> <вариант1> <вариант2> [вариант3...]
 cmd-customvote-on-finished-tie = Голосование "{ $title }" закончилось: ничья между { $ties }!
 cmd-customvote-on-finished-win = Голосование "{ $title }" закончилось: { $winner } побеждает!
-cmd-customvote-arg-title = <title>
-cmd-customvote-arg-option-n = <option{ $n }>
+cmd-customvote-arg-title = <заголовок>
+cmd-customvote-arg-option-n = <вариант{$n}>
 
 ## 'vote' command
 
 cmd-vote-desc = Голосует в активном голосовании
-cmd-vote-help = vote <voteId> <option>
+cmd-vote-help = vote <voteId> <вариант>
 cmd-vote-cannot-call-vote-now = Сейчас вы не можете запустить голосование!
 cmd-vote-on-execute-error-must-be-player = Должен быть игроком
 cmd-vote-on-execute-error-invalid-vote-id = Неверное ID голосования

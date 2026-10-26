@@ -12,6 +12,8 @@ criminal-records-console-show-all = Все
 criminal-records-console-status = Статус
 criminal-records-status-none = Нет
 criminal-records-status-wanted = Разыскивается
+criminal-records-status-hostile = Враждебен
+criminal-records-status-eliminated = Ликвидирован
 criminal-records-status-detained = Под арестом
 criminal-records-status-suspected = Подозревается
 criminal-records-status-discharged = Освобождён
@@ -55,3 +57,7 @@ criminal-records-species-filter = Вид
 
 criminal-records-console-auto-history = АРЕСТОВАН: { $reason }
 criminal-records-console-unspecified-reason = <причина не указана>
+criminal-records-console-hostile = {$name} ({$job}) объявлен враждебным сотрудником {$officer}. Причина: {$reason}.
+criminal-records-console-not-hostile = {$name} ({$job}) больше не числится враждебным сотрудником {$officer}.
+criminal-records-console-eliminated = {$name} ({$job}) отмечен как ликвидированный сотрудником {$officer}.
+criminal-records-console-not-eliminated = {$name} ({$job}) больше не отмечен как ликвидированный сотрудником {$officer}.

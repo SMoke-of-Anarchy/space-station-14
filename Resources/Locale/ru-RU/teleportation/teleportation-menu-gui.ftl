@@ -1,8 +1,7 @@
-## Default
+## Стандартное меню
+teleportation-menu-default-window-title = Меню телепортации
+teleportation-menu-destination-obstructed = Кажется, вы никуда не переместились...
 
-teleportation-menu-default-window-title = Меню Телепорта
-
-## Wizard
-
+## Волшебник
 teleportation-scroll-window-title = Свиток телепортации
-teleportation-scroll-speech-wizard = EY TCHEL TORT TU { $location }
+teleportation-scroll-speech-wizard = ЭЙ, ТКЕЛЬ ТОРТ ТУ { $location }!!

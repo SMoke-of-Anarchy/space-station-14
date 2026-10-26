@@ -11,7 +11,7 @@ delivery-unlocked-others =
         [female] разблокировала
         [epicene] разблокировали
        *[neuter] разблокировало
-    } { $delivery } используя свой отпечаток пальца.
+    } { $delivery } своим отпечатком пальца { POSS-ADJ($possadj) }.
 delivery-opened-others =
     { CAPITALIZE($recipient) } { GENDER($recipient) ->
         [male] открыл
@@ -26,7 +26,8 @@ delivery-teleporter-amount-examine =
     Содержит [color=yellow]{ $amount }[/color] { $amount ->
         [one] посылку.
         [few] посылки.
-       *[other] посылок.
+        [many] посылок.
+       *[other] посылки.
     }
 delivery-teleporter-empty = { CAPITALIZE($entity) } пуст.
 delivery-teleporter-empty-verb = Взять почту

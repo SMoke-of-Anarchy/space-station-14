@@ -39,22 +39,20 @@ rev-not-enough-ready-players = Недостаточно игроков гото�
 rev-no-one-ready = Нет готовых игроков! Нельзя запустить пресет Революционеры.
 rev-no-heads = Нет кандидатов на роль главы революции. Нельзя запустить пресет Революционеры.
 rev-won = Главы революции выжили и уничтожили весь командный состав станции.
-rev-headrev-count =
-    { $initialCount ->
-        [one] Глава революции был один:
-       *[other] Глав революции было { $initialCount }:
-    }
+rev-headrev-count = Главы революции ({ $initialCount }):
 rev-lost = Члены командного состава станции выжили и уничтожили всех глав революции.
 rev-stalemate = Главы революции и командный состав станции погибли. Это ничья.
 rev-headrev-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) конвертировал { $count } { $count ->
         [one] члена
         [few] члена
-       *[other] членов
+        [many] членов
+       *[other] члена
     } экипажа
 rev-headrev-name = [color=#5e9cff]{ $name }[/color] конвертировал { $count } { $count ->
         [one] члена
         [few] члена
-       *[other] членов
+        [many] членов
+       *[other] члена
     } экипажа
 rev-reverse-stalemate = Главы революции и командный состав станции выжили.
 rev-deconverted-title = Разконвертированы!

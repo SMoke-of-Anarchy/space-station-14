@@ -1,14 +1,14 @@
 logic-gate-examine = Сейчас установлена логическая операция { $gate }.
 logic-gate-cycle = Переключено на операцию { $gate }
-power-sensor-examine =
-    It is currently checking the network's { $output ->
-        [true] output
-       *[false] input
-    } battery.
-power-sensor-voltage-examine = It is checking the { $voltage } power network.
-power-sensor-switch =
-    Switched to checking the network's { $output ->
-        [true] output
-       *[false] input
-    } battery.
-power-sensor-voltage-switch = Switched network to { $voltage }!
+power-sensor-examine = 
+    Сейчас датчик проверяет { $output ->
+            [true] выходную
+           *[false] входную
+        } батарею сети.
+power-sensor-voltage-examine = Проверяется энергосеть напряжения { $voltage }.
+power-sensor-switch = 
+    Датчик переключён на проверку { $output ->
+            [true] выходной
+           *[false] входной
+        } батареи сети.
+power-sensor-voltage-switch = Энергосеть переключена на { $voltage }!

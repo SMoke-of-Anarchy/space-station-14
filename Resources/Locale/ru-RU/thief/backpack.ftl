@@ -39,10 +39,10 @@ thief-backpack-category-syndie-description =
     и несколько странных красных кристаллов.
 thief-backpack-category-sleeper-name = Набор сони
 thief-backpack-category-sleeper-description =
-    Как в песне поётся: Until we close our eyes for good;
-    используйте свои нелегальные рецепты чтобы заставить спать других.
-    В комплект входят: баллон с оксидом азота,
-    два бутылочки ноктюрина и гипоручка.
+    Пока мы не закроем глаза навсегда, используйте нелегальные рецепты,
+    чтобы усыплять других.
+    В комплект входят: баллон с закисью азота, два флакона ноктюрина
+    и гипоручка.
 thief-backpack-category-communicator-name = Набор переговорщика
 thief-backpack-category-communicator-description =
     Богатство — это власть, а секреты — это богатство.

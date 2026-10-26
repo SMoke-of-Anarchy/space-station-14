@@ -1,4 +1,5 @@
 comp-gas-filter-ui-filter-status = Статус:
+comp-gas-filter-filtered-gas-examine = Фильтруется [color={$statusColor}]{$filteredGas}[/color].
 comp-gas-filter-ui-status-enabled = Вкл
 comp-gas-filter-ui-status-disabled = Выкл
 comp-gas-filter-ui-filter-transfer-rate = Скорость подачи (л/с):

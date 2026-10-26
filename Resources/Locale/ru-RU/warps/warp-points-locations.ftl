@@ -1,0 +1,10 @@
+location-beacon = маяк
+location-immovable-rod = неподвижный стержень
+location-mothership-core = ядро материнского корабля
+location-nar-sie = Нар-Си
+location-nuclear-bomb = ядерная бомба
+location-nuke-disk = диск ядерной аутентификации
+location-powersink = поглотитель энергии
+location-ratvar = Ратвар
+location-singularity = сингулярность
+location-tesla-ball = шар Теслы

@@ -39,3 +39,8 @@ station-ai-hologram-male = Мужской образ
 station-ai-hologram-face = Бестелесная голова
 station-ai-hologram-cat = Форма кота
 station-ai-hologram-dog = Форма корги
+
+ai-device-no-access = У вас нет доступа к этому устройству
+station-ai-core-taking-damage = Ваше ядро ИИ получает физические повреждения.
+station-ai-ghost-role-description = Служите экипажу станции в роли её всегда бдительного ИИ.
+station-ai-ghost-role-name = Станционный ИИ

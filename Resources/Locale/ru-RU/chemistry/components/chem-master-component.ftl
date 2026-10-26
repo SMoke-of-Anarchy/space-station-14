@@ -34,3 +34,11 @@ chem-master-window-sort-type-none = Сорт. по: Сначала старые
 chem-master-window-sort-type-alphabetical = Сорт. по: По алфавиту
 chem-master-window-sort-type-quantity = Сорт. по: Количество
 chem-master-window-sort-type-latest = Сорт. по: Сначала новые
+
+chem-master-no-source = Нет источника
+chem-master-output-beaker-draw = Колба
+chem-master-output-buffer-draw = Буфер
+chem-master-output-source = Источник упаковки:
+chem-master-window-beaker-empty-text = Колба пуста
+chem-master-window-beaker-low-text = В колбе недостаточно раствора
+chem-master-window-no-beaker-text = Колба не загружена

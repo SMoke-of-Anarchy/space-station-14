@@ -21,12 +21,7 @@ gun-ballistic-transfer-target-full = { CAPITALIZE($entity) } уже полнос
 gun-cartridge-spent = Он [color=red]израсходован[/color].
 gun-cartridge-unspent = Он [color=lime]не израсходован[/color].
 # BatteryAmmoProvider
-gun-battery-examine =
-    Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
-        [one] выстрел
-        [few] выстрела
-       *[other] выстрелов
-    }.
+gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] выстрелов.
 # CartridgeAmmoProvider
 gun-chamber-bolt-ammo = Затвор не закрыт
 gun-chamber-bolt = Затвор [color={ $color }]{ $bolt }[/color].
@@ -38,12 +33,7 @@ gun-chamber-bolt-closed-state = открыт
 gun-chamber-bolt-open-state = закрыт
 gun-chamber-rack = Передёрнуть затвор
 # MagazineAmmoProvider
-gun-magazine-examine =
-    Тут [color={ $color }]{ $count }[/color] { $count ->
-        [one] штука
-        [few] штуки
-       *[other] штук
-    }.
+gun-magazine-examine = Осталось [color={ $color }]{ $count }[/color] выстрелов.
 # RevolverAmmoProvider
 gun-revolver-empty = Разрядить револьвер
 gun-revolver-full = Револьвер полностью заряжен
@@ -54,3 +44,10 @@ gun-speedloader-empty = Спидлоадер пуст
 # GunSpreadModifier
 examine-gun-spread-modifier-reduction = Разброс снижен на [color=yellow]{ $percentage }%[/color].
 examine-gun-spread-modifier-increase = Разброс повышен на [color=yellow]{ $percentage }%[/color].
+gun-access-locked = Доступ к { $target } заблокирован!
+gun-network-ammo-examine = Текущий тип снаряда: [color=yellow]{ $ammo }[/color].
+gun-not-anchored = { $target } не закреплён на земле!
+gun-set-fire-mode-examine = Установлен режим [color=yellow]{ $mode }[/color].
+gun-set-fire-mode-popup = Режим изменён на { $mode }
+gun-toggle-off = { $target } выключается.
+gun-toggle-on = {$target} включается.

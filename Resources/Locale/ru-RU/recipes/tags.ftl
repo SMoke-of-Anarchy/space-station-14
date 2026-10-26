@@ -133,3 +133,9 @@ construction-graph-tag-fire-helmet = пожарный шлем
 construction-graph-tag-spationaut-hardsuit = лёгкий скафандр утилизатора
 # clothing
 construction-graph-tag-backpack = рюкзак
+
+construction-graph-tag-boxhug = коробка обнимашек
+construction-graph-tag-centrifuge-compatible = контейнер для центрифуги
+construction-graph-tag-core-pinpointer-piece = деталь поисковика ядра
+construction-graph-tag-glass-lens = стеклянная линза
+construction-graph-tag-paper = офисная бумага

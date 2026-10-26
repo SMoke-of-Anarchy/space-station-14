@@ -21,16 +21,16 @@ replay-menu-none = Повторы не найдены.
 replay-info-title = Информация о повторе
 replay-info-none-selected = Повтор не выбран
 replay-info-invalid = [color=red]Выбран неверный повтор[/color]
-replay-info-info =
+replay-info-info = 
     { "[" }color=gray]Выбрано:[/color]  { $name } ({ $file })
     { "[" }color=gray]Время:[/color]   { $time }
     { "[" }color=gray]ID раунда:[/color]   { $roundId }
     { "[" }color=gray]Продолжительность:[/color]   { $duration }
-    { "[" }color=gray]ForkId:[/color]   { $forkId }
+    { "[" }color=gray]Идентификатор форка:[/color]   { $forkId }
     { "[" }color=gray]Версия:[/color]   { $version }
     { "[" }color=gray]Движок:[/color]   { $engVersion }
-    { "[" }color=gray]Type Hash:[/color]   { $hash }
-    { "[" }color=gray]Comp Hash:[/color]   { $compHash }
+    { "[" }color=gray]Хеш типов:[/color]   { $hash }
+    { "[" }color=gray]Хеш компонентов:[/color]   { $compHash }
 # Replay selection window
 replay-menu-select-title = Выбрать повтор
 # Replay related verbs

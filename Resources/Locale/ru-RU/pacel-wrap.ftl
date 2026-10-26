@@ -6,5 +6,6 @@ parcel-wrap-examine-detail-uses =
     Осталось [color={ $markupUsesColor }]{ $uses }[/color] { $uses ->
         [one] использование
         [few] использования
-       *[other] использований
+        [many] использований
+       *[other] использования
     }.
