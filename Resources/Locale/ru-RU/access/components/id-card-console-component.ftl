@@ -1,4 +1,5 @@
 id-card-console-window-deselect-all-button = Отозвать все
+
 id-card-console-window-select-all-button = Выдать все
 
 access-id-card-console-component-no-hands-error = У вас нет рук.

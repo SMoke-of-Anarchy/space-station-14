@@ -1,4 +1,5 @@
 anomaly-scanner-doafter-examine = [color=plum]{$user}: сканирование аномалии[/color]. {$user} сканирует.
+
 anomaly-secret-admin = [color=red](ОШИБКА)[/color]
 
 anomaly-behavior-balanced = Отклонения поведения не обнаружены.

@@ -1,4 +1,5 @@
 player-panel-account-creation = Учётная запись создана: {TOSTRING($date, "yyyy-MM-dd")}
+
 player-panel-trust-score = Уровень доверия: {TOSTRING($trustScore, "P0")}
 
 player-panel-ban = Забанить

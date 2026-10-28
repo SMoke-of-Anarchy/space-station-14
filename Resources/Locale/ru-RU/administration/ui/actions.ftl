@@ -1,7 +1,11 @@
 admin-player-actions-check-afk = Проверить AFK
+
 admin-player-actions-clone-message = Создать копию этого персонажа, не перенося его разум.
+
 admin-player-actions-logs = Логи игрока
+
 admin-player-actions-respawn-message = Вернуть игрока в лобби, чтобы он мог в любой момент возродиться новым персонажем.
+
 admin-player-actions-spawn-message = Создать копию этого персонажа и немедленно перенести в неё его разум.
 
 admin-player-actions-ahelp = АХелп

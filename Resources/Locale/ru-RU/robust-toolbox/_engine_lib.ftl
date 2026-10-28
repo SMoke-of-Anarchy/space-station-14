@@ -4,6 +4,7 @@ zzzz-the =
        *[false] the { $ent }
         [true] { $ent }
     }
+
 # Used internally by the SUBJECT() function.
 zzzz-subject-pronoun =
     { GENDER($ent) ->
@@ -12,6 +13,7 @@ zzzz-subject-pronoun =
         [epicene] они
        *[neuter] оно
     }
+
 # Used internally by the OBJECT() function.
 zzzz-object-pronoun =
     { GENDER($ent) ->
@@ -20,6 +22,7 @@ zzzz-object-pronoun =
         [epicene] их
        *[neuter] его
     }
+
 # Used internally by the DAT-OBJ() function.
 # Not used in en-US. Created for supporting other languages.
 zzzz-dat-object =
@@ -29,6 +32,7 @@ zzzz-dat-object =
         [epicene] им
        *[neuter] ему
     }
+
 # Used internally by the POSS-PRONOUN() function.
 zzzz-possessive-pronoun =
     { GENDER($ent) ->
@@ -37,6 +41,7 @@ zzzz-possessive-pronoun =
         [epicene] их
        *[neuter] его
     }
+
 # Used internally by the POSS-ADJ() function.
 zzzz-possessive-adjective =
     { GENDER($ent) ->
@@ -45,6 +50,7 @@ zzzz-possessive-adjective =
         [epicene] их
        *[neuter] его
     }
+
 # Used internally by the REFLEXIVE() function.
 zzzz-reflexive-pronoun =
     { GENDER($ent) ->
@@ -53,18 +59,21 @@ zzzz-reflexive-pronoun =
         [epicene] сами
        *[neuter] сам
     }
+
 # Used internally by the CONJUGATE-BE() function.
 zzzz-conjugate-be =
     { GENDER($ent) ->
         [epicene] are
        *[other] is
     }
+
 # Used internally by the CONJUGATE-HAVE() function.
 zzzz-conjugate-have =
     { GENDER($ent) ->
         [epicene] имеют
        *[other] имеет
     }
+
 # Used internally by the CONJUGATE-BASIC() function.
 zzzz-conjugate-basic =
     { GENDER($ent) ->

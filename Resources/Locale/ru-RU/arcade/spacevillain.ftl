@@ -1,7 +1,11 @@
 -spacevillain-health = ед. здоровья
+
 -spacevillain-magic = ед. магии
+
 spacevillain-menu-label-enemy = Злодей
+
 spacevillain-menu-label-health = {$amount} {-spacevillain-health}
+
 spacevillain-menu-label-magic = {$amount} {-spacevillain-magic}
 
 spacevillain-menu-button-attack = АТАКА

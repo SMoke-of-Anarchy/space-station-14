@@ -1,13 +1,23 @@
 admin-smite-ghostkick-reason = Вас поразило.
+
 admin-smite-heartattack-description = Немедленно убивает цель уроном от удушья.
+
 admin-smite-heartattack-name = Сердечный приступ
+
 admin-smite-homing-rod-description = Запускает в цель самонаводящийся неподвижный стержень.
+
 admin-smite-homing-rod-name = Самонаводящийся стержень
+
 admin-smite-homing-rod-slow-description = Запускает в цель медленно летящий самонаводящийся неподвижный стержень.
+
 admin-smite-homing-rod-slow-name = Медленный самонаводящийся стержень
+
 admin-smite-kill-sign-hidden-description = Помечает игрока, чтобы его убили товарищи. Метка скрыта от выбранного игрока.
+
 admin-smite-kill-sign-hidden-name = Скрытая метка смерти
+
 admin-smite-make-stinky-description = Заставляет цель вонять, вызывая выделение аммиака. Фу!
+
 admin-smite-make-stinky-name = Заставить вонять
 
 admin-smite-anger-pointing-arrows-description = Разъяряет указательные стрелки, заставляя их атаковать цель взрывами.

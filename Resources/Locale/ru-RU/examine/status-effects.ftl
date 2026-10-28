@@ -1,10 +1,14 @@
 status-effect-examine-adrenaline = [color=red]Все части тела { $target } напряжены и насторожены.[/color]
+
 status-effect-examine-drunk = [color=brown]{ $target } { GENDER($target) ->
     [male] явно пьян...
     [female] явно пьяна...
     [epicene] явно пьяны...
    *[neuter] явно пьяно...
 }[/color]
+
 status-effect-examine-seeing-rainbow = [color=lightgreen]{ $target } поглядывает на то, чего не существует.[/color]
+
 status-effect-examine-stunned = [color=yellow]Тело { $target } выглядит истощённым и неспособным двигаться.[/color]
+
 status-effect-examine-temporary-blindness = [color=lightblue]Взгляд { $target } расфокусирован. Похоже, зрение нарушено.[/color]

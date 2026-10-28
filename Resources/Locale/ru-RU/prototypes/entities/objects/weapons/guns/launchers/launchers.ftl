@@ -1,0 +1,38 @@
+ent-BaseWeaponLauncher = BaseWeaponLauncher
+    .desc = Дерзай — налетай, целься и стреляй.
+
+ent-WeaponLauncherChinaLake = China Lake
+    .desc = БЛУП.
+
+ent-WeaponLauncherHydra = гидра
+    .desc = БЛУП... ПШШШШШШ
+
+ent-WeaponLauncherRocket = РПГ-7
+    .desc = Древний ручной реактивный гранатомёт.
+
+ent-WeaponLauncherMultipleRocket = система залпового пуска
+    .desc = Модифицированный древний ручной реактивный гранатомёт.
+
+ent-WeaponLauncherPirateCannon = пиратская пушка
+    .desc = Кабум!
+
+ent-WeaponGrapplingGun = крюк-пушка
+    .desc = { ent-BaseItem.desc }
+
+ent-WeaponLauncherAdmemeMeteorLarge = пускатель метеоритов
+    .desc = Стреляет большими метеоритами.
+    .suffix = Адмемы
+
+ent-WeaponLauncherAdmemeImmovableRodSlow = пускатель неподвижного жезла
+    .desc = Стреляет неподвижными жезлами.
+    .suffix = Адмемы
+
+ent-WeaponGuidedMissileLauncherXenoborg = XB GML-78
+    .desc = Пусковая установка управляемых ракет.
+
+ent-WeaponLauncherHydraLethal = { ent-WeaponLauncherHydra }
+    .desc = { ent-WeaponLauncherHydra.desc }
+    .suffix = осколочные
+
+ent-WeaponRocketLauncherXenoborg = XB MRL-97-D
+    .desc = Инопланетная ракетная установка со специальными ракетами для разрушения сооружений.

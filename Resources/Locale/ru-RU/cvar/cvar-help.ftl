@@ -1,30 +1,59 @@
 changecvar-simple-debug_test_cvar = Ничего не делает.
+
 changecvar-full-debug_test_cvar = Простая тестовая переменная cvar. Ничего не делает.
+
 changecvar-simple-events_enabled = Определяет, должны ли в игре происходить события на станции.
+
 changecvar-full-events_enabled = Определяет, должны ли в игре происходить события на станции.
+
 changecvar-simple-shuttle_auto_call_time = Время после начала раунда до автоматического вызова шаттла.
+
 changecvar-full-shuttle_auto_call_time = Время в минутах после начала раунда, через которое шаттл будет вызван автоматически. Укажите ноль, чтобы отключить функцию.
+
 changecvar-simple-playtest_all_damage_modifier = Множитель всего наносимого урона.
+
 changecvar-full-playtest_all_damage_modifier = Множитель всего наносимого урона.
+
 changecvar-simple-playtest_all_heal_modifier = Множитель всего лечения.
+
 changecvar-full-playtest_all_heal_modifier = Множитель всего лечения.
+
 changecvar-simple-playtest_melee_damage_modifier = Множитель урона от оружия ближнего боя.
+
 changecvar-full-playtest_melee_damage_modifier = Множитель всего урона от атак ближнего боя.
+
 changecvar-simple-playtest_projectile_damage_modifier = Множитель урона от снарядов.
+
 changecvar-full-playtest_projectile_damage_modifier = Множитель всего урона от снарядов.
+
 changecvar-simple-playtest_hitscan_damage_modifier = Множитель урона от лучевого оружия.
+
 changecvar-full-playtest_hitscan_damage_modifier = Множитель всего урона от лучевого оружия.
+
 changecvar-simple-playtest_thrown_damage_modifier = Множитель урона от метательного оружия.
+
 changecvar-full-playtest_thrown_damage_modifier = Множитель всего урона от метательного оружия.
+
 changecvar-simple-playtest_topicals_heal_modifier = Множитель лечения средствами для наружного применения.
+
 changecvar-full-playtest_topicals_heal_modifier = Множитель всего лечения средствами для наружного применения.
+
 changecvar-simple-playtest_reagent_damage_modifier = Множитель урона от реагентов.
+
 changecvar-full-playtest_reagent_damage_modifier = Множитель всего урона от реагентов.
+
 changecvar-simple-playtest_reagent_heal_modifier = Множитель лечения реагентами.
+
 changecvar-full-playtest_reagent_heal_modifier = Множитель всего лечения реагентами.
+
 changecvar-simple-playtest_explosion_damage_modifier = Множитель урона от взрывов.
+
 changecvar-full-playtest_explosion_damage_modifier = Множитель всего урона от взрывчатки.
+
 changecvar-simple-playtest_stamina_damage_modifier = Множитель урона выносливости.
+
 changecvar-full-playtest_stamina_damage_modifier = Множитель всего наносимого урона выносливости.
+
 changecvar-simple-playtest_mob_damage_modifier = Множитель всего урона, наносимого мобам.
+
 changecvar-full-playtest_mob_damage_modifier = Множитель всего урона, наносимого сущностям с компонентом MobStateComponent.

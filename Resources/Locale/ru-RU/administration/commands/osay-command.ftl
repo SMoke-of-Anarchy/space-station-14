@@ -1,4 +1,5 @@
 cmd-osay-desc = Заставляет другую сущность попытаться отправить сообщение
+
 cmd-osay-help = Использование: {$command} <uid> <тип> <сообщение>
 
 osay-command-arg-message = сообщение

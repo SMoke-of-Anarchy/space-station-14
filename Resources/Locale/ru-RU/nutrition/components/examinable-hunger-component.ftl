@@ -6,6 +6,7 @@ examinable-hunger-component-examine-overfed =
         [epicene] сытыми
        *[neuter] сытым
     }.
+
 examinable-hunger-component-examine-okay =
     { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "выглядят", "выглядит") }
     { GENDER($entity) ->
@@ -14,6 +15,7 @@ examinable-hunger-component-examine-okay =
         [epicene] довольными
        *[neuter] довольным
     }.
+
 examinable-hunger-component-examine-peckish =
     { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "выглядят", "выглядит") }
     { GENDER($entity) ->
@@ -22,6 +24,7 @@ examinable-hunger-component-examine-peckish =
         [epicene] проголодавшимися
        *[neuter] проголодавшимся
     }.
+
 examinable-hunger-component-examine-starving =
     { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "выглядят", "выглядит") }
     { GENDER($entity) ->
@@ -30,4 +33,5 @@ examinable-hunger-component-examine-starving =
         [epicene] изголодавшимися
        *[neuter] изголодавшимся
     }!
+
 examinable-hunger-component-examine-none = { CAPITALIZE(SUBJECT($entity)) }, похоже, не { CONJUGATE-BASIC($entity, "голодают", "голодает") }.

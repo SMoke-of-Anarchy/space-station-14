@@ -4,42 +4,63 @@
 ## 'createvote' command
 
 cmd-createvote-desc = Создаёт голосование
+
 cmd-createvote-help = Использование: createvote <'restart'|'preset'|'map'>
+
 cmd-createvote-cannot-call-vote-now = Сейчас вы не можете запустить голосование!
+
 cmd-createvote-invalid-vote-type = Неверный тип голосования
+
 cmd-createvote-arg-vote-type = <тип голосования>
 
 ## 'customvote' command
 
 cmd-customvote-desc = Создаёт настраиваемое голосование
+
 cmd-customvote-help = Использование: customvote <заголовок> <вариант1> <вариант2> [вариант3...]
+
 cmd-customvote-on-finished-tie = Голосование "{ $title }" закончилось: ничья между { $ties }!
+
 cmd-customvote-on-finished-win = Голосование "{ $title }" закончилось: { $winner } побеждает!
+
 cmd-customvote-arg-title = <заголовок>
+
 cmd-customvote-arg-option-n = <вариант{$n}>
 
 ## 'vote' command
 
 cmd-vote-desc = Голосует в активном голосовании
+
 cmd-vote-help = vote <voteId> <вариант>
+
 cmd-vote-cannot-call-vote-now = Сейчас вы не можете запустить голосование!
+
 cmd-vote-on-execute-error-must-be-player = Должен быть игроком
+
 cmd-vote-on-execute-error-invalid-vote-id = Неверное ID голосования
+
 cmd-vote-on-execute-error-invalid-vote-options = Неверные параметры голосования
+
 cmd-vote-on-execute-error-invalid-vote = Неверное голосование
+
 cmd-vote-on-execute-error-invalid-option = Неверный параметр
 
 ## 'listvotes' command
 
 cmd-listvotes-desc = Перечисляет активные голосования
+
 cmd-listvotes-help = Использование: listvotes
 
 ## 'cancelvote' command
 
 cmd-cancelvote-desc = Отменяет текущее голосование
+
 cmd-cancelvote-help =
     Использование: cancelvote <id>
     Вы можете найти ID с помощью команды listvotes.
+
 cmd-cancelvote-error-invalid-vote-id = Неверный ID голосования
+
 cmd-cancelvote-error-missing-vote-id = Отсутствует ID
+
 cmd-cancelvote-arg-id = <id>

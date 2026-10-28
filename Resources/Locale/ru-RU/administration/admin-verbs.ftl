@@ -1,59 +1,114 @@
 delete-verb-get-data-text = Удалить
+
 edit-solutions-verb-get-data-text = Редактировать растворы
+
 explode-verb-get-data-text = Взорвать
+
 ahelp-verb-get-data-text = Написать
+
 admin-verbs-admin-logs-entity = Логи сущности
+
 admin-verbs-teleport-to = Телепортироваться к
+
 admin-verbs-teleport-here = Телепортировать сюда
+
 admin-verbs-freeze = Заморозить
+
 admin-verbs-freeze-and-mute = Заморозить и заглушить
+
 admin-verbs-unfreeze = Разморозить
+
 admin-verbs-camera = Открыть камеру
+
 admin-verbs-camera-description = Открыть окно камеры, следящее за выбранной сущностью.
+
 admin-verbs-erase = Стереть
+
 admin-verbs-erase-description =
     Удаляет игрока из раунда и манифеста членов экипажа, а также удаляет все его сообщения в чате.
     Их вещи упадут на землю.
     Игроки увидят всплывающее окно с просьбой отыгрывать так, будто этого персонажа никогда не существовало.
+
 toolshed-verb-mark = Отметить
+
 toolshed-verb-mark-description = Помещает эту сущность в переменную $marked (список сущностей), заменяя её предыдущее значение.
+
 export-entity-verb-get-data-text = Экспорт спрайта
+
 admin-verbs-adjust-stack = Изменить размер стопки
+
 admin-verbs-admin-logs-player = Логи игрока
+
 admin-verbs-bar-job-slots = Слоты профессий в баре
+
 admin-verbs-block-unanchoring = Запретить открепление
+
 admin-verbs-bolt = Запереть
+
 admin-verbs-dialog-adjust-stack-amount = Количество (макс. {$max})
+
 admin-verbs-dialog-redescribe-description = Описание
+
 admin-verbs-dialog-redescribe-title = Изменить описание
+
 admin-verbs-dialog-rename-and-redescribe-title = Переименовать и изменить описание
+
 admin-verbs-dialog-rename-name = Имя
+
 admin-verbs-dialog-rename-title = Переименовать
+
 admin-verbs-dialog-set-bullet-amount-amount = Количество (стандартное {$cap})
+
 admin-verbs-dialog-set-bullet-amount-title = Задать количество пуль
+
 admin-verbs-drain-battery = Разрядить батарею
+
 admin-verbs-emergency-access-off = Отключить аварийный доступ
+
 admin-verbs-emergency-access-on = Включить аварийный доступ
+
 admin-verbs-fill-stack = Заполнить стопку
+
 admin-verbs-grant-all-access = Выдать все доступы
+
 admin-verbs-halt-movement = Остановить движение
+
 admin-verbs-infinite-battery = Бесконечная батарея
+
 admin-verbs-locate-cargo-shuttle = Найти грузовой шаттл
+
 admin-verbs-make-indestructible = Сделать неразрушимым
+
 admin-verbs-make-minigun = Создать миниган
+
 admin-verbs-make-vulnerable = Сделать уязвимым
+
 admin-verbs-pause-map = Приостановить карту
+
 admin-verbs-redescribe = Изменить описание
+
 admin-verbs-refill-battery = Зарядить батарею
+
 admin-verbs-refill-internals-nitrogen = Заправить баллон азотом
+
 admin-verbs-refill-internals-oxygen = Заправить баллон кислородом
+
 admin-verbs-refill-internals-plasma = Заправить баллон плазмой
+
 admin-verbs-rejuvenate = Восстановить
+
 admin-verbs-rename = Переименовать
+
 admin-verbs-rename-and-redescribe = Переименовать и изменить описание
+
 admin-verbs-revoke-all-access = Отозвать все доступы
+
 admin-verbs-send-to-test-arena = Переместить на тестовую арену
+
 admin-verbs-set-bullet-amount = Задать количество пуль
+
 admin-verbs-snap-joints = Сломать соединения
+
 admin-verbs-unbolt = Отпереть
+
 admin-verbs-unpause-map = Возобновить карту

@@ -1,25 +1,47 @@
 plant-attribute-growth = возраст
+
 plant-attribute-water = уровень воды
+
 plant-attribute-potency = потенция
+
 plant-attribute-weeds = уровень сорняков
+
 plant-attribute-toxins = уровень токсинов
+
 plant-attribute-nutrition = уровень питания
+
 plant-attribute-mutation-level = уровень мутации
+
 plant-attribute-pests = уровень вредителей
+
 plant-attribute-mutation-mod = модификатор мутации
+
 plant-attribute-health = здоровье
 
 plant-attribute-endurance = устойчивость
+
 plant-attribute-high-heat-tolerance = устойчивость к высокой температуре
+
 plant-attribute-high-pressure-tolerance = устойчивость к высокому давлению
+
 plant-attribute-lifespan = продолжительность жизни
+
 plant-attribute-low-heat-tolerance = устойчивость к низкой температуре
+
 plant-attribute-low-pressure-tolerance = устойчивость к низкому давлению
+
 plant-attribute-maturation = созревание
+
 plant-attribute-nutrient-consumption = потребление питательных веществ
+
 plant-attribute-pest-tolerance = устойчивость к вредителям
+
 plant-attribute-production = производство
+
 plant-attribute-toxins-tolerance = устойчивость к токсинам
+
 plant-attribute-water-consumption = потребление воды
+
 plant-attribute-weed-tolerance = устойчивость к сорнякам
+
 plant-attribute-yield = урожайность

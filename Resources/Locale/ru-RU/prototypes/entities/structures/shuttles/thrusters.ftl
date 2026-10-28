@@ -1,0 +1,33 @@
+ent-BaseThruster = ракетный двигатель
+    .desc = Ускоритель, позволяющий шаттлу передвигаться.
+
+ent-Thruster = ракетный двигатель
+    .desc = { ent-BaseThruster.desc }
+
+ent-ThrusterUnanchored = { ent-Thruster }
+    .suffix = Незакреплённый
+    .desc = { ent-Thruster.desc }
+
+ent-DebugThruster = { ent-BaseThruster }
+    .suffix = ОТЛАДКА
+    .desc = { ent-BaseThruster.desc }
+
+ent-Gyroscope = гироскоп
+    .desc = Увеличивает потенциальное угловое вращение шаттла.
+
+ent-GyroscopeUnanchored = { ent-Gyroscope }
+    .suffix = Незакреплённый
+    .desc = { ent-Gyroscope.desc }
+
+ent-DebugGyroscope = { ent-BaseThruster }
+    .suffix = ОТЛАДКА
+    .desc = { ent-BaseThruster.desc }
+
+ent-RustedThruster = ржавый ракетный двигатель
+    .desc = Неподлежащий ремонту двигатель, вышел из строя из-за износа. Пригоден только на металлолом.
+
+ent-ThrusterLarge = Большой двигатель
+    .desc = { ent-BaseThruster.desc }
+
+ent-ThrusterXenoborg = { ent-Thruster }
+    .desc = { ent-BaseThruster.desc }

@@ -5,6 +5,7 @@ discord-watchlist-connection-header =
         [many] игроков в списке наблюдения подключились
        *[other] игроков в списке наблюдения подключились
     } к { $serverName }
+
 discord-watchlist-connection-entry =
     - { $playerName } с сообщением "{ $message }"{ $expiry ->
         [0] { "" }

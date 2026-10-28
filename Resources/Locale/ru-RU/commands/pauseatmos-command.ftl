@@ -1,4 +1,5 @@
 cmd-pauseatmos-desc = Приостанавливает или возобновляет симуляцию атмосферы для указанной сетки.
+
 cmd-pauseatmos-help = Использование: { $command } <EntityUid>
 
 cmd-pauseatmos-set-atmos-simulation = Состояние симуляции атмосферы сетки {$grid} изменено на {$state}.

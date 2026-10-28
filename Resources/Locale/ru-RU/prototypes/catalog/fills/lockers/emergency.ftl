@@ -1,0 +1,23 @@
+ent-ClosetEmergencyFilledRandom = { ent-ClosetEmergency }
+    .suffix = Заполненный, Случайный
+    .desc = { ent-ClosetEmergency.desc }
+
+ent-ClosetWallEmergencyFilledRandom = { ent-ClosetWallEmergency }
+    .suffix = Заполненный, Случайный
+    .desc = { ent-ClosetWallEmergency.desc }
+
+ent-ClosetEmergencyN2FilledRandom = { ent-ClosetEmergencyN2 }
+    .suffix = Заполненный, Случайный
+    .desc = { ent-ClosetEmergencyN2.desc }
+
+ent-ClosetWallEmergencyN2FilledRandom = { ent-ClosetWallEmergencyN2 }
+    .suffix = Заполненный, Случайный
+    .desc = { ent-ClosetWallEmergencyN2.desc }
+
+ent-ClosetFireFilled = { ent-ClosetFire }
+    .suffix = Заполненный
+    .desc = { ent-ClosetFire.desc }
+
+ent-ClosetWallFireFilledRandom = { ent-ClosetWallFire }
+    .suffix = Заполненный
+    .desc = { ent-ClosetWallFire.desc }

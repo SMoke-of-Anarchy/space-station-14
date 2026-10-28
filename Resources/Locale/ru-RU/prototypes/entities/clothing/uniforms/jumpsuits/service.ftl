@@ -1,0 +1,90 @@
+ent-ClothingUniformJumpsuitBartender = униформа бармена
+    .desc = Красивая и опрятная форма. Жаль только, что про бар этого не скажешь.
+
+ent-ClothingUniformJumpsuitJacketMonkey = обезьянья жилетка бармена
+    .desc = Приличная жилетка, для приличной обезьяны.
+
+ent-ClothingUniformJumpsuitBartenderPurple = фиолетовая униформа бармена
+    .desc = Специальный фиолетовый наряд для подачи напитков.
+
+ent-ClothingUniformJumpsuitChaplain = комбинезон священника
+    .desc = Это чёрный комбинезон, зачастую носимый религиозными людьми.
+
+ent-ClothingUniformJumpsuitChef = униформа шеф-повара
+    .desc = Без этого нельзя готовить.
+
+ent-ClothingUniformJumpsuitClown = костюм клоуна
+    .desc = ХОНК!
+
+ent-ClothingUniformJumpsuitClownBanana = банановый костюм клоуна
+    .desc = { ent-ClothingUniformJumpsuitClown.desc }
+
+ent-ClothingUniformJumpsuitJester = костюм шута
+    .desc = Весёлый наряд, отлично подходящий для развлечения вашего господина.
+
+ent-ClothingUniformJumpsuitJesterAlt = { ent-ClothingUniformJumpsuitJester }
+    .desc = { ent-ClothingUniformJumpsuitJester.desc }
+
+ent-ClothingUniformJumpsuitHydroponics = комбинезон ботаника
+    .desc = Имеет сильный запах земли. Будем надеяться, что он просто грязный, а не весь в земле.
+
+ent-ClothingUniformJumpsuitJanitor = комбинезон уборщика
+    .desc = Комбинезон для бедняги со шваброй.
+
+ent-ClothingUniformJumpsuitMime = костюм мима
+    .desc = ...
+
+ent-ClothingUniformOveralls = комбинезон на лямках
+    .desc = Отлично подходит для работы на открытом воздухе.
+
+ent-ClothingUniformJumpsuitLibrarian = практичный костюм
+    .desc = Он очень... практичный.
+
+ent-ClothingUniformJumpsuitCurator = практичный костюм
+    .desc = Практично. Слишком практично...
+
+ent-ClothingUniformJumpsuitLawyerRed = красный адвокатский костюм
+    .desc = Яркий красный костюм, который носят адвокаты и хвастуны.
+
+ent-ClothingUniformJumpsuitLawyerBlue = синий адвокатский костюм
+    .desc = Яркий синий костюм, который носят адвокаты и хвастуны.
+
+ent-ClothingUniformJumpsuitLawyerBlack = чёрный адвокатский костюм
+    .desc = Изысканный чёрный костюм, который носят адвокаты и гангстеры.
+
+ent-ClothingUniformJumpsuitLawyerPurple = фиолетовый адвокатский костюм
+    .desc = Стильный фиолетовый костюм, который носят адвокаты и шоумены.
+
+ent-ClothingUniformJumpsuitLawyerGood = хороший адвокатский костюм
+    .desc = Кричащий костюм, идеально подходящий УГОЛОВНОМУ адвокату!
+
+ent-ClothingUniformJumpsuitPsychologist = костюм психолога
+    .desc = Я не теряю вещи. Я кладу вещи в места, которые потом ускользают от меня.
+
+ent-ClothingUniformJumpsuitReporter = костюм репортёра
+    .desc = Хороший репортёр остаётся скептиком всю свою жизнь.
+
+ent-ClothingUniformJumpsuitSafari = костюм для сафари
+    .desc = Идеально для экскурсии по джунглям.
+
+ent-ClothingUniformJumpsuitJournalist = костюм журналиста
+    .desc = Если журналистская работа хороша, она противоречива по своей природе.
+
+ent-ClothingUniformJumpsuitMonasticRobeDark = тёмная монашеская ряса
+    .desc = Это тёмная ряса, которую часто носят религиозные люди.
+
+ent-ClothingUniformJumpsuitMonasticRobeLight = светлая монашеская ряса
+    .desc = Это светлая ряса, которую часто носят религиозные люди.
+
+ent-ClothingUniformJumpsuitMusician = костюм из карпокожи
+    .desc = Роскошный костюм, сшитый только из лучших чешуек, идеально подойдёт для любого выступления в стиле лаунж!
+
+ent-ClothingUniformJumpsuitCluwne = костюм клувеня
+    .desc = Проклятый костюм клувеня.
+    .suffix = Неснимаемый
+
+ent-ClothingUniformJumpsuitTramDriver = комбинезон водителя трамвая
+    .desc = Безупречно отглажен для хорошо подготовленных профессионалов.
+
+ent-ClothingUniformJumpsuitVirtualIce = безрукавка певицы Айс
+    .desc = Эта безрукавка изготовлена на заказ для некоего Таро Ямады — для выступлений и тренировок.

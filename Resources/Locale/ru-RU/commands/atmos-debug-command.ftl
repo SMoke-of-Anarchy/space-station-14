@@ -1,14 +1,27 @@
 cmd-atvrange-desc = Задаёт диапазон отладки атмосферы двумя числами с плавающей точкой: начало [красный] и конец [синий].
+
 cmd-atvrange-help = Использование: { $command } <start> <end>
+
 cmd-atvrange-error-start = Некорректное число с плавающей точкой START
+
 cmd-atvrange-error-end = Некорректное число с плавающей точкой END
+
 cmd-atvrange-error-zero = Масштаб не может быть равен нулю: это привело бы к делению на ноль в AtmosDebugOverlay.
+
 cmd-atvmode-desc = Задаёт режим отладки атмосферы. Масштаб при этом будет автоматически сброшен.
+
 cmd-atvmode-help = Использование: { $command } <TotalMoles/GasMoles/Temperature> [<ID газа (для GasMoles)>]
+
 cmd-atvmode-error-invalid = Недопустимый режим
+
 cmd-atvmode-error-target-gas = Для этого режима необходимо указать целевой газ.
+
 cmd-atvmode-error-out-of-range = Не удалось разобрать ID газа, либо он выходит за допустимый диапазон.
+
 cmd-atvmode-error-info = Для этого режима дополнительная информация не требуется.
+
 cmd-atvcbm-desc = Переключает отображение с красного/зелёного/синего на оттенки серого
+
 cmd-atvcbm-help = Использование: { $command } <true/false>
+
 cmd-atvcbm-error = Недопустимый флаг

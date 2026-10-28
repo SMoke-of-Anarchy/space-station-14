@@ -1,11 +1,10 @@
 alerts-changeling-chemicals-name = Химикаты
+
 alerts-changeling-chemicals-desc = Химикаты, хранящиеся в наших железах. Они необходимы для многих наших способностей. Их запас постепенно восстанавливается.
+
 alerts-prying-name = Вскрытие
+
 alerts-prying-desc = Вы можете инстинктивно вскрывать двери альтернативным взаимодействием.
-
-alerts-adrenaline-desc = Вас переполняет адреналин: боль не будет замедлять вас.
-
-alerts-adrenaline-name = [color=red]Адреналин[/color]
 
 alerts-battery-desc = Если батарея разрядится, вы не сможете использовать свои способности.
 
@@ -75,10 +74,6 @@ alerts-magboots-desc = Вы невосприимчивы к потокам ве�
 
 alerts-magboots-name = Магнитные ботинки
 
-alerts-muted-desc = Вы потеряли способность говорить.
-
-alerts-muted-name = Заглушены
-
 alerts-no-battery-desc = У вас нет батареи, в результате чего вы не можете заряжаться или использовать свои способности.
 
 alerts-no-battery-name = Нет батареи
@@ -131,10 +126,6 @@ alerts-stealthy-desc = Определяет режим скрытой кражи
 
 alerts-stealthy-name = Карманничество
 
-alerts-stunned-desc = Вы [color=yellow]оглушены[/color]! Что-то мешает вам двигаться или взаимодействовать с объектами.
-
-alerts-stunned-name = [color=yellow]Оглушены[/color]
-
 alerts-suit-power-desc = Запас энергии вашего костюма космического ниндзя.
 
 alerts-suit-power-name = Заряд костюма
@@ -154,10 +145,6 @@ alerts-too-hot-name = [color=red]Слишком жарко[/color]
 alerts-vow-broken-desc = Вы нарушили свою клятву, данную Мимам. Теперь вы можете говорить и писать, но вы потеряли свои мимские способности как минимум на 5 минут!!! Щёлкните по иконке, чтобы попытаться дать обет молчания снова.
 
 alerts-vow-broken-name = Нарушенный обет
-
-alerts-vow-silence-desc = Вы дали обет, запрещающий устное или письменное общение, в рамках инициации в Мистико Тагма Мимон. Щёлкните по иконке, чтобы нарушить свой обет.
-
-alerts-vow-silence-name = Обет молчания
 
 alerts-walking-desc = Вы идёте шагом, двигаясь в медленном темпе.
 

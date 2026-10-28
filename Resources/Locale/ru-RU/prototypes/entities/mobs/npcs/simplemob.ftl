@@ -1,0 +1,14 @@
+ent-BaseSimpleMob = { "" }
+    .suffix = ИИ
+    .desc = { "" }
+
+ent-SimpleSpaceMobBase = { ent-BaseSimpleMob }
+    .suffix = ИИ
+    .desc = { ent-BaseSimpleMob.desc }
+
+ent-SimpleMobBase = { ent-SimpleSpaceMobBase }
+    .suffix = ИИ
+    .desc = { ent-SimpleSpaceMobBase.desc }
+
+ent-SolutionVermin = { ent-Solution }
+    .desc = { "" }

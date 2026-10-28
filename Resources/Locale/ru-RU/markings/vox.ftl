@@ -1,77 +1,151 @@
 marking-TattooVoxHeartLeftArm-heart_l_arm = Вокс, Левая рука, Татуировка (Сердце)
+
 marking-TattooVoxHeartLeftArm = Вокс, Левая рука, Татуировка (Сердце)
+
 marking-TattooVoxHeartRightArm-heart_r_arm = Вокс, Правая рука, Татуировка (Сердце)
+
 marking-TattooVoxHeartRightArm = Вокс, Правая рука, Татуировка (Сердце)
+
 marking-TattooVoxHiveChest-hive_s = Вокс, Грудь, Татуировка (Улей)
+
 marking-TattooVoxHiveChest = Вокс, Грудь, Татуировка (Улей)
+
 marking-TattooVoxNightlingChest-nightling_s = Вокс, Грудь, Татуировка (Найтлинг)
+
 marking-TattooVoxNightlingChest = Вокс, Грудь, Татуировка (Найтлинг)
+
 marking-VoxScarEyeRight-vox_scar_eye_right = Шрам на глазу (Правый)
+
 marking-VoxScarEyeRight = Шрам на глазу (Правый)
+
 marking-VoxScarEyeLeft-vox_scar_eye_left = Шрам на левом глазу
+
 marking-VoxScarEyeLeft = Шрам на глазу (Левый)
+
 marking-VoxScarTopSurgeryShort-vox_scar_top_surgery_short = Шрам (Торакотомия)
+
 marking-VoxScarTopSurgeryShort = Шрам (Торакотомия)
+
 marking-VoxScarTopSurgeryLong-vox_scar_top_surgery_long = Шрам (Ракушка)
+
 marking-VoxScarTopSurgeryLong = Шрам (Ракушка)
+
 marking-VoxScarChest-vox_scar_chest = Шрам на груди
+
 marking-VoxScarChest = Шрам на груди
+
 marking-VoxScarNeck-vox_scar_neck = Шрам на шее
+
 marking-VoxScarNeck = Шрам на шее
+
 marking-VoxScarChestBullets-vox_scar_chest_bullets = Шрам, пулевые отверстия
+
 marking-VoxScarChestBullets = Шрам на груди (Пули)
+
 marking-VoxScarStomachBullets-vox_scar_stomach_bullets = Шрам, пулевые отверстия
+
 marking-VoxScarStomachBullets = Шрам на животе (Пули)
+
 marking-VoxScarFace1-vox_scar_face_1 = Шрам на лице
+
 marking-VoxScarFace1 = Шрам на лице (Большой)
+
 marking-VoxScarFace2-vox_scar_face_2 = Шрам на лице
+
 marking-VoxScarFace2 = Шрам на лице (Маленький)
+
 marking-VoxScarEyeRightSmall-vox_scar_eye_right_small = Шрам на глазу (Правый, Маленький)
+
 marking-VoxScarEyeRightSmall = Шрам на глазу (Правый, Маленький)
+
 marking-VoxScarEyeLeftSmall-vox_scar_eye_left_small = Шрам на глазу (Левый, Маленький)
+
 marking-VoxScarEyeLeftSmall = Шрам на глазу (Левый, Маленький)
+
 marking-VoxTailShort-vox_tail_small = Вокс, Хвост (Короткий)
+
 marking-VoxTailShort = Вокс, Хвост (Короткий)
+
 marking-VoxTail-vox_tail = Вокс, Хвост (Средний)
+
 marking-VoxTail = Вокс, Хвост (Средний)
+
 marking-VoxTailBig-vox_tail_big = Вокс, Хвост (Большой)
+
 marking-VoxTailBig = Вокс, Хвост (Большой)
+
 marking-VoxTailSpikes-vox_tail_spikes = Вокс, Хвост (Шипастый)
+
 marking-VoxTailSpikes = Вокс, Хвост (Шипастый)
+
 marking-VoxTailDocked-vox_tail_docked = Вокс, Хвост (Рудиментарный)
+
 marking-VoxTailDocked = Вокс, Хвост (Рудиментарный)
+
 marking-VoxTailSplit-vox_tail_split = Вокс, Хвост (Разделённый)
+
 marking-VoxTailSplit = Вокс, Хвост (Разделённый)
 
 marking-TattooVoxArrowHead = Татуировка вокс на голове: (стрела)
+
 marking-TattooVoxArrowHead-tattoo_arrow_head = Татуировка вокс на голове: (стрела)
+
 marking-TattooVoxChestV = Татуировка вокс на груди: (V-образная)
+
 marking-TattooVoxChestV-night_v = Татуировка вокс на груди: (V-образная)
+
 marking-TattooVoxNightbelt = Татуировка вокс на животе: (Найтлинг)
+
 marking-TattooVoxNightbelt-nightbelt = Татуировка вокс на животе: (Найтлинг)
+
 marking-TattooVoxNightlingHead = Татуировка вокс на голове: (Найтлинг)
+
 marking-TattooVoxNightlingHead-tattoo_nightling_head = Татуировка вокс на голове: (Найтлинг)
+
 marking-TattooVoxUnderbelly = подбрюшье
+
 marking-TattooVoxUnderbelly-underbelly = подбрюшье
+
 marking-VoxBeak = клюв (заострённый)
+
 marking-VoxBeak-beak = клюв (заострённый)
+
 marking-VoxBeakCoverStripe = клюв полоса
+
 marking-VoxBeakCoverStripe-beakcover_stripe = клюв полоса
+
 marking-VoxBeakCoverTip = клюв кончик
+
 marking-VoxBeakCoverTip-beakcover_tip = клюв кончик
+
 marking-VoxBeakHooked = клюв (крючковатый)
+
 marking-VoxBeakHooked-beak_hooked = клюв (крючковатый)
+
 marking-VoxBeakShaved = клюв (обритый)
+
 marking-VoxBeakShaved-beak_shaved = клюв (обритый)
+
 marking-VoxBeakSquareCere = клюв (квадратная восковица)
+
 marking-VoxBeakSquareCere-beak_squarecere = клюв (квадратная восковица)
+
 marking-VoxCheek = щёки
+
 marking-VoxCheek-cheekblush = щёки
+
 marking-VoxTattooEyeliner = подводка для глаз
+
 marking-VoxTattooEyeliner-eyeliner = подводка для глаз
+
 marking-VoxVisage = лицо (полное)
+
 marking-VoxVisage-visage = лицо (полное)
+
 marking-VoxVisageL = лицо (левая)
+
 marking-VoxVisageL-visage_l = лицо (левая)
+
 marking-VoxVisageR = лицо (правая)
+
 marking-VoxVisageR-visage_r = лицо (правая)

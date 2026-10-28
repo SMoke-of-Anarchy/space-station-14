@@ -1,26 +1,49 @@
 device-pda-slot-component-slot-name-cartridge = Картридж
+
 default-program-name = Программа
+
 notekeeper-program-name = Заметки
+
 nano-task-program-name = НаноДела
+
 news-read-program-name = Новости станции
+
 crew-manifest-program-name = Манифест экипажа
+
 crew-manifest-cartridge-loading = Загрузка...
+
 net-probe-program-name = Зонд сетей
+
 net-probe-scan = Просканирован { $device }!
+
 net-probe-label-name = Название
+
 net-probe-label-address = Адрес
+
 net-probe-label-frequency = Частота
+
 net-probe-label-network = Сеть
+
 log-probe-program-name = Зонд логов
+
 log-probe-scan = Загружены логи устройства { $device }!
+
 log-probe-label-time = Время
+
 log-probe-label-accessor = Использовано:
+
 log-probe-label-number = #
+
 log-probe-print-button = Распечатать логи
+
 log-probe-printout-device = Сканированное устройство: { $name }
+
 log-probe-printout-header = Последние логи:
+
 log-probe-printout-entry = #{ $number } / { $time } / { $accessor }
+
 astro-nav-program-name = АстроНав
+
 med-tek-program-name = МедТек
 
 # NanoTask cartridge
@@ -34,6 +57,7 @@ nano-task-ui-heading-high-priority-tasks =
         [many] { $amount } задач высокого приоритета
        *[other] { $amount } задачи высокого приоритета
     }
+
 nano-task-ui-heading-medium-priority-tasks =
     { $amount ->
         [0] Нет задач среднего приоритета
@@ -43,6 +67,7 @@ nano-task-ui-heading-medium-priority-tasks =
         [many] { $amount } задач среднего приоритета
        *[other] { $amount } задачи среднего приоритета
     }
+
 nano-task-ui-heading-low-priority-tasks =
     { $amount ->
         [0] Нет задач низкого приоритета
@@ -52,38 +77,70 @@ nano-task-ui-heading-low-priority-tasks =
         [many] { $amount } задач низкого приоритета
        *[other] { $amount } задачи низкого приоритета
     }
+
 nano-task-ui-done = Готово
+
 nano-task-ui-revert-done = Отмена
+
 nano-task-ui-priority-low = Низкий
+
 nano-task-ui-priority-medium = Средний
+
 nano-task-ui-priority-high = Высокий
+
 nano-task-ui-cancel = Отмена
+
 nano-task-ui-print = Распечатать
+
 nano-task-ui-delete = Удалить
+
 nano-task-ui-save = Сохранить
+
 nano-task-ui-new-task = Новая задача
+
 nano-task-ui-description-label = Описание:
+
 nano-task-ui-description-placeholder = Взять что-то важное
+
 nano-task-ui-requester-label = Заявитель:
+
 nano-task-ui-requester-placeholder = Джон Нанотрейзен
+
 nano-task-ui-item-title = Редактировать задачу
+
 nano-task-printed-description = [bold]Описание:[/bold] { $description }
+
 nano-task-printed-requester = [bold]Заявитель:[/bold] { $requester }
+
 nano-task-printed-high-priority = [bold]Приоритет[/bold]: [color=red]Высокий[/color]
+
 nano-task-printed-medium-priority = [bold]Приоритет[/bold]: Средний
+
 nano-task-printed-low-priority = [bold]Приоритет[/bold]: Низкий
+
 # Wanted list cartridge
 wanted-list-program-name = Список разыскиваемых
+
 wanted-list-label-no-records = Всё спокойно, ковбой.
+
 wanted-list-search-placeholder = Поиск по имени и статусу
+
 wanted-list-age-label = [color=darkgray]Возраст:[/color] [color=white]{ $age }[/color]
+
 wanted-list-job-label = [color=darkgray]Должность:[/color] [color=white]{ $job }[/color]
+
 wanted-list-species-label = [color=darkgray]Вид:[/color] [color=white]{ $species }[/color]
+
 wanted-list-gender-label = [color=darkgray]Гендер:[/color] [color=white]{ $gender }[/color]
+
 wanted-list-reason-label = [color=darkgray]Причина:[/color] [color=white]{ $reason }[/color]
+
 wanted-list-unknown-reason-label = неизвестная причина
+
 wanted-list-initiator-label = [color=darkgray]Инициатор:[/color] [color=white]{ $initiator }[/color]
+
 wanted-list-unknown-initiator-label = неизвестный инициатор
+
 wanted-list-status-label = [color=darkgray]статус:[/color] { $status ->
         [suspected] [color=yellow]подозревается[/color]
         [wanted] [color=red]разыскивается[/color]
@@ -94,7 +151,11 @@ wanted-list-status-label = [color=darkgray]статус:[/color] { $status ->
         [eliminated] [color=gray]ликвидирован[/color]
        *[other] нет
     }
+
 wanted-list-history-table-time-col = Время
+
 wanted-list-history-table-reason-col = Преступление
+
 wanted-list-history-table-initiator-col = Инициатор
+
 crew-manifest-cartridge-loading-failed = Не удалось загрузить манифест экипажа!

@@ -1,58 +1,115 @@
 names-death-commando-last-dataset-1 = Грызун мяса
+
 names-death-commando-last-dataset-2 = Мясоскал
+
 names-death-commando-last-dataset-3 = Большой бок
+
 names-death-commando-last-dataset-4 = Взрывотелый
+
 names-death-commando-last-dataset-5 = Кулакобой
+
 names-death-commando-last-dataset-6 = Костная мука
+
 names-death-commando-last-dataset-7 = Переборка
+
 names-death-commando-last-dataset-8 = Жопный стейк
+
 names-death-commando-last-dataset-9 = Грудной волос
+
 names-death-commando-last-dataset-10 = Чанкмен
+
 names-death-commando-last-dataset-11 = да Викинг
+
 names-death-commando-last-dataset-12 = Опасность
+
 names-death-commando-last-dataset-13 = Становая тяга
+
 names-death-commando-last-dataset-14 = Многопий
+
 names-death-commando-last-dataset-15 = Убийца парней
+
 names-death-commando-last-dataset-16 = Кулакохруст
+
 names-death-commando-last-dataset-17 = Мясная искра
+
 names-death-commando-last-dataset-18 = Гибсон
+
 names-death-commando-last-dataset-19 = Твёрдая спина
+
 names-death-commando-last-dataset-20 = Твёрдый сыр
+
 names-death-commando-last-dataset-21 = Твёрдое мясо
+
 names-death-commando-last-dataset-22 = Железный олень
+
 names-death-commando-last-dataset-23 = Ламповая челюсть
+
 names-death-commando-last-dataset-24 = Большая свёкла
+
 names-death-commando-last-dataset-25 = Убийца слотов
+
 names-death-commando-last-dataset-26 = Киллингтон
+
 names-death-commando-last-dataset-27 = Человек-мускул
+
 names-death-commando-last-dataset-28 = МакКулаки
+
 names-death-commando-last-dataset-29 = МакГи
+
 names-death-commando-last-dataset-30 = МакУбивака
+
 names-death-commando-last-dataset-31 = МакЗдоровяк
+
 names-death-commando-last-dataset-32 = МакБегун
+
 names-death-commando-last-dataset-33 = МакТопчукости
+
 names-death-commando-last-dataset-34 = МакТерновоеТело
+
 names-death-commando-last-dataset-35 = МакТестостерон
+
 names-death-commando-last-dataset-36 = Дыни
+
 names-death-commando-last-dataset-37 = Убийцакость
+
 names-death-commando-last-dataset-38 = Убийцабродяга
+
 names-death-commando-last-dataset-39 = Боль
+
 names-death-commando-last-dataset-40 = Доскагрудь
+
 names-death-commando-last-dataset-41 = Ударомясо
+
 names-death-commando-last-dataset-42 = Каменная кость
+
 names-death-commando-last-dataset-43 = Каменная паховая область
+
 names-death-commando-last-dataset-44 = Ржавый прут
+
 names-death-commando-last-dataset-45 = Боковая щека
+
 names-death-commando-last-dataset-46 = Боковое железо
+
 names-death-commando-last-dataset-47 = Плитоскал
+
 names-death-commando-last-dataset-48 = Грудь-кувалда
+
 names-death-commando-last-dataset-49 = Резня
+
 names-death-commando-last-dataset-50 = Космостанция
+
 names-death-commando-last-dataset-51 = Скоростной кусок
+
 names-death-commando-last-dataset-52 = Присед-толчок
+
 names-death-commando-last-dataset-53 = Стейк-морда
+
 names-death-commando-last-dataset-54 = Стальные яйца
+
 names-death-commando-last-dataset-55 = Сын тестостерона
+
 names-death-commando-last-dataset-56 = Толстая шея
+
 names-death-commando-last-dataset-57 = Вандерхъюдж
+
 names-death-commando-last-dataset-58 = Видаль

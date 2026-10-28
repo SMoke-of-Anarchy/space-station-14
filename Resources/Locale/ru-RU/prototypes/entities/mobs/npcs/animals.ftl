@@ -1,0 +1,152 @@
+ent-MobBat = летучая мышь
+    .desc = В одних культурах они вызывают ужас, в других — хрустят на зубах.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCrab = краб
+    .desc = В народе говорят, что его клешня вышибает дух из космонавтов за грубые высказывания. Будьте вежливы и терпимы для вашей же безопасности.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobGoose = гусь
+    .desc = Его желудок и разум — загадка, недоступная человеческому пониманию.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobGorilla = горилла
+    .desc = Крушит, ревёт, выглядит круто. Не стойте рядом с ней.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobKangaroo = кенгуру
+    .desc = Крупное сумчатое травоядное. У него мощные задние лапы с ногтями, напоминающими длинные когти.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobBoxingKangaroo = кенгуру-боксёр
+    .desc = { ent-MobKangaroo.desc }
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobMouseAdmeme = { ent-MobMouse }
+    .suffix = Адмемы
+    .desc = { ent-MobMouse.desc }
+
+ent-MobLizard = ящерица
+    .desc = Безобидный дракон.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobSlug = слизняк
+    .desc = И они называли это ящерицей?
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobFrog = лягушка
+    .desc = Прыг прыг прыг. Выглядит мокрой.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobParrotBase = попугай
+    .desc = Проникает в ваши владения, шпионит за вами, и при этом остаётся классным питомцем.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobParrot = { ent-MobParrotBase }
+    .desc = { ent-MobParrotBase.desc }
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobPenguin = пингвин
+    .desc = Их жизнь — это постоянная боль из-за коленных суставов внутри тела.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobGrenadePenguin = пингвин гренадёр
+    .desc = Маленький пингвин с гранатой на шее. Заготавливается Синдикатом на неблагоприятных ледяных планетах.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobSnake = змея
+    .desc = Хиссс! Укусы не ядовиты.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobGiantSpider = тарантул
+    .desc = Общепризнанно, что это буквально худшее существо на свете.
+
+ent-MobGiantSpiderAngry = { ent-MobGiantSpider }
+    .desc = { ent-MobGiantSpider.desc }
+    .suffix = Злой
+
+ent-MobClownSpider = клоун-паук
+    .desc = Сочетает в себе две самые страшные вещи на свете — пауков и клоунов.
+
+ent-MobPossum = поссум
+    .desc = "О поссум! Мой поссум!" -- Уолт Уитмен, 1865.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobPossumOld = поссум
+    .suffix = Старый спрайт
+    .desc = { ent-MobPossum.desc }
+
+ent-MobRaccoon = енот
+    .desc = Мусорная панда!
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCorgiBase = корги
+    .desc = Наконец-то, космический корги!
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCorgi = { ent-MobCorgiBase }
+    .desc = { ent-MobCorgiBase.desc }
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCorgiNarsi = порченный корги
+    .desc = Иан! Нет!
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCorgiPuppy = щенок корги
+    .desc = Маленький корги! Оуу...
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCat = кошка
+    .desc = Питомец семейства кошачьих, очень забавный.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCatCalico = трёхцветная кошка
+    .desc = Питомец семейства кошачьих, очень забавный.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCatSpace = космическая кошка
+    .desc = Питомец семейства кошачьих, подготовленный к худшему.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCatSyndy = синдикот
+    .desc = Взрывоопасный котёнок.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCatCaracal = каракаловая кошка
+    .desc = Весёлое создание природы.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobSloth = ленивец
+    .desc = Очень медлительное животное. Для людей с низкой энергией.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCatKitten = котёнок
+    .desc = Маленький и пушистый.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobFerret = хорёк
+    .desc = Просто маленький глупый парнишка!
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobFox = лиса
+    .desc = Они — лисы.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobDionaNymph = нимфа дионы
+    .desc = Похожа на кошку, только.... ветвистее.
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobDionaNymphAccent = { ent-MobDionaNymph }
+    .suffix = Акцент
+    .desc = { ent-MobDionaNymph.desc }
+
+ent-MobReindeerBuck = северный олень-самец
+    .desc = Думаете, он может тянуть сани?
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobReindeerDoe = северный олень-самка
+    .desc = Думаете, она может тянуть сани?
+    .suffix = { ent-SimpleMobBase.suffix }
+
+ent-MobCorgiSmart = умный корги
+    .desc = Необычайно умный пёс.

@@ -1,5 +1,7 @@
 alert-level-unknown-title = Неизвестный уровень тревоги
+
 alert-level-unknown-announcement = Проверка системы оповещения о тревоге.
+
 alert-level-delta-nuke-announcement = Станции грозит неминуемое уничтожение. Членам экипажа следует следовать указаниям руководителей отделов, чтобы узнать подробности.
 
 alert-level-announcement = Внимание! Уровень угрозы станции теперь { $name }! { $announcement }

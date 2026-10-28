@@ -1,4 +1,5 @@
 construction-menu-history-select-previous-recipe = ◄ Назад
+
 construction-menu-history-select-next-recipe = Далее ►
 
 construction-menu-clear-all = Очистить всё
