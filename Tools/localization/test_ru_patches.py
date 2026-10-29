@@ -70,6 +70,14 @@ def localized_datasets():
     return rows
 
 
+class RussianResearchWindowTests(unittest.TestCase):
+    def test_research_window_has_room_for_russian_labels(self):
+        root = ET.fromstring(source('Content.Client/Research/UI/ResearchConsoleMenu.xaml'))
+        self.assertEqual(root.attrib['SetSize'], '760 550')
+        self.assertEqual(root.attrib['MinSize'], '625 400')
+        self.assertEqual(root.attrib['Title'], "{Loc 'research-console-menu-title'}")
+
+
 class RussianAccentTests(unittest.TestCase):
     base = 'Content.Shared/Speech/EntitySystems/'
 
