@@ -43,3 +43,7 @@ chatsan-tearfully-smiles = улыбается со слезами на глаз�
 chatsan-winks = подмигивает
 
 chatsan-shrugs = пожимает плечами
+
+chatsan-claps = хлопает в ладоши
+
+chatsan-snaps = щёлкает пальцами

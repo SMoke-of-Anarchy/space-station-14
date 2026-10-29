@@ -69,6 +69,37 @@ def localized_datasets():
     return rows
 
 
+class RussianEmoteTests(unittest.TestCase):
+    def test_emote_triggers_are_unambiguous(self):
+        rows = yaml.load(source('Resources/Prototypes/Voice/speech_emotes.yml'), Loader=PrototypeLoader)
+        seen = {}
+        for row in rows:
+            for trigger in row.get('chatTriggers', []):
+                folded = trigger.lower()
+                self.assertNotIn(folded, seen, f'{trigger}: {row["id"]} versus {seen.get(folded)}')
+                seen[folded] = row['id']
+        for trigger, emote in {'кричит': 'Scream', 'смеётся': 'Laugh', 'хонк': 'Honk',
+                               'аплодирует': 'Clap', 'апплодирует': 'Clap',
+                               'хлопнул в ладоши': 'ClapSingle', 'пинг': 'Ping',
+                               'scream': 'Scream', 'laugh': 'Laugh'}.items():
+            self.assertEqual(seen[trigger], emote)
+        self.assertEqual(sum(bool(re.search('[А-Яа-яЁё]', k)) for k in seen), 81)
+
+    def test_chat_shorthands_reference_existing_translations(self):
+        code = source('Content.Server/Chat/Managers/ChatSanitizationManager.cs')
+        entries = re.findall(r'Entry\("([^"\n]+)", "([^"\n]+)"\)', code)
+        seen = set()
+        for shorthand, key in entries:
+            self.assertNotIn(shorthand.lower(), seen)
+            seen.add(shorthand.lower())
+            self.assertTrue(key in russian_messages(), f'Missing shorthand translation: {key}')
+        for shorthand in ('хд', 'о-о', 'о.о', '0_о', 'о/', 'о7', 'лмао', 'рофл', 'яхз', 'кек', 'т_т', '!с', '!в', '!х', '!щ'):
+            self.assertIn(shorthand, seen)
+        words = [x[0] for x in entries]
+        self.assertLess(words.index('))'), words.index(')'))
+        self.assertLess(words.index('(('), words.index('('))
+
+
 class RussianDatasetTests(unittest.TestCase):
     def test_counts_match_all_russian_entries(self):
         ids = russian_messages()

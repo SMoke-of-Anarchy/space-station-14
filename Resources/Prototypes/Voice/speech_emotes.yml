@@ -9,6 +9,15 @@
     - Vocal
   chatMessages: ["chat-emote-msg-scream"]
   chatTriggers:
+    - "кричит"
+    - "кричит."
+    - "кричит!"
+    - "орёт"
+    - "орёт."
+    - "орёт!"
+    - "визжит"
+    - "визжит."
+    - "визжит!"
     - scream
     - screams
     - screaming
@@ -39,6 +48,13 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-laugh"]
   chatTriggers:
+    - "смеется"
+    - "смеётся"
+    - "хохочет"
+    - "хихикает"
+    - "хихикнул"
+    - "хихикнула"
+    - "ржёт"
     - laugh
     - laughs
     - laughing
@@ -68,6 +84,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-honk"]
   chatTriggers:
+    - "хонк"
     - honk
     - honks
     - honked
@@ -86,6 +103,9 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-sigh"]
   chatTriggers:
+    - "вздыхает"
+    - "вздохнул"
+    - "вздохнула"
     - sigh
     - sighs
     - sighed
@@ -103,6 +123,8 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-whistle"]
   chatTriggers:
+    - "свистит"
+    - "свистнул"
     - whistle
     - whistles
     - whistleblowing
@@ -120,6 +142,8 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-crying"]
   chatTriggers:
+    - "плачет"
+    - "рыдает"
     - cry
     - crying
     - cries
@@ -141,6 +165,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-squish"]
   chatTriggers:
+    - "хлюпает"
     - squish
     - squishing
     - squishes
@@ -159,6 +184,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-chitter"]
   chatTriggers:
+   - "стрекочет"
    - chitter
    - chitters
    - chittered
@@ -177,6 +203,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-squeak"]
   chatTriggers:
+   - "пищит"
    - squeak
    - squeaks
    - squeaked
@@ -195,6 +222,8 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-click"]
   chatTriggers:
+   - "клац"
+   - "клацает"
    - click
    - clicks
 
@@ -231,6 +260,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-bark"]
   chatTriggers:
+  - "гавкает"
   - bark
   - barks
   - barked
@@ -249,6 +279,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-snarl"]
   chatTriggers:
+  - "рычит"
   - snarl
   - snarls
   - snarled
@@ -267,6 +298,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-whine"]
   chatTriggers:
+  - "скулит"
   - whine
   - whines
   - whined
@@ -285,6 +317,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-howl"]
   chatTriggers:
+  - "воет"
   - howl
   - howls
   - howling
@@ -303,6 +336,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-growl"]
   chatTriggers:
+  - "издаёт рык"
   - growl
   - growls
   - growled
@@ -342,6 +376,13 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
+    - "хлопает"
+    - "хлопает в ладоши"
+    - "хлопают в ладоши"
+    - "хлопнул"
+    - "хлопнула"
+    - "апплодирует"
+    - "аплодирует"
     - claps
     - clapping
     - clapped
@@ -359,6 +400,11 @@
     - SiliconEmotes
   chatMessages: [ "chat-emote-msg-clap-single" ]
   chatTriggers:
+    - "хлопок"
+    - "хлопнули в ладоши"
+    - "хлопнуло в ладоши"
+    - "хлопнул в ладоши"
+    - "хлопнула в ладоши"
     - clap
     - claps their hands together
     - claps her hands together
@@ -378,6 +424,18 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-snap"]
   chatTriggers:
+    - "щелкает"
+    - "щелкнул"
+    - "щелкнула"
+    - "щёлкает"
+    - "щёлкнул"
+    - "щёлкнула"
+    - "щелкает пальцами"
+    - "щелкнул пальцами"
+    - "щелкнула пальцами"
+    - "щёлкает пальцами"
+    - "щёлкнул пальцами"
+    - "щёлкнула пальцами"
     - snap
     - snaps
     - snapping
@@ -405,6 +463,11 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-thump"]
   chatTriggers:
+    - "стучит хвостом"
+    - "стукнул хвостом"
+    - "стукнула хвостом"
+    - "стукнул своим хвостом"
+    - "стукнула своим хвостом"
     - thump
     - thumps
     - thumping
@@ -429,6 +492,10 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-salute"]
   chatTriggers:
+    - "салютует"
+    - "отдаёт честь"
+    - "отдал честь"
+    - "отдала честь"
     - salute
     - salutes
 
@@ -440,6 +507,7 @@
     - Respirator
   chatMessages: ["chat-emote-msg-gasp"]
   chatTriggers:
+   - "задыхается"
    - gasp
    - gasps
    - gasped
@@ -486,6 +554,9 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-buzz"]
   chatTriggers:
+    - "жужжит"
+    - "зажужжал"
+    - "зажужжала"
     - buzzing
     - buzz
     - buzzed
@@ -520,6 +591,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
+    - "чирикает"
     - chirp
     - chirps
     - chirped
@@ -574,6 +646,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
+    - "бип"
     - beep
     - beeps
     - beeped
@@ -592,6 +665,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-chime"]
   chatTriggers:
+    - "дзынь"
     - chime
     - chimes
     - chimed
@@ -610,6 +684,12 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-buzzestwo"]
   chatTriggers:
+    - "бипбуп"
+    - "бип буп"
+    - "бип-буп"
+    - "бипбип"
+    - "бип бип"
+    - "бип-бип"
     - buzztwice
     - buzzstwice
     - buzzestwice
@@ -634,6 +714,7 @@
     - SiliconEmotes
   chatMessages: ["chat-emote-msg-ping"]
   chatTriggers:
+    - "пинг"
     - ping
     - pings
     - pinged
