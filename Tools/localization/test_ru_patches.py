@@ -10,6 +10,22 @@ import subprocess
 import unittest
 from functools import lru_cache
 from fluent.syntax import FluentParser, ast
+import yaml
+
+
+class PrototypeLoader(yaml.CSafeLoader):
+    pass
+
+
+def robust_tag(loader, tag, node):
+    if isinstance(node, yaml.MappingNode):
+        return loader.construct_mapping(node)
+    if isinstance(node, yaml.SequenceNode):
+        return loader.construct_sequence(node)
+    return loader.construct_scalar(node)
+
+
+PrototypeLoader.add_multi_constructor('!type:', robust_tag)
 
 
 class RobustParser(FluentParser):
@@ -38,6 +54,32 @@ def russian_messages():
                     raise AssertionError(f'Duplicate Fluent ID: {key}')
                 records[key] = entry
     return records
+
+
+@lru_cache(maxsize=None)
+def localized_datasets():
+    rows = []
+    for file in (ROOT / 'Resources/Prototypes').rglob('*.yml'):
+        text = file.read_text(encoding='utf-8-sig')
+        if 'type: localizedDataset' not in text:
+            continue
+        for row in yaml.load(text, Loader=PrototypeLoader) or []:
+            if row.get('type') == 'localizedDataset':
+                rows.append((file, row))
+    return rows
+
+
+class RussianDatasetTests(unittest.TestCase):
+    def test_counts_match_all_russian_entries(self):
+        ids = russian_messages()
+        self.assertGreaterEqual(len(localized_datasets()), 200)
+        for file, row in localized_datasets():
+            values = row['values']
+            prefix = values['prefix']
+            indices = {int(key[len(prefix):]) for key in ids
+                       if key.startswith(prefix) and key[len(prefix):].isdigit()}
+            with self.subTest(dataset=row['id'], file=str(file)):
+                self.assertEqual(indices, set(range(1, values['count'] + 1)))
 
 
 class RussianLocalizationTests(unittest.TestCase):
