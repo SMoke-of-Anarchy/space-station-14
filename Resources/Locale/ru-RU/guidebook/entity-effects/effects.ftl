@@ -112,19 +112,19 @@ entity-effect-guidebook-status-effect-old =
         [update]{ $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                 } {LOC($key)} минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопления
+                 } {LOC($key)} минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } без накопления
         [add]   { $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                } {LOC($key)} минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} с накоплением
+                } {LOC($key)} минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } с накоплением
         [set]  { $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                } {LOC($key)} на {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопления
+                } {LOC($key)} на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } без накопления
         *[remove]{ $chance ->
                     [1] Снимает
                     *[other] снимает
-                } эффект {LOC($key)} длительностью {NATURALFIXED($time, 3)} {MANY("second", $time)}
+                } эффект {LOC($key)} длительностью в {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) }
     }
 
 entity-effect-guidebook-status-effect =
@@ -132,19 +132,19 @@ entity-effect-guidebook-status-effect =
         [update]{ $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                 } {$key} минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопления
+                 } {$key} минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } без накопления
         [add]   { $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                } {$key} минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} с накоплением
+                } {$key} минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } с накоплением
         [set]  { $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                } {$key} минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопления
+                } {$key} минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } без накопления
         *[remove]{ $chance ->
                     [1] Снимает
                     *[other] снимает
-                } эффект {$key} длительностью {NATURALFIXED($time, 3)} {MANY("second", $time)}
+                } эффект {$key} длительностью в {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) }
     } { $delay ->
         [0] немедленно
         *[other] с задержкой {NATURALFIXED($delay, 3)} с
@@ -178,19 +178,19 @@ entity-effect-guidebook-knockdown =
         [update]{ $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                    } {LOC($key)} минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопления
+                    } {LOC($key)} минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } без накопления
         [add]   { $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                } опрокидывание минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} с накоплением
+                } опрокидывание минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } с накоплением
         *[set]  { $chance ->
                     [1] Вызывает
                     *[other] вызывает
-                } опрокидывание минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопления
+                } опрокидывание минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } без накопления
         [remove]{ $chance ->
                     [1] Снимает
                     *[other] снимает
-                } опрокидывание длительностью {NATURALFIXED($time, 3)} {MANY("second", $time)}
+                } опрокидывание длительностью в {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) }
     }
 
 entity-effect-guidebook-set-solution-temperature-effect =
@@ -339,7 +339,7 @@ entity-effect-guidebook-electrocute =
             [true] бьёт током
             *[false] ударяет током
             }
-    } метаболизатор в течение {NATURALFIXED($time, 3)} {MANY("second", $time)}
+    } метаболизатора на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) }
 
 entity-effect-guidebook-emote =
     { $chance ->
@@ -405,7 +405,7 @@ entity-effect-guidebook-paralyze =
     { $chance ->
         [1] Парализует
         *[other] парализует
-    } метаболизатора минимум на {NATURALFIXED($time, 3)} {MANY("second", $time)}
+    } метаболизатора минимум на {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) }
 
 entity-effect-guidebook-movespeed-modifier =
     { $chance ->
@@ -447,13 +447,13 @@ entity-effect-guidebook-reduce-rotting =
     { $chance ->
         [1] Восстанавливает
         *[other] восстанавливает
-    } {NATURALFIXED($time, 3)} {MANY("second", $time)} разложения
+    } {NATURALFIXED($time, 3)} { -entity-effect-duration-seconds(seconds: $time) } разложения
 
 entity-effect-guidebook-area-reaction =
     { $chance ->
         [1] Вызывает
         *[other] вызывает
-    } реакцию дыма или пены на {NATURALFIXED($duration, 3)} {MANY("second", $duration)}
+    } реакцию дыма или пены на {NATURALFIXED($duration, 3)} { -entity-effect-duration-seconds(seconds: $duration) }
 
 entity-effect-guidebook-add-to-solution-reaction =
     { $chance ->
