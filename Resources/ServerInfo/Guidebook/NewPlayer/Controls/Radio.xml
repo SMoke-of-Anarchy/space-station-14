@@ -1,64 +1,73 @@
 <Document>
-# Speech and Text Channels
-Talking is a key part of Space Station 14. You can press [keybind="FocusChatInputWindow"/] to jump to the text box.
+# Речь и каналы чата
+Общение — важная часть Space Station 14. Нажмите [keybind="FocusChatInputWindow"/], чтобы перейти к полю ввода.
 
-The word next to the text box is the [color=#a4885c]text channel[/color] you're about to send the message to, or rather how you're about to say what you've typed.
+Название рядом с полем показывает [color=#a4885c]канал чата[/color], в который будет отправлено сообщение.
 
-Local is normal speech at normal volume.
+Локальная речь — обычный разговор. Шёпот слышен только с небольшого расстояния; при передаче по рации персонаж автоматически шепчет. Эмоуты описывают действия и жесты, которые могут увидеть окружающие.
 
-Whisper can only be heard when nearby somebody. You automatically whisper into your radio to send messages over it.
+Для шёпота используйте [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color]. Для эмоута начните сообщение с [color=#a4885c]%[/color] или [color=#a4885c]*[/color]. Для LOOC начните сообщение с [color=#a4885c]_[/color].
+Переключать каналы можно клавишей [keybind="CycleChatChannelForward"/].
 
-Emotes are gestures that you make. Can be received by anyone who is not blinded. You will often see mimes do many emotes.
+На большом расстоянии другие персонажи могут не разобрать часть сказанного. Особенно это важно при шёпоте.
 
-Whisper messages can be sent by starting your message with [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color] and Emotes can be sent by starting your message with ([color=#a4885c]@[/color]).
-You can also cycle through all of these text channels by pressing [keybind="CycleChatChannelForward"/].
+## Рация
 
-People may not be able to make out all of what you're saying if you're standing too far away from them. This is especially important if you're whispering.
-
-## Radio
-
-Your radio allows you to communicate across the entire station and to your specific [color=#a4885c]department[/color].
+Рация позволяет общаться со всей станцией и со своим [color=#a4885c]отделом[/color].
 
 <Box>
   <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
 </Box>
 
-To send a [color=#a4885c]station-wide[/color] message over the radio preface, use the [color=#32cd32]Common[/color] channel by beginning your text with [color=#32cd32]semi-colon (;)[/color].
-People standing right next to you might catch bits of your radio message, even if they don't have the access to the relevant radio channel. Watch for eavesdroppers.
+Для передачи в [color=#32cd32]общий канал[/color] начните сообщение с [color=#32cd32]точки с запятой (;)[/color].
+Стоящие рядом могут услышать часть вашей передачи, даже если у них нет доступа к выбранному радиоканалу.
 
-## Departmental Radio
+## Каналы отделов
 
-You are able to send messages over your departmental radio channels using [color=#32cd32]colon (:)[/color] followed by the department letter as long as you're wearing a headset with your department's encryption key.
+Наденьте гарнитуру с нужным ключом шифрования. Начните сообщение с [color=#32cd32]:[/color] или [color=#32cd32].[/color], затем введите русскую букву канала:
 
-Examine your headset to see the department channels available to you.
+- :к — командование
+- :и — инженерный отдел
+- :м — медицинский отдел
+- :н — научный отдел
+- :о — служба безопасности
+- :с — сервис
+- :п — снабжение
+- :ц — Центральное командование
+- :т — Синдикат
+- :д — двоичный канал
+- :ф — фриланс
+- :ч — ксеноборги
+- :я — материнский корабль
+
+Используйте именно кириллицу, а не похожие латинские буквы. Доступ зависит от ключей гарнитуры, а не от знания префикса.
+
+Осмотрите гарнитуру, чтобы узнать доступные каналы.
 
 <Box>
   <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
 </Box>
 
-Examining an unmodified engineering headset would show you the prefixes for the [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] channels.
+Префикс [color=#a4885c]:р[/color] выбирает канал вашего отдела автоматически. Например, у инженера [color=#a4885c]:р[/color] соответствует [color=#f37746]:и[/color].
 
-It is also possible to use [color=#a4885c]:h[/color]. This hotkey will automatically default to your department radio channel.
-For example, if you're a Station Engineer then [color=#a4885c]:h[/color] will default to [color=#f37746]:e[/color].
+## Ключи шифрования
 
-## Encryption Keys
-[color=#a4885c]Encryption keys[/color] give you access to their respective channel.
-
-Examining our engineering headset from earlier shows us [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] because an engineer's headset starts with those [color=#a4885c]encryption keys[/color].
+[color=#a4885c]Ключи шифрования[/color] открывают доступ к соответствующим каналам. Обычная инженерная гарнитура содержит ключи общего и инженерного каналов.
 
 <Box>
   <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
   <GuideEntityEmbed Entity="EncryptionKeyEngineering"/>
 </Box>
 
-You can take out encryption keys by using a [color=#a4885c]screwdriver[/color] on a headset. New encryption keys are put into headsets by clicking on one with an encryption key in your hand.
+Чтобы извлечь ключи, используйте [color=#a4885c]отвёртку[/color] на гарнитуре. Чтобы вставить ключ, возьмите его в руку и нажмите на гарнитуру.
 
-All command members have extras of their relevant encryption key, but you can also request one at the HoP's office when you're getting your job changed.
+У руководителей отделов есть запасные ключи. При смене должности также можно попросить ключ у главы персонала.
 
-## OOC Channels
-OOC (out-of-character) channels exist outside of the game world. They are LOOC, OOC and Dead chat.
+## Внеигровые каналы
 
-LOOC is on during the rounds, OOC is typically off until the round ends and you can only see and talk in Dead chat when you are, well, dead.
+LOOC, OOC и чат мёртвых не относятся к игровому миру.
 
-Do not discuss the current round in the Discord or in OOC if it's on during the round.
+LOOC обычно доступен во время раунда. OOC, как правило, отключён до его окончания. Чат мёртвых доступен мёртвым игрокам.
+
+Не обсуждайте текущий раунд в Discord или OOC, даже если OOC включён во время раунда.
 </Document>

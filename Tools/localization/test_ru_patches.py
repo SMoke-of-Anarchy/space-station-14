@@ -11,6 +11,7 @@ import unittest
 from functools import lru_cache
 from fluent.syntax import FluentParser, ast
 import yaml
+import xml.etree.ElementTree as ET
 
 
 class PrototypeLoader(yaml.CSafeLoader):
@@ -67,6 +68,39 @@ def localized_datasets():
             if row.get('type') == 'localizedDataset':
                 rows.append((file, row))
     return rows
+
+
+class RussianRadioTests(unittest.TestCase):
+    def test_radio_codes_and_shared_prefixes(self):
+        rows = yaml.load(source('Resources/Prototypes/radio_channels.yml'), Loader=PrototypeLoader)
+        codes = {r['id']: r['keycode'] for r in rows if 'keycode' in r}
+        expected = {'Common': ';', 'CentCom': 'ц', 'Command': 'к', 'Engineering': 'и',
+                    'Medical': 'м', 'Science': 'н', 'Security': 'о', 'Service': 'с',
+                    'Supply': 'п', 'Syndicate': 'т', 'Binary': 'д', 'Freelance': 'ф',
+                    'Xenoborg': 'ч', 'Mothership': 'я'}
+        self.assertEqual(codes, expected)
+        self.assertEqual(len(set(codes.values())), len(codes))
+        self.assertTrue(all(len(k) == 1 for k in codes.values()))
+        self.assertNotIn('р', codes.values(), 'Default-channel key must not shadow a real channel')
+        code = source('Content.Shared/Chat/SharedChatSystem.cs')
+        for name, value in [('LOOCPrefix', '_'), ('EmotesPrefix', '%'), ('DefaultChannelKey', 'р')]:
+            self.assertIn(f"const char {name} = '{value}'", code)
+        for name, value in [('RadioCommonPrefix', ';'), ('RadioChannelPrefix', ':'),
+                            ('RadioChannelAltPrefix', '.'), ('EmotesAltPrefix', '*')]:
+            self.assertIn(f"const char {name} = '{value}'", code)
+        client = source('Content.Client/UserInterface/Systems/Chat/ChatUIController.cs')
+        self.assertIn('SharedChatSystem.LOOCPrefix', client)
+        self.assertIn('SharedChatSystem.EmotesPrefix', client)
+
+    def test_radio_guide_matches_keys(self):
+        text = source('Resources/ServerInfo/Guidebook/NewPlayer/Controls/Radio.xml')
+        ET.fromstring(text)
+        for key in 'рцкимносптдфчя':
+            self.assertIn(':' + key, text)
+        self.assertNotIn(':h', text)
+        self.assertNotIn(':e', text)
+        self.assertIn('[color=#a4885c]%[/color]', text)
+        self.assertIn('[color=#a4885c]_[/color]', text)
 
 
 class RussianEmoteTests(unittest.TestCase):
