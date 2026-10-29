@@ -70,6 +70,62 @@ def localized_datasets():
     return rows
 
 
+class RussianAccentTests(unittest.TestCase):
+    base = 'Content.Shared/Speech/EntitySystems/'
+
+    def test_all_accents_keep_shared_prediction(self):
+        for name in ('BarkAccentSystem', 'FrontalLispSystem', 'LizardAccentSystem', 'MonkeyAccentSystem',
+                     'MothAccentSystem', 'OwOAccentSystem', 'SlurredSystem', 'StutteringSystem'):
+            code = source(self.base + name + '.cs')
+            with self.subTest(system=name):
+                self.assertIn('RelayAccentSystem<', code)
+                self.assertIn('SharedRandomExtensions.PredictedRandom', code)
+                self.assertNotIn('new Random(', code)
+                self.assertNotIn('_random.Prob(', code)
+                self.assertNotIn('_random.Pick(', code)
+
+    def test_stutter_regex_has_no_accidental_unicode_ranges(self):
+        code = source(self.base + 'StutteringSystem.cs')
+        pattern = re.search(r'Stutter = new\("([^"]+)"', code).group(1)
+        regex = re.compile(pattern, re.I)
+        for letter in 'бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩbcdfghjklmnpqrstvwxyz':
+            self.assertIsNotNone(regex.fullmatch(letter), letter)
+        for letter in 'аеёиоуыэюяАЕЁИОУЫЭЮЯъьЪЬaeiou0123 _-αé™':
+            self.assertIsNone(regex.fullmatch(letter), letter)
+        self.assertIn('RegexOptions.CultureInvariant', code)
+
+    def test_cyrillic_hiss_and_buzz_patterns(self):
+        code = source(self.base + 'LizardAccentSystem.cs')
+        pattern = re.search(r'RegexRussianHiss = new\("([^"]+)"', code).group(1)
+        replacements = dict(re.findall(r"'(.)' => '(.)'", code))
+        rendered = re.sub(pattern, lambda m: replacements.get(m[0][0], m[0][0]) * 2, 'с з ш ч С З Ш Ч')
+        self.assertEqual(rendered, 'сс сс шш щщ СС СС ШШ ЩЩ')
+        self.assertIn('random.Next(2, 4)', code)
+        code = source(self.base + 'MothAccentSystem.cs')
+        pattern = re.search(r'RegexRussianBuzz = new\("([^"]+)"', code).group(1)
+        self.assertEqual(re.sub(pattern, lambda m: m[0][0] * 2, 'ж з Ж З'), 'жж зз ЖЖ ЗЗ')
+        self.assertIn('random.Next(2, 4)', code)
+
+    def test_bark_monkey_owo_and_slurred_rules_present(self):
+        bark = source(self.base + 'BarkAccentSystem.cs')
+        self.assertIn('" Гав!", " ГАВ", " вуф-вуф"', bark)
+        self.assertIn('.Replace("Л", "Р")', bark)
+        monkey = source(self.base + 'MonkeyAccentSystem.cs')
+        for letter in 'УКГА':
+            self.assertIn(f"Append('{letter}')", monkey)
+        owo = source(self.base + 'OwOAccentSystem.cs')
+        for before, after in [('р', 'в'), ('Р', 'В'), ('л', 'в'), ('Л', 'В')]:
+            self.assertIn(f'.Replace("{before}", "{after}")', owo)
+        self.assertIn('{ "ты", "ти" }', owo)
+        slurred = source(self.base + 'SlurredSystem.cs')
+        for before, after in [('о', 'а'), ('к', 'кх'), ('щ', 'шч'), ('ц', 'тс')]:
+            self.assertRegex(slurred, re.escape(f"'{before}' =>") + r'.*' + re.escape(f'"{after}"'))
+        lisp = source(self.base + 'FrontalLispSystem.cs')
+        self.assertIn('random.Prob(0.90f)', lisp)
+        self.assertIn('RegexRussianLisp.Replace(message, match =>', lisp)
+        self.assertIn("'с' or 'ч' =>", lisp)
+
+
 class RussianRadioTests(unittest.TestCase):
     def test_radio_codes_and_shared_prefixes(self):
         rows = yaml.load(source('Resources/Prototypes/radio_channels.yml'), Loader=PrototypeLoader)
