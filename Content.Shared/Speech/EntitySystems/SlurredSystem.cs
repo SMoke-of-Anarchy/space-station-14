@@ -30,7 +30,18 @@ public sealed partial class SlurredSystem : RelayAccentSystem<SlurredAccentCompo
         {
             if (random.Prob(scale / 3f))
             {
-                sb.Append(SlurCharacter(character));
+                var lower = char.ToLowerInvariant(character);
+                var newString = lower switch
+                {
+                    'o' => "u",
+                    's' => "ch",
+                    'a' => "ah",
+                    'u' => "oo",
+                    'c' => "k",
+                    _ => $"{character}",
+                };
+
+                sb.Append(newString);
             }
 
             if (random.Prob(scale / 20f))
@@ -63,23 +74,6 @@ public sealed partial class SlurredSystem : RelayAccentSystem<SlurredAccentCompo
         }
 
         return sb.ToString();
-    }
-
-    private static string SlurCharacter(char character)
-    {
-        return char.ToLowerInvariant(character) switch
-        {
-            'o' => "u",
-            's' => "ch",
-            'a' => "ah",
-            'u' => "oo",
-            'c' => "k",
-            'о' => char.IsUpper(character) ? "А" : "а",
-            'к' => char.IsUpper(character) ? "КХ" : "кх",
-            'щ' => char.IsUpper(character) ? "ШЧ" : "шч",
-            'ц' => char.IsUpper(character) ? "ТС" : "тс",
-            _ => character.ToString(),
-        };
     }
 
     /// <summary>

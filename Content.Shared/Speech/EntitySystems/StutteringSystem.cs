@@ -18,9 +18,8 @@ public sealed partial class StutteringSystem : RelayAccentSystem<StutteringAccen
     [Dependency] private StatusEffectsSystem _statusEffects = default!;
 
     // Regex of characters to stutter.
-    // Keep Cyrillic consonants explicit: hyphen ranges can accidentally include vowels.
-    private static readonly Regex Stutter = new("[b-df-hj-np-tv-wxyzбвгджзйклмнпрстфхцчшщ]",
-        RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+    private static readonly Regex Stutter = new("[b-df-hj-np-tv-wxyz]",
+        RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
     public override string Accentuate(string message, Entity<StutteringAccentComponent>? ent = null)
     {
