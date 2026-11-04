@@ -377,3 +377,17 @@
   name: guide-entry-rules-ban-durations
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/BanDurations.xml"
+
+# custom
+
+- type: guideEntry
+  id: PlayerRules
+  name: guide-entry-rules-player
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/PR.xml"
+
+- type: guideEntry
+  id: AdminRules
+  name: guide-entry-rules-admin
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/AR.xml"
