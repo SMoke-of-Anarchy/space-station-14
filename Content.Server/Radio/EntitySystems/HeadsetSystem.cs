@@ -1,3 +1,4 @@
+using Content.Server.TTS;
 using Content.Shared.Chat;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Radio;
@@ -12,6 +13,7 @@ public sealed partial class HeadsetSystem : SharedHeadsetSystem
 {
     [Dependency] private INetManager _netMan = default!;
     [Dependency] private RadioSystem _radio = default!;
+    [Dependency] private TTSSystem _tts = default!;
 
     public override void Initialize()
     {
@@ -110,6 +112,9 @@ public sealed partial class HeadsetSystem : SharedHeadsetSystem
         }
 
         if (TryComp(parent, out ActorComponent? actor))
+        {
             _netMan.ServerSendMessage(args.ChatMsg, actor.PlayerSession.Channel);
+            _tts.RequestRadioTTS(args.MessageSource, args.Message, actor.PlayerSession);
+        }
     }
 }

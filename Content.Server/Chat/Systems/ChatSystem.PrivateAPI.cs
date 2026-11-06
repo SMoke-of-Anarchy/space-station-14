@@ -129,6 +129,8 @@ public sealed partial class ChatSystem
             ("message", FormattedMessage.EscapeText(obfuscatedMessage)));
 
 
+        var whisperTtsRecipients = channel == null ? new List<ICommonSession>() : null;
+
         foreach (var (session, data) in GetRecipients(source, WhisperMuffledRange))
         {
             EntityUid listener;
@@ -141,13 +143,21 @@ public sealed partial class ChatSystem
                 continue; // Won't get logged to chat, and ghosts are too far away to see the pop-up, so we just won't send it to them.
 
             if (data.Range <= WhisperClearRange || data.Observer)
+            {
                 _chatManager.ChatMessageToOne(ChatChannel.Whisper, message, wrappedMessage, source, false, session.Channel);
+                whisperTtsRecipients?.Add(session);
+            }
             //If listener is too far, they only hear fragments of the message
             else if (_examineSystem.InRangeUnOccluded(source, listener, WhisperMuffledRange))
                 _chatManager.ChatMessageToOne(ChatChannel.Whisper, obfuscatedMessage, wrappedobfuscatedMessage, source, false, session.Channel);
             //If listener is too far and has no line of sight, they can't identify the whisperer's identity
             else
                 _chatManager.ChatMessageToOne(ChatChannel.Whisper, obfuscatedMessage, wrappedUnknownMessage, source, false, session.Channel);
+        }
+
+        if (whisperTtsRecipients is { Count: > 0 })
+        {
+            _tts.RequestSpeakTTS(source, message, whisperTtsRecipients, isWhisper: true);
         }
 
         _replay.RecordServerMessage(new ChatMessage(ChatChannel.Whisper, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));

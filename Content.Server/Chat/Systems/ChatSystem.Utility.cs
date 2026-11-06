@@ -66,6 +66,8 @@ public sealed partial class ChatSystem
     /// </summary>
     private void SendInVoiceRange(ChatChannel channel, string message, string wrappedMessage, EntityUid source, ChatTransmitRange range, NetUserId? author = null)
     {
+        var ttsRecipients = channel == ChatChannel.Local ? new List<ICommonSession>() : null;
+
         foreach (var (session, data) in GetRecipients(source, VoiceRange))
         {
             var entRange = MessageRangeCheck(session, data, range);
@@ -73,6 +75,12 @@ public sealed partial class ChatSystem
                 continue;
             var entHideChat = entRange == MessageRangeCheckResult.HideChat;
             _chatManager.ChatMessageToOne(channel, message, wrappedMessage, source, entHideChat, session.Channel, author: author);
+            ttsRecipients?.Add(session);
+        }
+
+        if (ttsRecipients is { Count: > 0 })
+        {
+            _tts.RequestSpeakTTS(source, message, ttsRecipients, isWhisper: false);
         }
 
         _replay.RecordServerMessage(new ChatMessage(channel, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));

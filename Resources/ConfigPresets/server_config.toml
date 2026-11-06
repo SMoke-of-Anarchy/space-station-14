@@ -151,6 +151,12 @@ level = 2
 # Write logs to disk? True to enable, false to disable.
 enabled = false
 
+[tts]
+# Enable IC Text-to-Speech synthesis.
+enabled = false
+# External TTS HTTP endpoint URL (e.g. "http://127.0.0.1:8000/tts").
+api_url = ""
+
 # For a full list of options, you can view the code where all CVars are defined:
 # Robust Toolbox CVars: https://github.com/space-wizards/RobustToolbox/blob/master/Robust.Shared/CVars.cs
 # Space Station 14 specific CVars: https://github.com/space-wizards/space-station-14/tree/master/Content.Shared/CCVar
