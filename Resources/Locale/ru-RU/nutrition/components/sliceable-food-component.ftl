@@ -5,5 +5,6 @@ sliceable-food-component-on-examine-remaining-slices-text =
     } { $remainingCount } { $remainingCount ->
         [one] кусочек
         [few] кусочка
-       *[other] кусочков
+        [many] кусочков
+       *[other] кусочка
     }.

@@ -9,7 +9,7 @@ cmd-align-no-release = Эту команду нельзя использоват
 
 cmd-align-hint-id = Идентификатор карты
 
-cmd-align-hint-dry = dry run?
+cmd-align-hint-dry = Пробный запуск?
 
 cmd-align-feedback-none = {$dry ->
 [true] ПРОБНЫЙ ЗАПУСК: не найдено

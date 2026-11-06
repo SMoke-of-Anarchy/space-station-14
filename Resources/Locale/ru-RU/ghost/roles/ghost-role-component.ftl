@@ -190,7 +190,7 @@ ghost-role-information-space-dragon-name = Космический дракон
 
 ghost-role-information-space-dragon-description = Вызовите 3 карповых разлома и захватите этот квадрант! У вас есть лишь 5 минут между каждым разломом, прежде чем вы исчезнете.
 
-ghost-role-information-space-dragon-rules = Вы [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], в команде с другими призванными карпами.
+ghost-role-information-space-dragon-rules = Вы [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], в команде со своими призванными карпами.
 
 ghost-role-information-space-dragon-summoned-carp-rules = Вы [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], в команде с драконом и другими его союзниками.
 
@@ -260,7 +260,7 @@ ghost-role-information-loneop-name = Одинокий оперативник
 
 ghost-role-information-loneop-description = Вы — одинокий ядерный оперативник. Уничтожьте станцию.
 
-ghost-role-information-loneop-rules = Вы [color={ role-type-team-antagonist-color }][bold]{ role-type-solo-antagonist-name }[/bold][/color]. Помощь агентов на станции не гарантируется.
+ghost-role-information-loneop-rules = Вы [color={ role-type-solo-antagonist-color }][bold]{ role-type-solo-antagonist-name }[/bold][/color]. Помощь агентов на станции не гарантируется.
 
 ghost-role-information-behonker-name = Бехонкер
 
@@ -320,7 +320,7 @@ ghost-role-information-nukeop-reinforcement-name = Ядерный операти
 
 ghost-role-information-nukeop-reinforcement-description = Ядерным оперативникам нужно подкрепление. Вы, резервный агент, поможете им.
 
-ghost-role-information-nukeop-reinforcement-rules = Вы [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], в команде с ядернымы оперативниками, которые призвали вас.
+ghost-role-information-nukeop-reinforcement-rules = Вы [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], в команде с ядерными оперативниками, которые призвали вас.
 
 ghost-role-information-syndicate-monkey-reinforcement-name = Агент Синдиката-обезьяна
 

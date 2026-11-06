@@ -5,7 +5,8 @@ humanoid-character-profile-summary =
     Это { $name }, возраст — { $age } { $age ->
         [one] год
         [few] года
-       *[other] лет
+        [many] лет
+       *[other] года
     }. { $gender ->
         [male] Он
         [female] Она

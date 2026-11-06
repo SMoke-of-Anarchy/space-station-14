@@ -1,16 +1,16 @@
 <Document>
-  # Dwarves
+  # Дворфы
 
   <Box>
     <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
   </Box>
 
-  ## General Information
+  ## Общая информация
 
-  Dwarves are physically smaller than most other species, so they're slowed more when dragging objects and slow others less when dragged themselves.
+  Дворфы физически меньше большинства других видов, поэтому они сильнее замедляются при перетаскивании объектов и меньше замедляют других, когда тащат их самих.
 
-  Their hardy digestive systems are more resistant to the effects of alcohol, and they can even [color=lightgreen]heal minor injuries[/color] by drinking.
+  Их выносливая пищеварительная система более устойчива к воздействию алкоголя, и они даже могут [color=lightgreen]залечивать лёгкие ранения[/color] с помощью выпивки.
 
-  They tend to be fond of food, and can digest up to five reagents at once, where other species generally digest up to three.
+  Они любят поесть и способны переваривать до пяти реагентов одновременно, тогда как другие виды обычно переваривают не более трёх.
 
 </Document>

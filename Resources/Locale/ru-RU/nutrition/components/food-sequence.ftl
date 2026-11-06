@@ -58,6 +58,8 @@ food-sequence-content-mushroom = грибами
 
 food-sequence-content-aloe = алоэ
 
+food-sequence-content-aloe-ignis = алоэ игнис
+
 food-sequence-content-poppy = маком
 
 food-sequence-content-lily = лилией
@@ -231,6 +233,8 @@ food-sequence-burger-content-anomaly-berry = аномо
 food-sequence-burger-content-extradimensional-orange = три-дэ
 
 food-sequence-burger-content-world-pea = миро
+
+food-sequence-burger-content-aloe-ignis = игнис
 
 # TACO
 

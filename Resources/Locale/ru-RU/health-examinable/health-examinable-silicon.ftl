@@ -1,14 +1,14 @@
 health-examinable-silicon-none = Видимые повреждения корпуса отсутствуют.
 
-health-examinable-silicon-Blunt-15 = [color=red]{$target}: небольшие вмятины на шасси. Шасси имеет небольшие вмятины на шасси: {$target}. Шасси повреждено: {$target}.[/color]
+health-examinable-silicon-Blunt-15 = [color=yellow]На { POSS-ADJ($target) } шасси небольшие вмятины.[/color]
 
 health-examinable-silicon-Blunt-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси имеет серьёзные вмятины![/color]
 
 health-examinable-silicon-Blunt-100 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси почти разваливается![/color]
 
-health-examinable-silicon-Slash-8 = [color=red]{$target}: несколько царапин. Имеется несколько мелких царапин: {$target}.[/color]
+health-examinable-silicon-Slash-8 = [color=red]На { POSS-ADJ($target) } шасси несколько царапин.[/color]
 
-health-examinable-silicon-Slash-30 = [color=red]{$target}: серьёзные царапины. Имеются серьёзные царапины на шасси: {$target}. Повреждения шасси значительны: {$target}![/color]
+health-examinable-silicon-Slash-30 = [color=red]На { POSS-ADJ($target) } шасси серьёзные царапины![/color]
 
 health-examinable-silicon-Slash-75 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } покрытие шасси усыпано глубокими царапинами![/color]
 

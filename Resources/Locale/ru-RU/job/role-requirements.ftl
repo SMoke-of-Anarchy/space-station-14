@@ -8,7 +8,7 @@ role-timer-overall-too-high = Требуется на [color=yellow]{ $time }[/c
 
 role-timer-role-insufficient = Требуется ещё [color=yellow]{ $time }[/color] игрового времени в качестве [color={ $departmentColor }]{ $job }[/color], чтобы разблокировать это.
 
-role-timer-role-too-high = Требуется на [color=yellow]{ $time }[/color] меньше игрового времени в качестве [color={ $departmentColor }]{ $job }[/color], чтобы выбрать эту это. (Вы пытаетесь играть за роль для новичков?)
+role-timer-role-too-high = Требуется на [color=yellow]{ $time }[/color] меньше игрового времени в качестве [color={ $departmentColor }]{ $job }[/color], чтобы выбрать это. (Вы пытаетесь играть за роль для новичков?)
 
 role-timer-age-too-old = Возраст персонажа должен быть не более [color=yellow]{ $age }[/color], чтобы выбрать это.
 

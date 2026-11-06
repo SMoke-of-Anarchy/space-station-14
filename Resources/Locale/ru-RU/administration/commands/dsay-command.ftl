@@ -1,3 +1,3 @@
-dsay-command-description = Sends a message to deadchat as an admin
+dsay-command-description = Отправляет сообщение в чат мёртвых от имени администратора
 
-dsay-command-help-text = Usage: {$command} <message>
+dsay-command-help-text = Использование: {$command} <сообщение>

@@ -1,28 +1,28 @@
 <Document>
-  # Slime People
+  # Слаймолюди
 
   <Box>
     <GuideEntityEmbed Entity="MobSlimePerson" Caption=""/>
   </Box>
 
-  ## General Information
+  ## Общая информация
 
-  Slimes breathe nitrogen instead of oxygen (though inhaling oxygen has no ill effect on them). They exhale nitrous oxide and are unaffected by inhaling it.
+  Слаймолюди дышат азотом вместо кислорода (хотя вдыхание кислорода не причиняет им вреда). Они выдыхают оксид азота и не подвержены эффектам от его вдыхания.
 
-  They have an [color=lightgreen]internal 2x3 slot inventory[/color] inside of their slime membrane. This allows them to carry a bit more than other species,
-  though [italic]anyone[/italic] is able to reach inside this inventory without asking.
+  Внутри их слизистой мембраны имеется [color=lightgreen]внутренний инвентарь размером 2x3 ячейки[/color]. Это позволяет им переносить немного больше вещей, чем другим видам,
+  однако [italic]кто угодно[/italic] может залезть в этот инвентарь без спроса.
 
-  They have slime rather than blood, which is replenished when metabolizing iron or drinking slime.
-  Slime is moderately nutritious when consumed by other species, though drinking the blood of your coworkers is usually frowned upon.
+  Вместо крови у них слизь, которая восполняется при усвоении железа или употреблении слизи внутрь.
+  Слизь умеренно питательна при употреблении другими видами, хотя пить кровь коллег обычно не одобряется.
 
-  They metabolize reagents with a single organ, up to six reagents per metabolism stage (digestion, bloodstream, and metabolites).
+  Они усваивают реагенты одним органом — до шести реагентов на каждой стадии метаболизма (пищеварение, кровоток и метаболиты).
 
-  They take [color=lightgreen]40% less Blunt damage[/color] and [color=lightgreen]20% less Poison damage[/color], but
-  [color=palevioletred]50% more Cold damage[/color], [color=palevioletred]20% more Slash damage[/color], and [color=palevioletred]20% more Piercing damage[/color].
-  They naturally recover from Heat damage [color=lightgreen]twice as fast[/color] as most other species do (though proper medical treatment isn't any faster).
+  Они получают [color=lightgreen]на 40% меньше тупого урона (ушибов)[/color] и [color=lightgreen]на 20% меньше урона от ядов[/color], но
+  [color=palevioletred]на 50% больше урона от холода[/color], [color=palevioletred]на 20% больше режущего урона (порезов)[/color] и [color=palevioletred]на 20% больше колющего урона (уколов)[/color].
+  Они естественным образом восстанавливаются от термического урона [color=lightgreen]вдвое быстрее[/color], чем большинство других видов (хотя полноценное медицинское лечение быстрее не действует).
 
-  They [color=lightgreen]suffocate five times slower[/color], but [color=palevioletred]take pressure damage 9% faster[/color]. This makes them by far the most capable of surviving the longest unprotected in a hard vacuum.
+  Они [color=lightgreen]задыхаются в пять раз медленнее[/color], но [color=palevioletred]получают урон от давления на 9% быстрее[/color]. Это делает их наиболее приспособленными к длительному выживанию без защиты в глубоком вакууме.
 
-  They take [color=palevioletred]minor Heat damage[/color] if their outer membranes come into contact with water or water vapor, though they can still drink water normally with no ill effect.
+  Они получают [color=palevioletred]незначительный термический урон[/color], если их внешняя мембрана вступает в контакт с водой или водяным паром, хотя пить воду они могут без каких-либо негативных последствий.
 
 </Document>

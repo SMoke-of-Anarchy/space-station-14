@@ -1,19 +1,19 @@
 <Document>
-  # Reptilians
+  # Рептилии
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceReptilian" Caption=""/>
   </Box>
 
-  ## General Information
+  ## Общая информация
 
-  Reptilians can [color=lightgreen]use their tail to drag objects around[/color], keeping both their hands free.
+  Рептилии могут [color=lightgreen]использовать свой хвост для перетаскивания объектов[/color], оставляя обе руки свободными.
 
-  Their sharp claws make their unarmed attacks deal Slash damage.
+  Благодаря острым когтям их безоружные атаки наносят режущий урон.
 
-  The reptilian digestive system [color=palevioletred]can only process fruits and meat[/color], but can [color=lightgreen]digest raw meat and blood[/color] without ill effects.
-  They are [color=palevioletred]poisoned[/color] by allicin (found in garlic and onions) and theobromine (found in caffeinated beverages and chocolate).
+  Пищеварительная система рептилий [color=palevioletred]способна перерабатывать только фрукты и мясо[/color], но может [color=lightgreen]переваривать сырое мясо и кровь[/color] без негативных последствий.
+  Для них [color=palevioletred]ядовиты[/color] аллицин (содержится в чесноке и луке) и теобромин (содержится в кофеиносодержащих напитках и шоколаде).
 
-  They take [color=palevioletred]30% more Cold damage.[/color] They prefer a somewhat warmer temperature range than humans.
+  Они получают [color=palevioletred]на 30% больше урона от холода.[/color] Они предпочитают несколько более тёплый температурный диапазон, чем люди.
 
 </Document>

@@ -1,48 +1,48 @@
-﻿<Document>
-# Pumps
-  Pumps are the primary way of actively moving gasses through a [textlink="pipenet." link="PipeNetworks"]
-  They take gas from one side and push it to the other.
-  There are two different types of pumps:
+<Document>
+# Насосы
+  Насосы — это основной способ активного перемещения газов по [textlink="сети труб." link="PipeNetworks"]
+  Они забирают газ с одной стороны и нагнетают его в другую.
+  Существует два типа насосов:
 
   <Box>
-    <GuideEntityEmbed Entity="GasPressurePump" Caption="pressure pump"/>
-    <GuideEntityEmbed Entity="GasVolumePump" Caption="volumetric pump"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="насос давления"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption="объёмный насос"/>
   </Box>
 
-  Some important things to note about pumps:
-  - Pumps [color=#a4885c]require power[/color] through a nearby LV cable to function.
-  - Pumps output on the side with the red stripe.
-  - Gas cannot move backwards through pumps (although if you are using a pump to do solely this, you should use the [textlink="passive gate" link="PassiveGate"] instead).
-  - Pumps cannot move gasses into pipes with pressures or volumes exceeding their [color=#a4885c]limit[/color]. This causes them to be [color=red]blocked[/color].
+  Важные особенности работы насосов:
+  - Насосам [color=#a4885c]требуется питание[/color] от проходящего рядом кабеля НВ.
+  - Выход насоса находится со стороны с красной полосой.
+  - Газ не может двигаться через насос в обратном направлении (однако, если вам нужен только обратный клапан, лучше использовать [textlink="пассивный клапан" link="PassiveGate"]).
+  - Насосы не могут закачивать газ в трубы, давление или объём в которых превышают их [color=#a4885c]предел[/color]. В таком случае насос оказывается [color=red]заблокирован[/color].
 
-  Pumps will show a colorful animation when they are doing work.
-  If they have no gas to pump or they are blocked, they will show a blinking [color=red]red[/color] animation.
-  Pumps that are off, have no power, or are unanchored will show no animation.
+  Во время активной перекачки газа на корпусе насоса отображается цветная анимация.
+  Если насосу нечего качать или его выход заблокирован, индикатор на нём будет мигать [color=red]красным[/color] цветом.
+  Выключенные, обесточенные или неприкрученные насосы не отображают никакой анимации.
 
-  ## Pressure Pumps
-  Pressure pumps are the most common type of pump.
-  They move gas based on [color=#a4885c]pressure[/color], making them useful for controlling the exact pressure of a pipe, or for drawing a vacuum.
+  ## Насосы давления
+  Насосы давления — самый распространённый тип газовых насосов.
+  Они перекачивают газ до достижения заданного [color=#a4885c]давления[/color], что делает их удобными для точного контроля давления в трубе или для создания вакуума.
 
   <Box>
-    <GuideEntityEmbed Entity="GasPressurePump" Caption="pressure pump"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="насос давления"/>
   </Box>
 
-  A pressure pump [color=red]cannot[/color] move gas to a pipe that has a pressure higher or equal to the pressure set on the pump.
+  Насос давления [color=red]не может[/color] закачивать газ в трубу, давление в которой выше или равно значению, выставленному на самом насосе.
 
-  For example, a pressure pump cannot pump gas to a pipe that is currently at 500 kPa, if the pressure pump is set at 500 kPa.
+  Например, если в выходной трубе уже 500 кПа, насос давления с настройкой 500 кПа не будет перекачивать в неё газ.
 
-  Pressure pumps can pump up to a maximum pressure of [color=orange][protodata="GasPressurePump" comp="GasPressurePump" member="MaxTargetPressure"/] kPa[/color].
-  They will become [color=red]blocked[/color] if they try to push gas into a pipe higher than this pressure.
+  Насосы давления могут нагнетать давление максимум до [color=orange][protodata="GasPressurePump" comp="GasPressurePump" member="MaxTargetPressure"/] кПа[/color].
+  Если попытаться закачать газ в трубу с давлением выше этого предела, насос будет [color=red]заблокирован[/color].
 
-  ## Volumetric Pumps
-  Volumetric pumps are an alternative pump, moving gas based on [color=#a4885c]volume[/color].
+  ## Объёмные насосы
+  Объёмные насосы — это альтернативный вид насосов, перекачивающий заданный [color=#a4885c]объём[/color] газа в секунду.
 
   <Box>
-    <GuideEntityEmbed Entity="GasVolumePump" Caption="volumetric pump"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption="объёмный насос"/>
   </Box>
 
-  They are extremely useful for moving large amounts of gas quickly.
-  They can typically achieve higher pressures than a pressure pump.
+  Они крайне полезны для быстрой перекачки больших объёмов газа.
+  Как правило, они способны создавать гораздо более высокое давление, чем обычные насосы давления.
 
-  While volumetric pumps work off of the principle of volume, they will become [color=red]blocked[/color] if they try to push gas into a pipe higher than [color=orange][protodata="GasVolumePump" comp="GasVolumePump" member="HigherThreshold"/] kPa[/color].
+  Хотя объёмные насосы работают по принципу перекачки объёма, они также окажутся [color=red]заблокированы[/color], если попытаются закачать газ в трубу с давлением выше [color=orange][protodata="GasVolumePump" comp="GasVolumePump" member="HigherThreshold"/] кПа[/color].
 </Document>

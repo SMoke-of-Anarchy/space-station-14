@@ -1,25 +1,25 @@
 <Document>
-  # Gas Recycling
-  Gas recycler is a machine that converts waste gasses into breathable ones.
+  # Переработка газов
+  Переработчик газа — это установка, преобразующая отработанные газы обратно в пригодные для дыхания.
 
   <Box>
     <GuideEntityEmbed Entity="GasRecycler"/>
   </Box>
-  Specificaly it can recycle Carbon Dioxide and Nitrous Oxide into Oxygen and Nitrogen.
+  В частности, он перерабатывает углекислый газ и оксид азота (веселящий газ) в кислород и азот соответственно.
 
-  The machine has a two [textlink="pipenet" link="PipeNetworks"] connections, for gas input and output.
+  Устройство имеет два разъёма для подключения к [textlink="сети труб" link="PipeNetworks"] — для входа и выхода газа.
 
-  For recycler to work, tha gas needs to be pressurized to [color=#a4885c]3000 kPa[/color] heated to [color=#a4885c]573,15K[/color], and the pressure at the inlet needs to be higher than outlet.
-  If these conditions are not met, the gases will just pass through without getting recycled (as will unrecyclable gases).
+  Для работы переработчика подаваемый газ должен находиться под давлением не менее [color=#a4885c]3000 кПа[/color] и быть нагрет минимум до [color=#a4885c]573,15 К[/color], а давление на входе должно превышать давление на выходе.
+  Если эти условия не соблюдены, газы просто пройдут сквозь установку без переработки (как и те газы, которые в принципе не подлежат переработке).
 
   <Box>
-    <GuideEntityEmbed Entity="GasRecyclerMachineCircuitboard" Caption="Gas recycler circuit board"/>
+    <GuideEntityEmbed Entity="GasRecyclerMachineCircuitboard" Caption="плата переработчика газа"/>
   </Box>
 
-  The machine can be constructed using a circuit board, which can be made at a circuit imprinter.
-  It first needs to be researched by [textlink="science" link="Science"] though.
+  Эту машину можно собрать с помощью печатной платы, изготавливаемой в принтере схем.
+  Однако перед этим соответствующую технологию должен изучить [textlink="научный отдел" link="Science"].
 
-  Gas recycling can be used as an alternative to gas miners, or as a backup to build a redundancy in the atmospheric system.
-  [color=#a4885c]Just don't forget to cool the gas before releasing it into the station![/color]
+  Переработку газов можно использовать как альтернативу газодобытчикам или в качестве резервного источника для повышения надёжности атмосферной системы станции.
+  [color=#a4885c]Только не забудьте охладить газ перед подачей его в жилые отсеки станции![/color]
 
 </Document>

@@ -1,7 +1,7 @@
-﻿<Document>
-  # Fire and Gas Control
-  Unfortunately, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], and other [textlink="atmospheric upsets" link="AtmosphericUpsets"] are a common occurrence on the station.
-  These upsets can quickly spread throughout the station and make the atmosphere uninhabitable for the crew.
+<Document>
+  # Сдержание огня и газов
+  К сожалению, [textlink="пожары" link="Fires"], [textlink="разгерметизации" link="Spacing"] и другие [textlink="атмосферные катастрофы" link="AtmosphericUpsets"] — не редкость на станции.
+  Эти ЧП могут стремительно распространиться по отсекам и сделать атмосферу непригодной для дыхания экипажа.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock"/>
@@ -10,33 +10,33 @@
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  To combat this, stations have a variety of devices to help prevent these upsets from spreading.
+  Для борьбы с этим на станциях предусмотрен ряд устройств, препятствующих распространению опасных явлений.
 
-  ## Firelocks
-  Firelocks are a simple and effective way to prevent fires from spreading throughout the station.
+  ## Пожарные шлюзы
+  Пожарные шлюзы — это простой и эффективный способ предотвратить распространение пожаров и утечек по станции.
 
-  Based on conditions sensed by the firelock, or through instruction from a connected [textlink="air" link="AirAlarms"] or fire alarm, they can close off sections of the station to prevent the spread of dangerous conditions.
+  Ориентируясь на показания собственных датчиков или команды от подключённой [textlink="воздушной" link="AirAlarms"] либо пожарной сигнализации, они перекрывают секции станции, изолируя опасные зоны.
 
-  ## Station Sectioning
-  Firelocks are intentionally placed in key areas to divide the station into sections. Open spaces like hallways or promenades are divided into smaller sections. This prevents the spread of dangerous conditions to the entire station through connected rooms, hallways, and other open spaces.
+  ## Секционирование станции
+  Пожарные шлюзы намеренно устанавливаются в ключевых местах, разделяя станцию на изолируемые секции. Открытые пространства, такие как коридоры и прогулочные зоны, делятся на более мелкие сегменты. Это не даёт опасным условиям охватить всю станцию через смежные комнаты и общие коридоры.
 
-  ## Basic Operation
-  When not connected to an [textlink="air alarm" link="AirAlarms"] or fire alarm, firelocks will function based on the conditions they sense. Firelocks will drop (close) if:
-  - The temperature between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] or more.
-  - The pressure between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] or more.
+  ## Базовый принцип работы
+  Даже без подключения к [textlink="воздушной" link="AirAlarms"] или пожарной сигнализации пожарные шлюзы реагируют на окружающие условия самостоятельно. Пожарный шлюз опустится (закроется), если:
+  - Разница температур по обе стороны пожарного шлюза составляет [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] К[/color] или более.
+  - Разница давления по обе стороны пожарного шлюза составляет [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] кПа[/color] или более.
 
-  If these conditions continue, the firelock will enter lockout mode. Firelocks in lockout mode will have [color=red]red[/color] lights and cannot be pried open by hand. They can only be opened by people with Engineering access or by using a crowbar.
+  Пока сохраняются эти условия, пожарный шлюз находится в режиме блокировки. У заблокированного пожарного шлюза горят [color=red]красные[/color] индикаторы, и его нельзя открыть голыми руками. Открыть его могут только сотрудники с инженерным доступом либо любой человек с помощью лома.
 
-  Firelocks in lockout mode cannot be opened by using Engineering access if they are unpowered. Only a crowbar can open an unpowered firelock in lockout mode.
+  Заблокированный пожарный шлюз невозможно открыть по инженерному доступу, если он обесточен. Обесточенный пожарный шлюз под давлением открывается только ломом.
 
-  If the conditions between the two sides of the firelock return to within acceptable differences, the firelock will disable lockout mode, and can be opened by anyone.
-  Note that this only means that the conditions are the same on both sides of the firelock, not that they are safe.
+  Если разница условий по обе стороны пожарного шлюза возвращается в допустимые пределы, шлюз снимает режим блокировки, и его снова может открыть любой член экипажа.
+  Обратите внимание: это означает лишь то, что условия по обе стороны шлюза выровнялись, а не то, что там стало безопасно!
 
-  A common example of this is a firelock that has released due to both sides being exposed to space.
+  Типичный пример такой ситуации — пожарный шлюз, снявший блокировку из-за того, что оба разделяемых им отсека оказались разгерметизированы в открытый космос.
 
-  ## Connecting to Air and Fire Alarms
-  Firelocks can be connected to [textlink="air alarms" link="AirAlarms"] and fire alarms to receive instructions on when to drop.
-  Firelocks use the [textlink="List system" link="Networking"], and you can connect these devices using a multitool or network configurator.
+  ## Подключение к воздушным и пожарным сигнализациям
+  Пожарные шлюзы можно привязать к [textlink="воздушным" link="AirAlarms"] и пожарным сигнализациям, чтобы они закрывались по их команде.
+  Пожарные шлюзы используют [textlink="систему списков" link="Networking"], и связать эти устройства можно с помощью мультитула или сетевого конфигуратора.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
@@ -46,32 +46,32 @@
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
   </Box>
 
-  Each firelock has its own unique address. The process for connecting air vents, scrubbers, and sensors to air alarms is very similar.
+  Каждый пожарный шлюз имеет собственный уникальный сетевой адрес. Процесс привязки вентиляций, скрубберов и сенсоров к воздушным сигнализациям устроен точно так же.
 
-  ## Operation Under Air Alarms
-  When connected to an air alarm, firelocks will also drop under the command of the connected [textlink="air alarm" link="AirAlarms"].
+  ## Работа под управлением воздушных сигнализаций
+  При подключении к воздушной сигнализации пожарные шлюзы опускаются по команде привязанной [textlink="воздушной сигнализации" link="AirAlarms"].
 
-  Firelocks will drop if the air alarm reaches a [color=red]Danger[/color] alert state. Firelocks will remain dropped until the air alarm returns to a [color=green]Green[/color] alert state.
+  Пожарные шлюзы закрываются, когда воздушная сигнализация переходит в статус «[color=red]Опасно[/color]», и остаются закрытыми до тех пор, пока сигнализация не вернётся в статус «[color=green]Нормально[/color]».
 
-  Firelocks that are in lockout mode will not raise even if the air alarm returns to a [color=green]Green[/color] alert state. Even if the pressure difference is resolved, the firelock will remain dropped until the air alarm re-sends a green alert state.
+  Пожарные шлюзы, находящиеся в режиме блокировки из-за перепада давления или температуры, не поднимутся сами, даже если воздушная сигнализация вернётся в [color=green]зелёный[/color] статус. Даже после выравнивания давления такой шлюз останется закрытым до повторной отправки зелёного сигнала от воздушной сигнализации.
 
-  ## Operation Under Fire Alarms
-  When connected to a fire alarm, firelocks will drop if the fire alarm is triggered. Firelocks will remain dropped until the fire alarm is reset.
+  ## Работа под управлением пожарных сигнализаций
+  При подключении к пожарной сигнализации пожарные шлюзы опускаются при её срабатывании и остаются закрытыми до тех пор, пока пожарная сигнализация не будет сброшена.
 
-  ## Fire Alarms
-  Fire alarms are devices that can be used to centrally control all connected firelocks.
+  ## Пожарные сигнализации
+  Пожарные сигнализации — это устройства для централизованного управления всеми подключёнными к ним пожарными шлюзами.
 
   <Box>
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  Devices with sensors can be [textlink="linked" link="Networking"] to fire alarms, which will trigger the fire alarm if the sensor enters the [color=red]Danger[/color] temperature threshold as defined by its sensors.
+  Устройства с датчиками можно [textlink="привязать" link="Networking"] к пожарной сигнализации, после чего она автоматически сработает, если любой из датчиков зафиксирует выход температуры за порог «[color=red]Опасно[/color]».
 
-  When the fire alarm is triggered, all connected firelocks will be overridden with a [color=red]Danger[/color] alert state and will drop.
+  При срабатывании пожарной сигнализации все привязанные к ней пожарные шлюзы принудительно получают статус тревоги «[color=red]Опасно[/color]» и закрываются.
 
-  The alarm will automatically clear itself when the sensor returns to a [color=green]Normal[/color] temperature threshold.
+  Тревога автоматически сбросится, когда показания температуры на датчике вернутся в пределы статуса «[color=green]Нормально[/color]».
 
-  You can trigger and reset a fire alarm manually by interacting with it.
+  Вы также можете включить и сбросить пожарную сигнализацию вручную, просто нажав на неё.
 
-  This can be used to quickly drop firelocks in a room manually, or to raise them after an upset has been resolved.
+  Это удобно использовать для быстрого закрытия пожарных шлюзов в отсеке вручную или для их одновременного открытия после устранения аварии.
 </Document>

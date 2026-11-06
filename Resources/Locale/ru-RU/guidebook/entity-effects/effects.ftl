@@ -1,19 +1,19 @@
 -create-3rd-person =
     { $chance ->
         [1] Создаёт
-       *[other] создают
+       *[other] создаёт
     }
 
 -cause-3rd-person =
     { $chance ->
         [1] Вызывает
-       *[other] вызывают
+       *[other] вызывает
     }
 
 -satiate-3rd-person =
     { $chance ->
         [1] Насыщает
-       *[other] насыщают
+       *[other] насыщает
     }
 
 entity-effect-guidebook-spawn-entity =
@@ -517,10 +517,10 @@ entity-effect-guidebook-plant-seeds-remove =
 entity-effect-guidebook-plant-change-trait =
     { $chance ->
         [1] { $change ->
-            [Add] добавляет растению признак {$trait}
-            [Remove] удаляет у растения признак {$trait}
-            [Toggle] переключает состояние признака {$trait} у растения
-            *[other] включает у растения признак {$trait}
+            [Add] Добавляет растению признак {$trait}
+            [Remove] Удаляет у растения признак {$trait}
+            [Toggle] Переключает состояние признака {$trait} у растения
+            *[other] Включает у растения признак {$trait}
         }
         *[other] { $change ->
             [Add] добавляет растению признак {$trait}

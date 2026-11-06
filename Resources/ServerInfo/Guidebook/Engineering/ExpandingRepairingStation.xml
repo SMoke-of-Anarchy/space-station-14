@@ -1,25 +1,25 @@
-﻿<Document>
-  # Expanding and Repairing Stations
-  In Space Station 14, it is common for players to want to expand the station, or repair holes left by meteors or other damage.
+<Document>
+  # Расширение и починка станции
+  В Space Station 14 игрокам часто приходится расширять станцию или латать пробоины, оставленные метеоритами и другими разрушениями.
 
-  ## Lattice
-  Lattice is bare rodwork placed in empty space. It's used as a foundation for building and anchoring objects onto the station.
+  ## Решётка
+  Решётка — это базовый каркас из металлических стержней, устанавливаемый в открытом космосе. Она служит основой для строительства и закрепления объектов на станции.
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
     <GuideEntityEmbed Entity="PartRodMetal" Caption=""/>
   </Box>
 
-  You can create lattice by placing rods on empty space using [color=yellow][bold][keybind="Use"][/bold][/color]. Remember you can craft steel sheets into rods using the construction menu.
+  Вы можете создать решётку, применив металлические стержни на пустое пространство в космосе с помощью [color=yellow][bold][keybind="Use"][/bold][/color]. Помните, что металлические стержни можно изготовить из листов стали через меню строительства.
 
-  Lattice cannot hold pressure, and all gasses will leak out into space through it.
+  Решётка не удерживает давление, и все газы будут уходить сквозь неё в открытый космос.
 
-  You can use wirecutters to remove lattice by using [color=yellow][bold][keybind="Use"][/bold][/color] on them.
+  Решётку можно срезать кусачками, нажав на неё [color=yellow][bold][keybind="Use"][/bold][/color].
 
-  If the game is preventing you from placing lattice, it's because there is another separated grid too close to the grid you're trying to expand. You can use a wirecutter to remove the offending grid.
+  Если игра не позволяет вам разместить решётку, значит, слишком близко к расширяемой вами станции находится другой отдельный грид (осколок). Вы можете использовать кусачки, чтобы разобрать мешающий обломок.
 
-  ## Hull Tiles
-  Hull tiles are solid foundation for the station, where all the other parts of the station rest upon.
+  ## Обшивка пола
+  Плиты корпуса (обшивка пола) — это сплошное герметичное основание станции, на котором держится всё остальное.
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -28,12 +28,12 @@
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Lattice can be made into hull tiles by using either steel or almost any type of floor tile on them by pressing [color=yellow][bold][keybind="Use"][/bold][/color].
-  This will convert the lattice into a hull tile, which can hold pressure and gasses.
+  Решётку можно превратить в обшивку пола, уложив на неё лист стали или практически любую напольную плитку нажатием [color=yellow][bold][keybind="Use"][/bold][/color].
+  Это преобразует решётку в герметичный пол корпуса, способный удерживать давление и газы.
 
-  It is advised to use floor tiles to replace lattice instead of steel sheets, as you can craft 4 floor tiles from a single steel sheet.
+  Для настила поверх решётки рекомендуется использовать напольную плитку вместо листов стали, так как из одного листа стали можно изготовить сразу 4 плитки пола.
 
-  You can use an RCD to deconstruct hull tiles into lattice.
+  С помощью РСУ (устройства быстрого строительства) обшивку пола можно разобрать обратно до решётки.
 
 
 </Document>

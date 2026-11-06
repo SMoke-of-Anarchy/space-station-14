@@ -1,27 +1,27 @@
 <Document>
-  # Vulpkanin
+  # Вульпканины
 
   <Box>
     <GuideEntityEmbed Entity="MobVulpkanin" Caption=""/>
   </Box>
 
-  ## General Information
+  ## Общая информация
 
-  Vulpkanins' sharp claws make their unarmed attacks deal Slash damage.
+  Благодаря острым когтям безоружные атаки вульпканинов наносят режущий урон.
 
-  Their animal-like digestive system can [color=lightgreen]digest raw meat and blood[/color] without ill effects.
-  They are [color=palevioletred]poisoned[/color] by allicin (found in garlic and onions) and theobromine (found in caffeinated beverages and chocolate).
+  Их похожая на животную пищеварительная система способна [color=lightgreen]переваривать сырое мясо и кровь[/color] без негативных последствий.
+  Для них [color=palevioletred]ядовиты[/color] аллицин (содержится в чесноке и луке) и теобромин (содержится в кофеиносодержащих напитках и шоколаде).
 
-  The shape of their muzzle means they tend to spill some liquid when drinking.
+  Из-за формы морды они склонны проливать немного жидкости во время питья.
 
-  They take [color=lightgreen]15% less Cold damage[/color], but [color=palevioletred]15% more Heat damage[/color].
-  Their dense fur makes them prefer a somewhat cooler temperature range than humans, and also makes them [color=palevioletred]extremely vulnerable to fire[/color].
+  Они получают [color=lightgreen]на 15% меньше урона от холода[/color], но [color=palevioletred]на 15% больше термического урона[/color].
+  Из-за густой шерсти они предпочитают несколько более прохладный температурный диапазон, чем люди, и при этом [color=palevioletred]чрезвычайно уязвимы к огню[/color].
 
-  ## Leaping
+  ## Прыжки
 
-  Vulpkanins' digitigrade legs allow them to [color=lightgreen]leap impressive distances[/color]. This is useful for jumping over ground-based hazards
-  (such as bottomless chasms), or as a quick burst of speed to escape a dangerous situation or chase someone down.
+  Пальцеходящие лапы вульпканинов позволяют им [color=lightgreen]прыгать на внушительные расстояния[/color]. Это полезно для перепрыгивания наземных опасностей
+  (таких как бездонные пропасти), а также для резкого рывка, чтобы уйти от опасности или догнать кого-нибудь.
 
-  Be careful not to crash into anything mid-leap, or you'll [color=palevioletred]fall to the ground[/color] and drop what you're holding!
+  Будьте осторожны и не врезайтесь ни во что в прыжке, иначе вы [color=palevioletred]упадёте на землю[/color] и выроните то, что держите в руках!
 
 </Document>

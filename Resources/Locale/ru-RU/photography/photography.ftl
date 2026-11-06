@@ -1,6 +1,6 @@
 # TODO: сделать эту Fluent-функцию в RT
 photograph-name-text = На фотографии изображено: { PROPER($entity) ->
-    *[false] { $entity } {$entity}
+    *[false] { $entity }
      [true] { $entity }
     }.
 

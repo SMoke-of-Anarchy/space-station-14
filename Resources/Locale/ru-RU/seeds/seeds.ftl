@@ -168,6 +168,10 @@ seeds-aloe-name = алоэ
 
 seeds-aloe-display-name = алоэ
 
+seeds-aloe-ignis-name = алоэ игнис
+
+seeds-dragontail-name = драконий хвост
+
 seeds-laughin-pea-name = смешной горошек
 
 seeds-laughin-pea-display-name = смешной горошек

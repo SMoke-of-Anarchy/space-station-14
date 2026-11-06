@@ -1,18 +1,18 @@
-accent-russian-words-1 = yes
+accent-russian-words-1 = да
 
-accent-russian-words-replace-1 = da
+accent-russian-words-replace-1 = та
 
-accent-russian-words-2 = no
+accent-russian-words-2 = нет
 
-accent-russian-words-replace-2 = nyet
+accent-russian-words-replace-2 = ньет
 
-accent-russian-words-3 = grandma
+accent-russian-words-3 = бабуля
 
-accent-russian-words-3-2 = grandmother
+accent-russian-words-3-2 = бабушка
 
-accent-russian-words-3-3 = granny
+accent-russian-words-3-3 = бабуся
 
-accent-russian-words-replace-3 = babushka
+accent-russian-words-replace-3 = бабюшка
 
 accent-russian-words-4 = друг
 
@@ -22,6 +22,6 @@ accent-russian-words-5 = друзья
 
 accent-russian-words-replace-5 = комрады
 
-accent-russian-words-6 = cheers
+accent-russian-words-6 = за здоровье
 
-accent-russian-words-replace-6 = na zdorovje
+accent-russian-words-replace-6 = на здоровье

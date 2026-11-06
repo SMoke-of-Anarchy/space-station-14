@@ -1,314 +1,312 @@
-# Технический словарь распознавания: исходные английские слова нужны для поиска
-# в сообщениях; не переводить их, иначе соответствие key/replacement сломается.
-# Scottish accent word replacements
-accent-scottish-words-1 = do
+# Замены слов для шотландского (дворфийского) акцента
+accent-scottish-words-1 = делать
 
-accent-scottish-words-2 = don't
+accent-scottish-words-2 = не делай
 
-accent-scottish-words-3 = dont
+accent-scottish-words-3 = не надо
 
-accent-scottish-words-4 = i'm
+accent-scottish-words-4 = я есть
 
-accent-scottish-words-5 = im
+accent-scottish-words-5 = я тут
 
-accent-scottish-words-6 = going
+accent-scottish-words-6 = иду
 
-accent-scottish-words-7 = i
+accent-scottish-words-7 = я
 
-accent-scottish-words-8 = you're
+accent-scottish-words-8 = ты же
 
-accent-scottish-words-9 = youre
+accent-scottish-words-9 = ты это
 
-accent-scottish-words-10 = you
+accent-scottish-words-10 = ты
 
-accent-scottish-words-11 = a
+accent-scottish-words-11 = один
 
-accent-scottish-words-12 = i'll
+accent-scottish-words-12 = я буду
 
-accent-scottish-words-13 = ill
+accent-scottish-words-13 = болен
 
-accent-scottish-words-14 = of
+accent-scottish-words-14 = из
 
-accent-scottish-words-15 = was
+accent-scottish-words-15 = был
 
-accent-scottish-words-16 = can't
+accent-scottish-words-16 = не могу
 
-accent-scottish-words-17 = cant
+accent-scottish-words-17 = не может
 
-accent-scottish-words-18 = yourself
+accent-scottish-words-18 = сам
 
-accent-scottish-words-19 = where
+accent-scottish-words-19 = где
 
-accent-scottish-words-20 = oh
+accent-scottish-words-20 = ох
 
-accent-scottish-words-21 = shit
+accent-scottish-words-21 = дерьмо
 
-accent-scottish-words-22 = too
+accent-scottish-words-22 = тоже
 
-accent-scottish-words-23 = my
+accent-scottish-words-23 = мой
 
-accent-scottish-words-24 = not
+accent-scottish-words-24 = не
 
-accent-scottish-words-25 = would
+accent-scottish-words-25 = бы
 
-accent-scottish-words-26 = should
+accent-scottish-words-26 = должен
 
-accent-scottish-words-27 = could
+accent-scottish-words-27 = мог
 
-accent-scottish-words-28 = would've
+accent-scottish-words-28 = сделал бы
 
-accent-scottish-words-29 = should've
+accent-scottish-words-29 = надо бы
 
-accent-scottish-words-30 = could've
+accent-scottish-words-30 = мог бы
 
-accent-scottish-words-31 = wouldve
+accent-scottish-words-31 = сделалбы
 
-accent-scottish-words-32 = shouldve
+accent-scottish-words-32 = надобы
 
-accent-scottish-words-33 = couldve
+accent-scottish-words-33 = могбы
 
-accent-scottish-words-34 = would'nt
+accent-scottish-words-34 = не стал бы
 
-accent-scottish-words-35 = should'nt
+accent-scottish-words-35 = не должен
 
-accent-scottish-words-36 = could'nt
+accent-scottish-words-36 = не смог бы
 
-accent-scottish-words-37 = wouldnt
+accent-scottish-words-37 = несталбы
 
-accent-scottish-words-38 = shouldnt
+accent-scottish-words-38 = недолжен
 
-accent-scottish-words-39 = couldnt
+accent-scottish-words-39 = несмогбы
 
-accent-scottish-words-40 = no
+accent-scottish-words-40 = нет
 
-accent-scottish-words-41 = to
+accent-scottish-words-41 = к
 
-accent-scottish-words-42 = the
+accent-scottish-words-42 = этот
 
-accent-scottish-words-43 = have
+accent-scottish-words-43 = есть
 
-accent-scottish-words-44 = what
+accent-scottish-words-44 = что
 
-accent-scottish-words-45 = where
+accent-scottish-words-45 = куда
 
-accent-scottish-words-46 = when
+accent-scottish-words-46 = когда
 
-accent-scottish-words-47 = myself
+accent-scottish-words-47 = себя
 
-accent-scottish-words-48 = himself
+accent-scottish-words-48 = него
 
-accent-scottish-words-49 = herself
+accent-scottish-words-49 = неё
 
-accent-scottish-words-50 = move
+accent-scottish-words-50 = двигай
 
-accent-scottish-words-51 = moving
+accent-scottish-words-51 = двигаюсь
 
-accent-scottish-words-52 = wasn't
+accent-scottish-words-52 = не был
 
-accent-scottish-words-53 = wasnt
+accent-scottish-words-53 = небыл
 
-accent-scottish-words-54 = wizard
+accent-scottish-words-54 = волшебник
 
-accent-scottish-words-55 = for
+accent-scottish-words-55 = для
 
-accent-scottish-words-56 = about
+accent-scottish-words-56 = около
 
-accent-scottish-words-57 = tiny
+accent-scottish-words-57 = крошечный
 
-accent-scottish-words-58 = baby
+accent-scottish-words-58 = малыш
 
-accent-scottish-words-59 = after
+accent-scottish-words-59 = после
 
-accent-scottish-words-60 = gonna
+accent-scottish-words-60 = собираюсь
 
-accent-scottish-words-61 = going to
+accent-scottish-words-61 = собираюсь в
 
-accent-scottish-words-62 = gone
+accent-scottish-words-62 = ушёл
 
-accent-scottish-words-63 = now
+accent-scottish-words-63 = сейчас
 
-accent-scottish-words-64 = give
+accent-scottish-words-64 = дай
 
-accent-scottish-words-65 = gimme
+accent-scottish-words-65 = дай-ка
 
-accent-scottish-words-66 = give me
+accent-scottish-words-66 = дай мне
 
-accent-scottish-words-67 = do you
+accent-scottish-words-67 = ты ли
 
-accent-scottish-words-68 = with
+accent-scottish-words-68 = с
 
-accent-scottish-words-69 = without
+accent-scottish-words-69 = без
 
-accent-scottish-words-70 = whether
+accent-scottish-words-70 = разве
 
-accent-scottish-words-71 = ever
+accent-scottish-words-71 = когда-либо
 
-accent-scottish-words-72 = whenever
+accent-scottish-words-72 = всякий раз
 
-accent-scottish-words-73 = whatever
+accent-scottish-words-73 = что угодно
 
-accent-scottish-words-74 = how
+accent-scottish-words-74 = как
 
-accent-scottish-words-75 = however
+accent-scottish-words-75 = однако
 
-accent-scottish-words-76 = more
+accent-scottish-words-76 = больше
 
-accent-scottish-words-77 = moreover
+accent-scottish-words-77 = более того
 
-accent-scottish-words-78 = over
+accent-scottish-words-78 = через
 
-accent-scottish-words-replace-1 = dae
+accent-scottish-words-replace-1 = деять
 
-accent-scottish-words-replace-2 = dinnae
+accent-scottish-words-replace-2 = не смей деять
 
-accent-scottish-words-replace-3 = dinnae
+accent-scottish-words-replace-3 = не надобно
 
-accent-scottish-words-replace-4 = A'm
+accent-scottish-words-replace-4 = аз есмь
 
-accent-scottish-words-replace-5 = am
+accent-scottish-words-replace-5 = я тута
 
-accent-scottish-words-replace-6 = gaun
+accent-scottish-words-replace-6 = топаю
 
-accent-scottish-words-replace-7 = Ah
+accent-scottish-words-replace-7 = йа
 
-accent-scottish-words-replace-8 = ye're
+accent-scottish-words-replace-8 = ты ж
 
-accent-scottish-words-replace-9 = yere
+accent-scottish-words-replace-9 = ты энто
 
-accent-scottish-words-replace-10 = ye
+accent-scottish-words-replace-10 = ты, паря
 
-accent-scottish-words-replace-11 = ae
+accent-scottish-words-replace-11 = одын
 
-accent-scottish-words-replace-12 = A'll
+accent-scottish-words-replace-12 = я стану
 
-accent-scottish-words-replace-13 = all
+accent-scottish-words-replace-13 = хворый
 
-accent-scottish-words-replace-14 = ae
+accent-scottish-words-replace-14 = ыз
 
-accent-scottish-words-replace-15 = wis
+accent-scottish-words-replace-15 = бывал
 
-accent-scottish-words-replace-16 = cannae
+accent-scottish-words-replace-16 = не можу
 
-accent-scottish-words-replace-17 = cannae
+accent-scottish-words-replace-17 = не можетъ
 
-accent-scottish-words-replace-18 = yersel
+accent-scottish-words-replace-18 = сам-то
 
-accent-scottish-words-replace-19 = whaur
+accent-scottish-words-replace-19 = хде
 
-accent-scottish-words-replace-20 = ach
+accent-scottish-words-replace-20 = ахх
 
-accent-scottish-words-replace-21 = shite
+accent-scottish-words-replace-21 = дерьмище
 
-accent-scottish-words-replace-22 = tae
+accent-scottish-words-replace-22 = такоже
 
-accent-scottish-words-replace-23 = me
+accent-scottish-words-replace-23 = мной
 
-accent-scottish-words-replace-24 = nae
+accent-scottish-words-replace-24 = ни
 
-accent-scottish-words-replace-25 = wou
+accent-scottish-words-replace-25 = б
 
-accent-scottish-words-replace-26 = shou
+accent-scottish-words-replace-26 = должон
 
-accent-scottish-words-replace-27 = cou
+accent-scottish-words-replace-27 = мог бы
 
-accent-scottish-words-replace-28 = wou'hae
+accent-scottish-words-replace-28 = сделал б
 
-accent-scottish-words-replace-29 = shou'hae
+accent-scottish-words-replace-29 = надобно б
 
-accent-scottish-words-replace-30 = cou'hae
+accent-scottish-words-replace-30 = смог б
 
-accent-scottish-words-replace-31 = wouhae
+accent-scottish-words-replace-31 = сделалб
 
-accent-scottish-words-replace-32 = shouhae
+accent-scottish-words-replace-32 = надобноб
 
-accent-scottish-words-replace-33 = couhae
+accent-scottish-words-replace-33 = смогб
 
-accent-scottish-words-replace-34 = wou'nae
+accent-scottish-words-replace-34 = ни стал б
 
-accent-scottish-words-replace-35 = shou'nae
+accent-scottish-words-replace-35 = ни должон
 
-accent-scottish-words-replace-36 = cou'nae
+accent-scottish-words-replace-36 = ни смог б
 
-accent-scottish-words-replace-37 = wounae
+accent-scottish-words-replace-37 = нисталб
 
-accent-scottish-words-replace-38 = shounae
+accent-scottish-words-replace-38 = нидолжон
 
-accent-scottish-words-replace-39 = counae
+accent-scottish-words-replace-39 = нисмогб
 
-accent-scottish-words-replace-40 = nae
+accent-scottish-words-replace-40 = не-а
 
-accent-scottish-words-replace-41 = ta
+accent-scottish-words-replace-41 = ко
 
-accent-scottish-words-replace-42 = tha
+accent-scottish-words-replace-42 = энтот
 
-accent-scottish-words-replace-43 = hae
+accent-scottish-words-replace-43 = имеется
 
-accent-scottish-words-replace-44 = wot
+accent-scottish-words-replace-44 = шо
 
-accent-scottish-words-replace-45 = whaur
+accent-scottish-words-replace-45 = куды
 
-accent-scottish-words-replace-46 = wen
+accent-scottish-words-replace-46 = колы
 
-accent-scottish-words-replace-47 = mesel
+accent-scottish-words-replace-47 = себе
 
-accent-scottish-words-replace-48 = hesel
+accent-scottish-words-replace-48 = його
 
-accent-scottish-words-replace-49 = shesel
+accent-scottish-words-replace-49 = ейной
 
-accent-scottish-words-replace-50 = moev
+accent-scottish-words-replace-50 = шевели
 
-accent-scottish-words-replace-51 = moeven
+accent-scottish-words-replace-51 = шевелюсь
 
-accent-scottish-words-replace-52 = wis'nae
+accent-scottish-words-replace-52 = не бывал
 
-accent-scottish-words-replace-53 = wisnae
+accent-scottish-words-replace-53 = небывал
 
-accent-scottish-words-replace-54 = wizer
+accent-scottish-words-replace-54 = колдун
 
-accent-scottish-words-replace-55 = fer
+accent-scottish-words-replace-55 = ради
 
-accent-scottish-words-replace-56 = abut
+accent-scottish-words-replace-56 = подле
 
-accent-scottish-words-replace-57 = tinnae
+accent-scottish-words-replace-57 = махонький
 
-accent-scottish-words-replace-58 = babee
+accent-scottish-words-replace-58 = дитенок
 
-accent-scottish-words-replace-59 = efter
+accent-scottish-words-replace-59 = опосля
 
-accent-scottish-words-replace-60 = gaun'ae
+accent-scottish-words-replace-60 = мылюсь
 
-accent-scottish-words-replace-61 = gaun'ae
+accent-scottish-words-replace-61 = намылился в
 
-accent-scottish-words-replace-62 = gaun
+accent-scottish-words-replace-62 = сгинул
 
-accent-scottish-words-replace-63 = nou
+accent-scottish-words-replace-63 = щас
 
-accent-scottish-words-replace-64 = gie
+accent-scottish-words-replace-64 = подай
 
-accent-scottish-words-replace-65 = gie's
+accent-scottish-words-replace-65 = подай-ка
 
-accent-scottish-words-replace-66 = gie's
+accent-scottish-words-replace-66 = подай мне
 
-accent-scottish-words-replace-67 = d'ye
+accent-scottish-words-replace-67 = уж не ты ли
 
-accent-scottish-words-replace-68 = wi
+accent-scottish-words-replace-68 = со
 
-accent-scottish-words-replace-69 = wi'ou
+accent-scottish-words-replace-69 = безо
 
-accent-scottish-words-replace-70 = we'er
+accent-scottish-words-replace-70 = нешто
 
-accent-scottish-words-replace-71 = e'er
+accent-scottish-words-replace-71 = колы-нибудь
 
-accent-scottish-words-replace-72 = wen'er
+accent-scottish-words-replace-72 = кажный раз
 
-accent-scottish-words-replace-73 = wot'er
+accent-scottish-words-replace-73 = шо угодно
 
-accent-scottish-words-replace-74 = hou
+accent-scottish-words-replace-74 = як
 
-accent-scottish-words-replace-75 = hou'er
+accent-scottish-words-replace-75 = одначе
 
-accent-scottish-words-replace-76 = maer
+accent-scottish-words-replace-76 = боле
 
-accent-scottish-words-replace-77 = maero'er
+accent-scottish-words-replace-77 = боле того
 
-accent-scottish-words-replace-78 = o'er
+accent-scottish-words-replace-78 = чрез

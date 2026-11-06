@@ -65,8 +65,8 @@ reagent-effect-guidebook-health-change =
             }
        *[other]
             { $healsordeals ->
-                [heals] излечивать
-                [deals] наносить
+                [heals] излечивают
+                [deals] наносят
                *[both] изменяют здоровье на
             }
     } { $changes }
@@ -81,7 +81,7 @@ reagent-effect-guidebook-even-health-change =
             }
        *[other]
             { $healsordeals ->
-                [heals] раномерно лечат
+                [heals] равномерно лечат
                 [deals] равномерно наносят
                *[both] равномерно изменяют здоровье на
             }
@@ -133,7 +133,7 @@ reagent-effect-guidebook-adjust-reagent-reagent =
     { $chance ->
         [1]
             { $deltasign ->
-                [1] Добавляют
+                [1] Добавляет
                *[-1] Удаляет
             }
        *[other]
@@ -167,8 +167,8 @@ reagent-effect-guidebook-adjust-temperature =
     { $chance ->
         [1]
             { $deltasign ->
-                [1] Добавляют
-               *[-1] Удаляют
+                [1] Добавляет
+               *[-1] Удаляет
             }
        *[other]
             { $deltasign ->
@@ -178,7 +178,7 @@ reagent-effect-guidebook-adjust-temperature =
     } { POWERJOULES($amount) } тепла { $deltasign ->
         [1] к телу
        *[-1] из тела
-    }, в котором он метабилизируется
+    }, в котором он метаболизируется
 
 reagent-effect-guidebook-chem-cause-disease =
     { $chance ->
@@ -254,8 +254,8 @@ reagent-effect-guidebook-electrocute =
 reagent-effect-guidebook-emote =
     { $chance ->
         [1] Вызывает
-       *[other] вызвать
-    }  у цели [bold][color=white]{ $emote }[/color][/bold]
+       *[other] вызывают
+    } у цели [bold][color=white]{ $emote }[/color][/bold]
 
 reagent-effect-guidebook-extinguish-reaction =
     { $chance ->
@@ -399,7 +399,7 @@ reagent-effect-guidebook-plant-attribute =
     { $chance ->
         [1] Изменяет
        *[other] изменяют
-    } { $attribute } за [color={ $colorName }]{ $amount }[/color]
+    } { $attribute } на [color={ $colorName }]{ $amount }[/color]
 
 reagent-effect-guidebook-plant-cryoxadone =
     { $chance ->

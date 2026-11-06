@@ -1,24 +1,24 @@
 <Document>
-  # Arachnids
+  # Арахниды
 
   <Box>
     <GuideEntityEmbed Entity="MobArachnid" Caption=""/>
   </Box>
 
-  ## General Information
+  ## Общая информация
 
-  Arachnids can use webbing to carry small items, effectively giving them [color=lightgreen]two extra pockets[/color] for item storage.
+  Арахниды могут использовать паутину для переноски небольших предметов, что фактически даёт им [color=lightgreen]два дополнительных кармана[/color] для хранения вещей.
 
-  Their strong fangs make their unarmed attacks deal Piercing damage.
+  Благодаря крепким хелицерам их безоружные атаки наносят колющий урон.
 
-  Their animal-like digestive system can [color=lightgreen]digest raw meat and blood[/color] without ill effects.
-  They are [color=palevioletred]poisoned[/color] by allicin (found in garlic and onions) and theobromine (found in caffeinated beverages and chocolate).
+  Их похожая на животную пищеварительная система способна [color=lightgreen]переваривать сырое мясо и кровь[/color] без негативных последствий.
+  Для них [color=palevioletred]ядовиты[/color] аллицин (содержится в чесноке и луке) и теобромин (содержится в кофеиносодержащих напитках и шоколаде).
 
-  Their blue blood is copper-based, and is replenished by metabolizing copper, rather than iron.
+  Их голубая кровь основана на меди и восполняется при усвоении меди, а не железа.
 
-  They [color=palevioletred]suffocate 50% faster[/color] and [color=palevioletred]recover from Asphyxiation damage 100% slower[/color].
+  Они [color=palevioletred]задыхаются на 50% быстрее[/color] и [color=palevioletred]восстанавливаются от удушения на 100% медленнее[/color].
 
-  ## Sericulture
+  ## Шелководство
 
   <Box>
     <GuideEntityEmbed Entity="MaterialWebSilk" Caption=""/>
@@ -27,6 +27,6 @@
     <GuideEntityEmbed Entity="WallWeb" Caption=""/>
   </Box>
 
-  Arachnids can create silk on demand, at the cost of making themselves hungrier. They can craft silk into items such as clothing, furniture, and even entire walls.
+  Арахниды могут прясть шёлк по требованию ценой усиления чувства голода. Из шёлка они могут изготавливать такие предметы, как одежда, мебель и даже целые стены.
 
 </Document>

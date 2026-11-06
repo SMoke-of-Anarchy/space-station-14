@@ -1,4 +1,4 @@
-anomaly-scanner-doafter-examine = [color=plum]{$user}: сканирование аномалии[/color]. {$user} сканирует.
+anomaly-scanner-doafter-examine = { CAPITALIZE($user) } [color=plum]сканирует аномалию[/color].
 
 anomaly-secret-admin = [color=red](ОШИБКА)[/color]
 

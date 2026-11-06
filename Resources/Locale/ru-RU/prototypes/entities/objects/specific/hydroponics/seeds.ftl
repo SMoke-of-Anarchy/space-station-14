@@ -118,6 +118,12 @@ ent-ChillySeeds = пакет семян (чилли)
 ent-AloeSeeds = пакет семян (алоэ)
     .desc = Успокаивающие.
 
+ent-AloeIgnisSeeds = пакет семян (алоэ игнис)
+    .desc = { ent-SeedBase.desc }
+
+ent-DragonTailSeeds = пакет семян (драконий хвост)
+    .desc = { ent-SeedBase.desc }
+
 ent-PoppySeeds = пакет семян (мак)
     .desc = Не есть за 72 часа до анализа на наркотики.
 

@@ -1,6 +1,12 @@
 ent-AloePlants = алоэ
     .desc = { "" }
 
+ent-AloeIgnisPlants = алоэ игнис
+    .desc = { "" }
+
+ent-DragonTailPlants = драконий хвост
+    .desc = { "" }
+
 ent-AmbrosiaDeusPlants = амброзия деус
     .desc = { "" }
 

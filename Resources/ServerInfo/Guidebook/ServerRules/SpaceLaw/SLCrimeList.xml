@@ -1,37 +1,37 @@
 <Document>
-  # Space Law: Crime Listing
-  Crime codes are colored by linked crime groups, which are classifications of crimes that are similar in nature. These classifications are useful for differentiating violent criminals from anti-authoritarian ones, for example.
+  # Космический закон: Список преступлений
+  Коды преступлений окрашены по связанным группам правонарушений, представляющим собой классификацию схожих по характеру преступлений. Эта классификация полезна, например, для разграничения насильственных преступников и нарушителей общественного порядка или сопротивляющихся властям.
 
-  ## Quick Crime Guide
+  ## Краткий справочник преступлений
   <Table Columns="6">
     <ColorBox>
       <Box>
-        1-XX - Minor
+        1-XX - Мелкие
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        2-XX - Moderate
+        2-XX - Средние
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        3-XX - Major
+        3-XX - Тяжкие
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        4-XX - Extreme
+        4-XX - Особо тяжкие
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        5-XX - Capital
+        5-XX - Высшей тяжести
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Code
+        Код
       </Box>
     </ColorBox>
     <ColorBox>
@@ -40,22 +40,22 @@
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Resisting a Lawful Search (E)
+        Сопротивление законному обыску (E)
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Obstruction of Justice (E)
+        Воспрепятствование правосудию (E)
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Custody (E)
+        Побег из-под стражи (E)
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Permanent Confinement (E)
+        Побег из пермабрига (E)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -65,12 +65,12 @@
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Petty Theft (H)
+        Мелкая кража (H)
       </Box>
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Grand Theft (H)
+        Крупная кража (H)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -92,27 +92,27 @@
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Vandalism (D)
+        Вандализм (D)
       </Box>
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Damage of Property (D)
+        Порча имущества (D)
       </Box>
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Minor Sabotage/Destruction (D)
+        Мелкий саботаж / Разрушение (D)
       </Box>
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Major Sabotage/Destruction (D)
+        Крупный саботаж / Разрушение (D)
       </Box>
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Station-Wide Destruction (D)
+        Уничтожение станции (D)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -122,12 +122,12 @@
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Trespass (T)
+        Незаконное проникновение (T)
       </Box>
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Secure Trespass (T)
+        Проникновение в защищённую зону (T)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -149,27 +149,27 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Animal Cruelty (V)
+        Жестокое обращение с животными (V)
       </Box>
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Assault (V)
+        Нападение (V)
       </Box>
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Kidnapping (V)
+        Похищение (V)
       </Box>
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Attempted Murder (V)
+        Покушение на убийство (V)
       </Box>
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Murder (V)
+        Убийство (V)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -179,12 +179,12 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Endangerment (V)
+        Создание угрозы безопасности (V)
       </Box>
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Gross Negligence (V)
+        Преступная халатность (V)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -193,12 +193,12 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Manslaughter (V)
+        Непредумышленное убийство (V)
       </Box>
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mass Acts of Violence (V)
+        Массовые акты насилия (V)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -208,7 +208,7 @@
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Disturbance (R)
+        Нарушение общественного порядка (R)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -217,7 +217,7 @@
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Rioting (R)
+        Массовые беспорядки (R)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -226,7 +226,7 @@
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Refusal of Mental Shielding (R)
+        Отказ от ментальной защиты (R)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -236,46 +236,45 @@
     </ColorBox>
   </Table>
 
-  ## Minor Crimes
-  - Warnings should be issued for a first offense.
-  - If multiple minor crimes have been committed or it is a repeat offense, then 5 minutes is the maximum sentence for a minor crime.
+  ## Мелкие преступления
+  - За первое нарушение следует выносить предупреждение.
+  - Если совершено несколько мелких преступлений или имеет место рецидив, максимальный срок за мелкое преступление составляет 5 минут.
   <Table Columns="4">
     <ColorBox>
       <Box>
-        Offense
+        Преступление
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Description
+        Описание
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Notes
+        Примечания
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Code
+        Код
       </Box>
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Petty Theft (H)
+        Мелкая кража (H)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To take non-vital or inexpensive property of another individual, organization, or common property, without
-        consent.
+        Изъятие некритичного или недорогого имущества другого лица, организации или общего имущества без согласия.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Petty theft covers the possession of items that were not lawfully or consensually given to the holder.
-        This may include departmental contraband if the contraband was not approved for the holder.
-        Items covered by petty theft are usually easily replaceable, low-value, or low-danger.
+        Мелкая кража охватывает хранение предметов, которые не были переданы владельцу на законных основаниях или по взаимному согласию.
+        Сюда может относиться ведомственная контрабанда, если её использование не было одобрено для данного лица.
+        Предметы, подпадающие под мелкую кражу, обычно легко заменимы, недороги и не представляют большой опасности.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -285,18 +284,17 @@
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Vandalism (D)
+        Вандализм (D)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To intentionally deface or superficially damage public or private property.
+        Умышленное обезображивание или поверхностное повреждение общественного или частного имущества.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Painting obscene graffiti, smashing bar glasses, breaking lights, and eating a crewmember's plushie is vandalism, breaking a window into
-        space or secure areas is not.
+        Рисование непристойных граффити, разбивание барных стаканов, уничтожение лампочек и поедание чужих плюшевых игрушек — это вандализм, а вот выбивание окна в космос или в защищённые отсеки — уже нет.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -306,17 +304,17 @@
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Trespass (T)
+        Незаконное проникновение (T)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To enter a non-secured area without permission.
+        Вход в незащищённую зону без разрешения.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        It's best to just remove them from the area unless this is a repeated crime.
+        Лучше всего просто вывести нарушителя из отсека, если только это не повторное нарушение.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -326,18 +324,17 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Animal Cruelty (V)
+        Жестокое обращение с животными (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To inflict unnecessary suffering or harm on a non-sapient being with malicious intent.
+        Причинение неоправданных страданий или вреда неразумному существу со злым умыслом.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This doesn't include legitimate and authorized animal testing and usually doesn't extend to vermin such as mice, animals normally used in the process of food production, or creatures
-        that could pose a threat to the station.
+        Сюда не входят законные и санкционированные испытания на животных; кроме того, статья обычно не распространяется на вредителей (например, мышей), животных, используемых для производства пищи, или существ, представляющих угрозу для станции.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -347,17 +344,17 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Endangerment (V)
+        Создание угрозы безопасности (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To recklessly put yourself or others in danger, either through direct action or failure to act.
+        Безрассудное подвергание опасности себя или окружающих путём прямого действия или бездействия.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Covers industrial accidents, industrial negligence, self-experimentation, or even medical malpractice.
+        Охватывает производственные аварии, нарушение техники безопасности, эксперименты над собой и даже врачебную халатность.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -367,18 +364,17 @@
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Disturbance (R)
+        Нарушение общественного порядка (R)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To cause a public disturbance.
+        Нарушение спокойствия и общественного порядка на станции.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Sometimes referred to as hooliganism. The catch-all for obnoxious crewmates. Covers things such as public
-        nudity, needless insults, obstructing authorities, and inciting crime or violence.
+        Иногда называется мелким хулиганством. Универсальная статья для несносных членов экипажа. Охватывает такие вещи, как появление в общественном месте без одежды, беспричинные оскорбления, помехи работе властей и подстрекательство к преступлениям или насилию.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -388,44 +384,44 @@
     </ColorBox>
   </Table>
 
-  ## Moderate Crimes
-  - The maximum sentence for a moderate crime is 5 minutes.
-  - Depending on the situation, you may want to issue a warning instead of detaining.
+  ## Преступления средней тяжести
+  - Максимальный срок за преступление средней тяжести составляет 5 минут.
+  - В зависимости от ситуации вы можете ограничиться предупреждением вместо задержания.
   <Table Columns="4">
     <ColorBox>
       <Box>
-        Offense
+        Преступление
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Description
+        Описание
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Notes
+        Примечания
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Code
+        Код
       </Box>
     </ColorBox>
   <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Resisting a Lawful Search (E)
+        Сопротивление законному обыску (E)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To resist a reasonable or lawful search or seizure by a member of the security department, or an authorized head of staff.
+        Оказание сопротивления обоснованному или законному обыску либо изъятию имущества сотрудником службы безопасности или уполномоченным главой отдела.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        The search or seizure must be legal, either through a valid warrant, evidence, or alert level.
-        The perpetrator must have made an active attempt to flee, resist restraint, or, if applicable, refuse to hand over contraband.
+        Обыск или изъятие должны быть законными — на основании действительного ордера, улик или текущего кода угрозы.
+        Нарушитель должен предпринять активную попытку скрыться, сопротивляться связыванию или, если применимо, отказаться добровольно сдать контрабанду.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -435,19 +431,17 @@
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Grand Theft (H)
+        Крупная кража (H)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To take critical or unreplaceable property of another individual or organization without consent.
+        Изъятие критически важного или незаменимого имущества другого лица или организации без согласия.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        The difference between theft and grand theft is based on how crucial the stolen item is; this is mostly
-        used for the theft of command staff items, things like door remotes, hardsuits, jetpacks, and irreplaceable
-        machine parts. Additionally, stealing anything from the armory is grand theft, including seized contraband.
+        Разница между мелкой и крупной кражей зависит от того, насколько важен украденный предмет; обычно эта статья применяется при краже вещей командного состава, таких как пульты от дверей, скафандры, джетпаки и незаменимые детали оборудования. Кроме того, кража чего-либо из оружейной (включая изъятую контрабанду) также является крупной кражей.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -457,18 +451,17 @@
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Damage of Property (D)
+        Порча имущества (D)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To maliciously damage or deface public or private property or equipment.
+        Злонамеренное повреждение или приведение в негодность общественного или частного имущества либо оборудования.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Includes destruction of job equipment, such as hydro trays, booze dispensers, and chemical dispensers. It is a step up from
-        vandalism but a step down from critical property destruction.
+        Включает уничтожение рабочего оборудования отделов, такого как гидропонные лотки, раздатчики алкоголя и раздатчики химикатов. Это более серьёзное нарушение, чем вандализм, но менее тяжкое, чем уничтожение критически важных систем станции.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -478,17 +471,17 @@
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Secure Trespass (T)
+        Проникновение в защищённую зону (T)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To enter a secured area without permission.
+        Вход в защищённую зону без разрешения.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This covers places like telecommunications, head offices, security zones, command areas, the vault, and the armory.
+        Охватывает такие места, как телекоммуникации, кабинеты глав отделов, зоны службы безопасности, отсеки командования, хранилище и оружейная.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -498,18 +491,17 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Assault (V)
+        Нападение (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To threaten to or to use physical force against a member of the crew without the intent to kill.
+        Угроза применения или применение физической силы против члена экипажа без намерения убить.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Attempted murder and assault are different; a fist fight is most likely assault. A shooting may be an
-        attempted murder. Ensure you have context before making the call.
+        Покушение на убийство и нападение — разные вещи: кулачная драка, скорее всего, является нападением, тогда как стрельба из оружия может расцениваться как покушение на убийство. Обязательно разберитесь в контексте ситуации перед вынесением решения.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -519,19 +511,17 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Gross Negligence (V)
+        Преступная халатность (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        A conscious, reckless disregard for the safety or well-being of others.
+        Сознательное, безрассудное пренебрежение безопасностью или благополучием окружающих.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To cause an unreasonable amount of damage to a part of the station as a result of negligence. This
-        could be purposefully allowing anomalies to go critical, or causing an accidental but not permanent
-        death.
+        Причинение чрезмерного ущерба части станции в результате халатности. Сюда может относиться намеренное доведение аномалий до критического состояния или причинение случайной, но обратимой смерти (с последующей реанимацией).
       </Box>
     </ColorBox>
     <ColorBox>
@@ -541,43 +531,43 @@
     </ColorBox>
   </Table>
 
-  ## Major Crimes
-  - The maximum sentence for a major crime is 10 minutes.
-  - It is recommended not to use maximum sentences for those who are compliant.
+  ## Тяжкие преступления
+  - Максимальный срок за тяжкое преступление составляет 10 минут.
+  - Не рекомендуется назначать максимальные сроки тем, кто идёт на сотрудничество.
   <Table Columns="4">
     <ColorBox>
       <Box>
-        Offense
+        Преступление
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Description
+        Описание
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Notes
+        Примечания
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Code
+        Код
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Obstruction of Justice (E)
+        Воспрепятствование правосудию (E)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To intentionally impede or otherwise prevent a member of the security department from enforcing the law.
+        Умышленное создание помех или иное воспрепятствование сотруднику службы безопасности в обеспечении соблюдения закона.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This applies to attempting to prevent an officer from making a lawful arrest, detainment, or execution.
+        Применяется к попыткам помешать офицеру произвести законный арест, задержание или казнь.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -587,18 +577,17 @@
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Minor Sabotage/Destruction (D)
+        Мелкий саботаж / Разрушение (D)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To cause minor damage to an area or a minor station system.
+        Причинение незначительного ущерба отсеку или второстепенной системе станции.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Includes destruction of station machinery such as ID card computers or telecommunications servers,
-        power devices such as substations, and non-hostile silicon units.
+        Включает уничтожение станционного оборудования, такого как консоли ID-карт или телекоммуникационные серверы, энергетических устройств вроде подстанций, а также невраждебных синтетиков.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -608,17 +597,17 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Kidnapping (V)
+        Похищение (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To unlawfully restrain, transport, control, or confine a sapient being against that individual’s will.
+        Незаконное связывание, перемещение, контроль или удержание разумного существа против его воли.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        A large range of things, used mostly as a catch-all when dealing with unlawful control of another being.
+        Охватывает широкий спектр действий и в основном используется как общая статья при незаконном лишении свободы или контроле над другим существом.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -628,17 +617,17 @@
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Rioting (R)
+        Массовые беспорядки (R)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To take part in a large group of personnel creating an unlawful public disturbance.
+        Участие в большой группе персонала, устраивающей незаконные общественные беспорядки.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Leaders of a riot can be charged with all crimes that happen under their leadership.
+        Зачинщикам и лидерам бунта могут быть предъявлены обвинения во всех преступлениях, совершённых под их руководством.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -648,42 +637,42 @@
     </ColorBox>
   </Table>
 
-  ## Extreme Crimes
-  - The maximum sentence for an extreme crime is 15 minutes.
+  ## Особо тяжкие преступления
+  - Максимальный срок за особо тяжкое преступление составляет 15 минут.
   <Table Columns="4">
     <ColorBox>
       <Box>
-        Offense
+        Преступление
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Description
+        Описание
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Notes
+        Примечания
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Code
+        Код
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Custody (E)
+        Побег из-под стражи (E)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To break out of a cell or custody with the intention of escaping.
+        Побег из камеры или из-под стражи с целью скрыться.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Includes breaking out other people.
+        Включает организацию побега других заключённых.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -693,18 +682,17 @@
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Major Sabotage/Destruction (D)
+        Крупный саботаж / Разрушение (D)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To cause massive damage to an area or major station system.
+        Причинение масштабного ущерба отсеку или важной системе станции.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This is mostly used for deadly departmental bombings or sabotage of major station systems
-        such as the TEG or hacking the ATS.
+        В основном применяется при опасных для жизни взрывах в отделах или саботаже ключевых систем станции, таких как ТЭГ, либо при взломе торговой станции (ATS).
       </Box>
     </ColorBox>
     <ColorBox>
@@ -714,17 +702,17 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Attempted Murder (V)
+        Покушение на убийство (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To try to use force against a crewmember with the clear intent to kill.
+        Попытка применения силы против члена экипажа с явным намерением убить.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This covers any intentional but unsuccessful attempt to kill another member of the crew.
+        Охватывает любую умышленную, но безуспешную попытку лишить жизни другого члена экипажа.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -734,18 +722,18 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Manslaughter (V)
+        Непредумышленное убийство (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To incidentally kill a crewmember without intent.
+        Случайное причинение смерти члену экипажа без прямого умысла.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Includes manslaughter in self-defense and negligent manslaughter.
-        If there is provable intent, then the subject should instead be charged with attempted murder.
+        Включает убийство при превышении пределов необходимой самообороны и причинение смерти по неосторожности.
+        Если имеется доказуемый умысел на убийство, подозреваемому следует предъявлять обвинение в покушении на убийство или убийстве.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -755,42 +743,42 @@
     </ColorBox>
   </Table>
 
-  ## Capital Crimes
-  - Capital crimes should usually lead to a death sentence or shift-lasting detainment.
+  ## Преступления высшей тяжести
+  - Преступления высшей тяжести обычно влекут за собой смертную казнь или пожизненное заключение до конца смены.
   <Table Columns="4">
     <ColorBox>
       <Box>
-        Offense
+        Преступление
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Description
+        Описание
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Notes
+        Примечания
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Code
+        Код
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Permanent Confinement (E)
+        Побег из пермабрига (E)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To break someone sentenced to permanent confinement out of a cell or custody with the intention of escaping.
+        Побег приговорённого к пожизненному заключению лица из камеры или из-под стражи с целью скрыться.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Includes breaking out other people sentenced to permanent confinement.
+        Включает освобождение и организацию побега других лиц, приговорённых к пожизненному заключению.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -800,18 +788,17 @@
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Station-Wide Destruction (D)
+        Уничтожение станции (D)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To engage in maliciously destructive actions which threaten to destroy, or successfully destroy a vessel or habitat.
+        Совершение злонамеренных разрушительных действий, которые угрожают уничтожением или приводят к успешному уничтожению судна либо станции.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Summed up, extreme sabotage of station systems or setting off self-destruction systems. This includes any means that cause the 
-        entire station to become uninhabitable, releasing an active singularity, station-wide atmospherics sabotage, and destruction of the station AI all fall into this category.
+        Проще говоря, экстремальный саботаж систем станции или приведение в действие систем самоуничтожения. Сюда относятся любые действия, делающие всю станцию непригодной для жизни: выпуск активной сингулярности, масштабный саботаж атмосферы всей станции и уничтожение станционного ИИ.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -821,18 +808,18 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Murder (V)
+        Убийство (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To permanently kill a member of the crew.
+        Окончательное лишение жизни члена экипажа.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This covers any successful attempt to kill a member of the crew and prevent resuscitation.
-        If the victim was declared legally dead, but was able to be resuscitated, then it is only Attempted Murder.
+        Охватывает любую успешную попытку убить члена экипажа и воспрепятствовать его реанимации.
+        Если жертва была признана клинически мёртвой, но её удалось реанимировать, деяние квалифицируется только как «Покушение на убийство».
       </Box>
     </ColorBox>
     <ColorBox>
@@ -842,18 +829,17 @@
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mass Acts of Violence (V)
+        Массовые акты насилия (V)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To attempt to kill three or more sapient beings with malicious intent.
+        Попытка убить трёх или более разумных существ со злым умыслом.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Applies when there have been three or more Attempted Murders with the intention to kill,
-        or if the perpetrator has committed three or more acts of Manslaughter.
+        Применяется в случае трёх или более покушений на убийство с намерением лишить жизни, либо если преступник совершил три или более непредумышленных убийства.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -863,18 +849,18 @@
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Refusal of Mental Shielding (R)
+        Отказ от ментальной защиты (R)
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To refuse to comply with a reasonable Mind Shielding procedure.
+        Отказ подчиниться обоснованной процедуре вживления импланта «Щит разума».
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner already being too far gone.
-        If the implant fails, execution is heavily recommended.
+        Применяется, если подозреваемый проявляет крайнее упорство в отказе от сотрудничества или если имплант не срабатывает из-за необратимых изменений в сознании заключённого.
+        Если имплант разрушается или не срабатывает, настоятельно рекомендуется смертная казнь.
       </Box>
     </ColorBox>
     <ColorBox>

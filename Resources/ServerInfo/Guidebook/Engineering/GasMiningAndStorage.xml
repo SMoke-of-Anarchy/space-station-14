@@ -1,33 +1,33 @@
-﻿<Document>
-  # Gas Mining and Storage
-  Gasses are often permanently used. Whether they are lost to [textlink="space" link="Spacing"] or used in a burn chamber, the station needs to be able to produce more gas to replace what is lost.
-  It also needs to store this gas in a safe and efficient manner.
+<Document>
+  # Добыча и хранение газов
+  Запасы газов на станции постоянно расходуются. Теряются ли они при [textlink="разгерметизациях в космос" link="Spacing"] или сжигаются в камере сгорания — станции необходим способ производить новый газ взамен утраченного.
+  Кроме того, этот газ нужно безопасно и эффективно хранить.
 
-  ## Gas Miners
-  Gas miners are used to replenish the station's gas supply. They are found in the gas storage tanks in Atmospherics.
+  ## Газодобытчики
+  Газодобытчики используются для пополнения запасов газа на станции. Они расположены внутри камер хранения газа в атмосферном отделе.
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
     <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
   </Box>
 
-  Gas miners constantly produce room temperature gas and push it into the exposed atmosphere. They require no power to function, and never stop working unless they have reached the defined [bold]cutoff pressure[/bold].
+  Газодобытчики непрерывно вырабатывают газ комнатной температуры и выпускают его в окружающее пространство. Им не требуется электропитание для работы, и они не останавливаются до тех пор, пока давление вокруг них не достигнет установленного [bold]порога отсечки[/bold].
 
-  You can see more information about the gas miners by inspecting them using [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
-  Try inspecting the gas miners presented above.
+  Узнать подробные характеристики газодобытчиков можно, осмотрев их с помощью клавиши [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+  Попробуйте осмотреть газодобытчики, представленные выше.
 
-  Gas miners come in tiers, with the larger versions having a higher pressure cutoff than the smaller versions.
+  Газодобытчики делятся на несколько уровней мощности: более крупные модели имеют гораздо более высокий предел давления, чем малые.
 
   <Box>
-    <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 kPa"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 кПа"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 кПа"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 кПа"/>
   </Box>
 
-  If gas miners are ever unanchored from the station, they can be reanchored using a regular wrench.
+  Если газодобытчик по какой-то причине был откреплён от пола, его можно закрепить обратно обычным гаечным ключом.
 
-  ## Gas Storage
-  Gas storage tanks are used to store gas produced by the gas miners, and to make it available to other processes. They are found in Atmospherics.
+  ## Хранение газов
+  Камеры хранения газов служат резервуарами для накопления газа, вырабатываемого газодобытчиками, и последующей его подачи в системы станции. Они находятся в атмосферном отделе.
 
   <Box>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
@@ -52,15 +52,15 @@
   </Box>
 
   <Box>
-    [color=#999999][italic]An example of a small gas holding tank[italic][/color]
+    [color=#999999][italic]Пример небольшой камеры хранения газа[italic][/color]
   </Box>
 
-  Various atmos processes insert and remove gasses from the gas storage tanks.
-  For example:
-  - The gas miner provides fresh gasses to the gas storage tanks, if there is room.
-  - The recyclernet injects reclaimed gasses into the gas storage tanks for reuse.
-  - Setups like the distronet and burn chamber remove gasses from the gas storage tanks.
+  Различные атмосферные контуры закачивают и забирают газы из камер хранения.
+  Например:
+  - Газодобытчик наполняет камеру хранения свежим газом, пока позволяет давление.
+  - Контур переработки (ресайклер) закачивает очищенные газы обратно в камеры хранения для повторного использования.
+  - Распределительная сеть (дистро) и камера сгорания забирают газы из камер хранения для нужд станции.
 
-  Gas storage tanks are designed to be able to be measured using a [textlink="Gas Analyzer" link="AtmosTools"].
-  Because the outflow vent is a [textlink="passive vent" link="PassiveVent"], you can use a [textlink="gas analyzer" link="AtmosTools"] to measure the gas content of the [textlink="pump's" link="Pumps"] input, which is drawing from the gas storage tank.
+  Камеры хранения спроектированы так, чтобы их показатели можно было легко измерить с помощью [textlink="газоанализатора" link="AtmosTools"].
+  Поскольку на выходе из камеры установлена [textlink="пассивная вентиляция" link="PassiveVent"], вы можете применить [textlink="газоанализатор" link="AtmosTools"] прямо на вход [textlink="насоса" link="Pumps"], забирающего газ из камеры, чтобы узнать точное давление и состав внутри хранилища.
 </Document>

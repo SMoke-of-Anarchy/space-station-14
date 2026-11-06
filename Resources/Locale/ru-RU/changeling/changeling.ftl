@@ -32,7 +32,7 @@ changeling-biodegrade-used-popup = {CAPITALIZE(THE($user))} изрыгает к�
 
 changeling-biodegrade-used-popup-self = Мы изрыгаем кислоту на наши {$restraint}!
 
-changeling-cocoon-doafter = [color=red]{$user}: укрывает {$target} плотной массой плоти. {$user} продолжает укрывать![/color]
+changeling-cocoon-doafter = [color=red]{ CAPITALIZE($user) } укрывает { $target } плотной массой плоти![/color]
 
 changeling-cocoon-success = Мы заключаем {THE($target)} в плотскую гробницу.
 
@@ -46,7 +46,7 @@ changeling-devour-attempt-failed-no-space = Мы превысили максим
 
 changeling-devour-attempt-failed-not-dead = Это тело ещё живо! Мы не можем поглотить его живьём!
 
-changeling-devour-doafter = [color=red]Поглощение: {$user} разрывает плоть {$target}. {$user} продолжает разрывать![/color]
+changeling-devour-doafter = [color=red]{ CAPITALIZE($user) } разрывает плоть { $target }![/color]
 
 changeling-devour-doafter-windup = [color=red]{ CAPITALIZE(POSS-ADJ($user)) } лицо разрывается, готовясь к пиршеству![/color]
 
@@ -78,7 +78,7 @@ changeling-sting-hemotoxin = Вы чувствуете острую боль в 
 
 changeling-sting-success = Мы бесшумно жалим {THE($target)}!
 
-changeling-takeover-doafter = [color=red]Захват тела: {$user} заползает внутрь {$target}. {$user} продолжает заползать![/color]
+changeling-takeover-doafter = [color=red]{ CAPITALIZE($user) } заползает внутрь { $target }![/color]
 
 changeling-takeover-is-changeling = Это тело сопротивляется нашим попыткам захватить его!
 

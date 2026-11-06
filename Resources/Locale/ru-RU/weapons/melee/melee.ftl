@@ -6,7 +6,8 @@ melee-battery-examine =
     Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
         [one] удар
         [few] удара
-       *[other] ударов
+        [many] ударов
+       *[other] удара
     }.
 
 examine-battery-hits-left = Заряда хватит ещё на [color={ $color }]{ $count }[/color] ударов.

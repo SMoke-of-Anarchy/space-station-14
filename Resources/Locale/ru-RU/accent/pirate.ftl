@@ -6,130 +6,130 @@ accent-pirate-prefix-3 = Йарр
 
 accent-pirate-prefix-4 = Йарргх
 
-accent-pirate-replaced-1 = my
+accent-pirate-replaced-1 = мой
 
-accent-pirate-replacement-1 = me
+accent-pirate-replacement-1 = мой, тысяча чертей
 
-accent-pirate-replaced-2 = you
+accent-pirate-replaced-2 = ты
 
-accent-pirate-replacement-2 = ya
+accent-pirate-replacement-2 = ты, каналья
 
-accent-pirate-replaced-3 = hello
+accent-pirate-replaced-3 = здравствуйте
 
-accent-pirate-replacement-3 = ahoy
+accent-pirate-replacement-3 = ахой
 
-accent-pirate-replaced-4 = yes
+accent-pirate-replaced-4 = да
 
-accent-pirate-replacement-4 = aye
+accent-pirate-replacement-4 = так точно, кэп
 
-accent-pirate-replaced-5 = is
+accent-pirate-replaced-5 = это
 
-accent-pirate-replacement-5 = be
+accent-pirate-replacement-5 = энто
 
-accent-pirate-replaced-6 = there
+accent-pirate-replaced-6 = там
 
-accent-pirate-replacement-6 = thar
+accent-pirate-replacement-6 = на горизонте
 
-accent-pirate-replaced-7 = friend
+accent-pirate-replaced-7 = друг
 
-accent-pirate-replacement-7 = heartie
+accent-pirate-replacement-7 = кореш
 
-accent-pirate-replaced-8 = dude
+accent-pirate-replaced-8 = чувак
 
-accent-pirate-replacement-8 = matey
+accent-pirate-replacement-8 = матрос
 
-accent-pirate-replaced-9 = buddy
+accent-pirate-replaced-9 = приятель
 
-accent-pirate-replacement-9 = heartie
+accent-pirate-replacement-9 = дружище
 
-accent-pirate-replaced-10 = hi
+accent-pirate-replaced-10 = привет
 
-accent-pirate-replacement-10 = ahoy
+accent-pirate-replacement-10 = ахой
 
-accent-pirate-replaced-11 = hey
+accent-pirate-replaced-11 = эй
 
-accent-pirate-replacement-11 = oye
+accent-pirate-replacement-11 = полундра
 
-accent-pirate-replaced-12 = money
+accent-pirate-replaced-12 = деньги
 
-accent-pirate-replacement-12 = dubloons
+accent-pirate-replacement-12 = дублоны
 
-accent-pirate-replaced-13 = cash
+accent-pirate-replaced-13 = наличка
 
-accent-pirate-replacement-13 = doubloons
+accent-pirate-replacement-13 = пиастры
 
-accent-pirate-replaced-14 = crate
+accent-pirate-replaced-14 = ящик
 
-accent-pirate-replacement-14 = coffer
+accent-pirate-replacement-14 = сундук
 
-accent-pirate-replaced-15 = hello
+accent-pirate-replaced-15 = здарова
 
-accent-pirate-replacement-15 = ahoy
+accent-pirate-replacement-15 = ахой
 
-accent-pirate-replaced-16 = treasure
+accent-pirate-replaced-16 = сокровище
 
-accent-pirate-replacement-16 = booty
+accent-pirate-replacement-16 = добыча
 
-accent-pirate-replaced-17 = attention
+accent-pirate-replaced-17 = внимание
 
-accent-pirate-replacement-17 = avast
+accent-pirate-replacement-17 = свистать всех наверх
 
-accent-pirate-replaced-18 = stupid
+accent-pirate-replaced-18 = тупой
 
-accent-pirate-replacement-18 = parrot-brained
+accent-pirate-replacement-18 = безмозглый как попугай
 
-accent-pirate-replaced-19 = idiot
+accent-pirate-replaced-19 = идиот
 
-accent-pirate-replacement-19 = seadog
+accent-pirate-replacement-19 = морской пёс
 
-accent-pirate-replaced-20 = your
+accent-pirate-replaced-20 = твой
 
-accent-pirate-replacement-20 = yere
+accent-pirate-replacement-20 = твой, разрази меня гром
 
-accent-pirate-replaced-21 = song
+accent-pirate-replaced-21 = песня
 
-accent-pirate-replacement-21 = shanty
+accent-pirate-replacement-21 = шанти
 
-accent-pirate-replaced-22 = music
+accent-pirate-replaced-22 = музыка
 
-accent-pirate-replacement-22 = shanty
+accent-pirate-replacement-22 = шанти
 
-accent-pirate-replaced-23 = no
+accent-pirate-replaced-23 = нет
 
-accent-pirate-replacement-23 = nay
+accent-pirate-replacement-23 = якорь мне в глотку, нет
 
-accent-pirate-replaced-24 = are
+accent-pirate-replaced-24 = дела
 
-accent-pirate-replacement-24 = arrr
+accent-pirate-replacement-24 = делишки, аррр
 
-accent-pirate-replaced-25 = ow
+accent-pirate-replaced-25 = ай
 
-accent-pirate-replacement-25 = argh
+accent-pirate-replacement-25 = аргх
 
-accent-pirate-replaced-26 = ouch
+accent-pirate-replaced-26 = ауч
 
-accent-pirate-replacement-26 = argh
+accent-pirate-replacement-26 = аргх
 
-accent-pirate-replaced-27 = passenger
+accent-pirate-replaced-27 = пассажир
 
-accent-pirate-replacement-27 = landlubber
+accent-pirate-replacement-27 = сухопутная крыса
 
-accent-pirate-replaced-28 = tider
+accent-pirate-replaced-28 = грейтайдер
 
-accent-pirate-replacement-28 = landlubber
+accent-pirate-replacement-28 = сухопутная крыса
 
-accent-pirate-replaced-29 = captain
+accent-pirate-replaced-29 = капитан
 
-accent-pirate-replacement-29 = cap'n
+accent-pirate-replacement-29 = кэп
 
-accent-pirate-replaced-30 = pistol
+accent-pirate-replaced-30 = пистолет
 
-accent-pirate-replacement-30 = flintlock
+accent-pirate-replacement-30 = кремнёвый пистоль
 
-accent-pirate-replaced-31 = rifle
+accent-pirate-replaced-31 = винтовка
 
-accent-pirate-replacement-31 = musket
+accent-pirate-replacement-31 = мушкет
 
-accent-pirate-replaced-32 = ammo
+accent-pirate-replaced-32 = патроны
 
-accent-pirate-replacement-32 = gunpowder
+accent-pirate-replacement-32 = порох

@@ -1,25 +1,25 @@
-﻿<Document>
-  # Fires
-  Fires are arguably the most dangerous atmospheric upset that can occur on the station.
+<Document>
+  # Пожары
+  Пожары — пожалуй, самая опасная атмосферная катастрофа, которая может произойти на станции.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
     <GuideEntityEmbed Entity="FirelockGlass" Caption=""/>
   </Box>
 
-  They often make high-pressure and high-temperature gasses, which can quickly spread throughout the station if firelocks or doors are opened carelessly, even if only for a moment.
+  При пожарах образуются раскалённые газы под высоким давлением, которые могут мгновенно вырваться в соседние отсеки, если неосторожно открыть пожарный шлюз или дверь даже на долю секунды.
 
-  If people are caught in a fire, they can quickly become incapacitated, die, and even ash, rendering them unrevivable.
+  Люди, оказавшиеся в эпицентре пожара, могут быстро потерять сознание, погибнуть и даже сгореть в пепел, после чего их уже невозможно будет реанимировать или клонировать.
 
-  ## Combating Fires
-  The key elements of a fire are fuel and oxygen.
-  Removing any of these two elements will extinguish the fire.
-  For example, fires that have no oxygen flowing to them will slowly snuff themselves out, and fires that have no fuel will also extinguish themselves.
+  ## Борьба с пожарами
+  Два главных компонента любого пожара — это топливо и кислород.
+  Устранение любого из этих двух элементов приведёт к затуханию огня.
+  Например, без притока кислорода пламя постепенно задохнётся и погаснет, равно как и при полном выгорании или откачке горючего газа.
 
-  Exposing the fire to space will extinguish it, as all the gas will simply be spaced.
-  You can then [textlink="fix" link="ExpandingRepairingStation"] the [textlink="spacing" link="Spacing"] and repressurize the area.
+  Разгерметизация горящего отсека в открытый космос мгновенно потушит пожар, поскольку весь газ попросту вытянет в вакуум.
+  После этого вы сможете спокойно [textlink="заделать" link="ExpandingRepairingStation"] [textlink="пробоину" link="Spacing"] и заново наполнить помещение воздухом.
 
-  ## Tips
-  - [bold]Know the signs of a future fire.[/bold] If an area is filled with highly flammable gasses, it's only a matter of time before a careless passenger sets it off. Try to isolate the area and scrub the gasses out as quickly as possible.
-  - [bold]Prevent the spread of gasses using a holofan projector.[/bold] Letting gasses through a firelock can make other rooms dangerous, even for a moment. This increases the number of rooms you have to fix.
+  ## Советы
+  - [bold]Распознавайте признаки будущего пожара заранее.[/bold] Если отсек заполнен легковоспламеняющимся газом, то появление искры от неосторожного пассажира — лишь вопрос времени. Постарайтесь как можно быстрее изолировать зону и откачать горючие газы скрубберами.
+  - [bold]Предотвращайте утечку газов с помощью голографического проектора.[/bold] Прорыв раскалённых газов через открытый пожарный шлюз даже на мгновение сделает опасными и соседние помещения, увеличив количество комнат, которые вам придётся спасать.
 </Document>

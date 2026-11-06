@@ -1,11 +1,11 @@
 # TODO: заменить на genitive там где возможно
 health-examinable-carbon-none = Видимые повреждения тела отсутствуют.
 
-health-examinable-carbon-Slash-8 = [color=yellow]{$target}: неглубокий порез. Имеется один неглубокий порез: {$target}.[/color]
+health-examinable-carbon-Slash-8 = [color=yellow]На { POSS-ADJ($target) } теле неглубокий порез.[/color]
 
-health-examinable-carbon-Slash-15 = [color=yellow]{$target}: несколько маленьких порезов. Имеется несколько порезов: {$target}.[/color]
+health-examinable-carbon-Slash-15 = [color=yellow]На { POSS-ADJ($target) } теле несколько маленьких порезов.[/color]
 
-health-examinable-carbon-Slash-30 = [color=orange]{$target}: несколько крупных порезов. Имеется несколько порезов: {$target}.[/color]
+health-examinable-carbon-Slash-30 = [color=orange]На { POSS-ADJ($target) } теле несколько крупных порезов.[/color]
 
 health-examinable-carbon-Slash-50 = [color=red]{ CAPITALIZE(POSS-ADJ($target)) } тело покрыто глубокими порезами.[/color]
 
@@ -15,9 +15,9 @@ health-examinable-carbon-Slash-100 = [color=red]{ CAPITALIZE(POSS-ADJ($target)) 
 
 health-examinable-carbon-Slash-200 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } тело полностью разорвано на куски![/color]
 
-health-examinable-carbon-Blunt-8 = [color=yellow]{$target}: лёгкий ушиб. Имеется лёгкий ушиб: {$target}.[/color]
+health-examinable-carbon-Blunt-8 = [color=yellow]На { POSS-ADJ($target) } теле лёгкий ушиб.[/color]
 
-health-examinable-carbon-Blunt-15 = [color=yellow]{$target}: несколько ушибов. Имеется несколько ушибов: {$target}.[/color]
+health-examinable-carbon-Blunt-15 = [color=yellow]На { POSS-ADJ($target) } теле несколько ушибов.[/color]
 
 health-examinable-carbon-Blunt-30 = [color=orange]{ CAPITALIZE(SUBJECT($target)) } { GENDER($target) ->
         [male] избит
@@ -39,11 +39,11 @@ health-examinable-carbon-Blunt-100 = [color=red]{ CAPITALIZE(POSS-ADJ($target)) 
 
 health-examinable-carbon-Blunt-200 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } тело разбито в лепёшку![/color]
 
-health-examinable-carbon-Piercing-8 = [color=yellow]{$target}: небольшая колотая рана. Имеется небольшая колотая рана: {$target}.[/color]
+health-examinable-carbon-Piercing-8 = [color=yellow]На { POSS-ADJ($target) } теле небольшая колотая рана.[/color]
 
-health-examinable-carbon-Piercing-15 = [color=yellow]{$target}: несколько колотых ран. Имеется несколько колотых ран: {$target}.[/color]
+health-examinable-carbon-Piercing-15 = [color=yellow]На { POSS-ADJ($target) } теле несколько колотых ран.[/color]
 
-health-examinable-carbon-Piercing-30 = [color=orange]{$target}: множественные глубокие колотые раны. Имеется несколько глубоких колотых ран: {$target}.[/color]
+health-examinable-carbon-Piercing-30 = [color=orange]На { POSS-ADJ($target) } теле множественные глубокие колотые раны.[/color]
 
 health-examinable-carbon-Piercing-50 = [color=red]{ CAPITALIZE(POSS-ADJ($target)) } тело покрыто серьёзными глубокими проколами.[/color]
 
@@ -57,11 +57,11 @@ health-examinable-carbon-Asphyxiation-30 = [color=lightblue]{ CAPITALIZE(POSS-AD
 
 health-examinable-carbon-Asphyxiation-75 = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } лицо синеет.[/color]
 
-health-examinable-carbon-Heat-8 = [color=orange]{$target}: поверхностный ожог. Имеется поверхностный ожог: {$target}.[/color]
+health-examinable-carbon-Heat-8 = [color=orange]На { POSS-ADJ($target) } теле поверхностный ожог.[/color]
 
-health-examinable-carbon-Heat-15 = [color=orange]{$target}: несколько ожогов первой степени. Имеется несколько ожогов первой степени: {$target}.[/color]
+health-examinable-carbon-Heat-15 = [color=orange]На { POSS-ADJ($target) } теле несколько ожогов первой степени.[/color]
 
-health-examinable-carbon-Heat-30 = [color=orange]{$target}: несколько ожогов второй степени. Имеется несколько ожогов второй степени: {$target}.[/color]
+health-examinable-carbon-Heat-30 = [color=orange]На { POSS-ADJ($target) } теле несколько ожогов второй степени.[/color]
 
 health-examinable-carbon-Heat-50 = [color=orange]{ CAPITALIZE(SUBJECT($target)) } { GENDER($target) ->
         [male] покрыт
@@ -84,7 +84,7 @@ health-examinable-carbon-Shock-50 = [color=lightgoldenrodyellow]{ CAPITALIZE(POS
 
 health-examinable-carbon-Shock-75 = [color=lightgoldenrodyellow]{ CAPITALIZE(POSS-ADJ($target)) } тело покрыто большими обугленными ранами.[/color]
 
-health-examinable-carbon-Shock-100 = [color=lightgoldenrodyellow]Всё { POSS-ADJ($target) } покрыто сильными электрическими ожогами![/color]
+health-examinable-carbon-Shock-100 = [color=lightgoldenrodyellow]Всё { POSS-ADJ($target) } тело покрыто сильными электрическими ожогами![/color]
 
 health-examinable-carbon-Shock-200 = [color=lightgoldenrodyellow]{ CAPITALIZE(POSS-ADJ($target)) } тело полностью зажарено![/color]
 

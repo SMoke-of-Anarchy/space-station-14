@@ -1,22 +1,22 @@
-﻿<Document>
-  # Gas Condensing
-  Gas condensers take gasses and condense them into their liquid (reagent) forms.
+<Document>
+  # Конденсация газов
+  Конденсаторы газа принимают газы и конденсируют их в жидкую форму (реагенты).
 
   <Box>
     <GuideEntityEmbed Entity="BaseGasCondenser"/>
   </Box>
 
-  For example, water vapor can be condensed into liquid water, oxygen into liquid oxygen, and so on.
+  Например, водяной пар можно сконденсировать в обычную воду, газообразный кислород — в жидкий кислород, и так далее.
 
-  It has a [textlink="pipenet" link="PipeNetworks"] connection to input gas, and an internal tank to store the condensed liquid.
+  Устройство имеет разъём для подключения к [textlink="сети труб" link="PipeNetworks"], через который подаётся газ, и внутренний резервуар для хранения полученной жидкости.
 
-  A condensor will stop condensing gas if the tank is full.
-  You can take liquid out of the condenser by interacting with it using any empty container.
+  Конденсатор прекратит переработку газа, если его внутренний резервуар заполнится.
+  Слить жидкость из конденсатора можно, кликнув по нему любой пустой ёмкостью (например, мензуркой или ведром).
 
-  Gas condensors can take multiple gasses as input, and will condense them into their liquid forms.
-  For example, if you input a mixture of oxygen and nitrogen, you will get liquid oxygen and liquid nitrogen in the output tank.
+  Конденсаторы газа могут принимать на вход сразу смесь нескольких газов и переводить каждый из них в соответствующую жидкость.
+  Например, если подать на вход смесь кислорода и азота, в выходном резервуаре окажутся жидкий кислород и жидкий азот.
 
-  Because [textlink="Chemistry" link="Chemist"] works with limited reagents in liquid form, they will highly appreciate the work of a skilled atmospherics technician who can provide them with the reagents they need.
+  Поскольку [textlink="химлаборатория" link="Chemist"] работает с ограниченным запасом жидких реагентов, химики высоко оценят помощь умелого атмосферного техника, способного снабжать их необходимыми веществами.
 
 
 

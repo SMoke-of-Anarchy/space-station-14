@@ -4,10 +4,10 @@ crematorium-entity-storage-component-on-examine-details-has-contents = Инди�
 
 crematorium-entity-storage-component-on-examine-details-empty = Индикатор содержимого не горит, внутри ничего нет.
 
-crematorium-entity-storage-component-is-cooking-safety-message = Безопасность превыше всего, даже когда аппарат отключён!
+crematorium-entity-storage-component-is-cooking-safety-message = Безопасность превыше всего, не пока аппарат работает!
 
 crematorium-entity-storage-component-suicide-message = Вы кремируете себя!
 
-crematorium-entity-storage-component-suicide-message-others = { $victim } кремирует { $victim }!
+crematorium-entity-storage-component-suicide-message-others = { $victim } кремирует себя!
 
 cremate-verb-get-data-text = Кремировать

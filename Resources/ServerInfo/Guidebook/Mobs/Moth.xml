@@ -1,21 +1,21 @@
 <Document>
-  # Moth People
+  # Моли
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceMoth" Caption=""/>
   </Box>
 
-  ## General Information
+  ## Общая информация
 
-  Moths' wings give them [color=lightgreen]better acceleration in zero-gravity environments[/color], though they still can't move without equipment or a nearby surface
-  when floating out in space.
+  Крылья дают молям [color=lightgreen]лучшее ускорение в условиях невесомости[/color], хотя они всё равно не могут двигаться без снаряжения или опоры поблизости,
+  паря в открытом космосе.
 
-  The moth digestive system [color=palevioletred]can only process cotton and fiber-based items[/color] (such as cloth, clothing, towels, and MRE wrappers),
-  rather than any food that other species would consider edible.
+  Пищеварительная система молей [color=palevioletred]способна перерабатывать только изделия из хлопка и волокон[/color] (такие как ткань, одежда, полотенца и обёртки от сухпайков),
+  а не пищу, которую другие виды считают съедобной.
 
-  Their insect blood is iron-based, and is replenished when metabolizing iron.
+  Их насекомоподобная кровь основана на железе и восполняется при усвоении железа.
 
-  They take [color=lightgreen]30% less Cold damage[/color], but [color=palevioletred]20% more Heat damage[/color].
-  Their fluff makes them prefer a somewhat cooler temperature range than humans, and also makes them [color=palevioletred]extremely vulnerable to fire[/color].
+  Они получают [color=lightgreen]на 30% меньше урона от холода[/color], но [color=palevioletred]на 20% больше термического урона[/color].
+  Из-за пушка они предпочитают несколько более прохладный температурный диапазон, чем люди, и при этом [color=palevioletred]чрезвычайно уязвимы к огню[/color].
 
 </Document>

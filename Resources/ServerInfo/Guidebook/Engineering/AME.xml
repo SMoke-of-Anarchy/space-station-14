@@ -1,26 +1,26 @@
 <Document>
-  # Antimatter Engine (AME)
-  The Antimatter Engine is a short-term support generator for the station, providing a sizable chunk of power for a limited time.
+  # Двигатель антиматерии (ДАМ)
+  Двигатель антиматерии (ДАМ) — это краткосрочный вспомогательный генератор для станции, обеспечивающий значительный объём энергии в течение ограниченного времени.
 
-  It's mainly used to assist engineers in starting up bigger engines like the [textlink="Singularity Engine" link="SingularityEngine"] or [textlink="Tesla Engine" link="TeslaEngine"], by supplementing the station's [textlink="batteries" link="PowerStorage"] with partial power to extend their runtime.
+  Он в основном используется для помощи инженерам при запуске более крупных двигателей, таких как [textlink="генератор сингулярности" link="SingularityEngine"] или [textlink="генератор Теслы" link="TeslaEngine"], подпитывая [textlink="батареи" link="PowerStorage"] станции частичной мощностью для продления времени их работы.
 
-  ## Construction
-  <Box>Required parts:</Box>
+  ## Строительство
+  <Box>Необходимые детали:</Box>
   <Box>
   <GuideEntityEmbed Entity="AmeController"/>
   <GuideEntityEmbed Entity="AmePartFlatpack"/>
   <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
-  The AME Controller is the part of the AME that outputs power to the station's grid through an [textlink="HV connection" link="VoltageNetworks"].
-  Because of this, you'll want to start your AME construction with the controller on top of an [color=orange]HV wire[/color].
+  Контроллер ДАМ — это часть двигателя, которая подаёт энергию в сеть станции через [textlink="высоковольтное (ВВ) соединение" link="VoltageNetworks"].
+  Поэтому строительство ДАМ следует начинать с установки контроллера прямо поверх [color=orange]ВВ-кабеля[/color].
 
-  Most stations have exposed [color=orange]HV wiring[/color] or designated spots to wrench an AME controller, so that it connects to the grid.
+  На большинстве станций есть открытая [color=orange]ВВ-проводка[/color] или специально отведённые места, где можно закрепить контроллер ДАМ гаечным ключом для подключения к энергосети.
 
-  AME shielding is the physical structure that makes the antimatter engine. It's made by converting AME flatpacks into shielding using a multitool.
+  Экранирование ДАМ — это физическая структура, образующая сам двигатель антиматерии. Оно создаётся путём распаковки деталей ДАМ в экранирование с помощью мультитула.
 
-  To construct an AME, start putting down a 3x3 or larger square of AME flatpacks in preparation for construction, making sure to maximize the number of "center" pieces that are surrounded on all eight sides.
-  The greater amount of center pieces, the more cores your AME will have, and the more power it will be able to output safely.
+  Чтобы построить ДАМ, начните с выкладывания квадрата 3x3 (или больше) из упакованных деталей ДАМ, стараясь максимизировать количество «центральных» секций, окружённых со всех восьми сторон.
+  Чем больше таких центральных секций, тем больше ядер будет у вашего ДАМ, и тем больше энергии он сможет безопасно вырабатывать.
 
   <Box>
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
@@ -38,7 +38,7 @@
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
   </Box>
 
-  Once this is done, you can use a multitool to convert each AME flatpack into shielding, which should form a finished AME configuration.
+  После этого вы можете использовать мультитул, чтобы преобразовать каждую упаковку ДАМ в экранирование, сформировав готовую конструкцию двигателя.
 
   <GuideEntityEmbed Entity="AmeController" Caption=""/>
   <Box>
@@ -57,20 +57,20 @@
     <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
   </Box>
   <Box>
-    [color=#999999][italic]An example of a one core setup[italic][/color]
+    [color=#999999][italic]Пример установки с одним ядром[italic][/color]
   </Box>
 
-  ## Operation
-  To start the AME, insert a fuel jar into the AME controller, and set the safe injection rate.
+  ## Эксплуатация
+  Чтобы запустить ДАМ, вставьте топливную ячейку в контроллер ДАМ и установите безопасную скорость впрыска.
 
-  The safe injection rate is the point where the AME can safely run without overheating, while maximizing power output.
+  Безопасная скорость впрыска — это значение, при котором ДАМ может стабильно работать без перегрева, выдавая максимальную мощность.
 
-  This rate is always twice the core count.
+  Эта скорость всегда равна удвоенному количеству ядер.
 
-  For example, an AME with one core will have a safe injection rate of 2. With two cores, the safe injection rate would be 4, and so on.
+  Например, для ДАМ с одним ядром безопасная скорость впрыска равна 2. С двумя ядрами безопасная скорость впрыска составит 4, и так далее.
 
-  Any more than this ratio will eventually result in the engine [color=#ff0000]overheating[/color] and, shortly afterwards, [color=#ff0000]exploding[/color].
+  Превышение этого соотношения со временем приведёт к [color=#ff0000]перегреву[/color] двигателя и, вскоре после этого, к его [color=#ff0000]взрыву[/color].
 
-  The AME controller will [textlink="report" link="InspectingPower"] on both the amount of power it is providing to the grid, and the theoretical maximum power it could provide if demanded.
+  Контроллер ДАМ будет [textlink="отображать" link="InspectingPower"] как текущую мощность, подаваемую в сеть, так и теоретическую максимальную мощность, которую он может обеспечить при наличии спроса.
 
 </Document>

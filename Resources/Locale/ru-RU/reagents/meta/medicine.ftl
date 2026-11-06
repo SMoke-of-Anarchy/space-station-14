@@ -223,3 +223,7 @@ reagent-name-puncturase-tranexamic = пунктураз и транексамо�
 reagent-name-pyrazine-dermaline = пиразин и дермалин
 
 reagent-name-romerodone = ромеродон
+
+reagent-name-ignisol = игнизол
+
+reagent-desc-ignisol = Летучий лекарственный экстракт, который лечит обморожения за счёт быстрого повышения температуры тела. Крайне огнеопасен и при передозировке может вызвать перегрев.

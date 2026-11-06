@@ -1,29 +1,29 @@
-﻿<Document>
-  # The Wizard
+<Document>
+  # Волшебник
 
   <Box>
-    [color=#999999][italic]IT'S WIZARD TIME MOTHERF-...[/italic][/color]
+    [color=#999999][italic]ВРЕМЯ КОЛДОВАТЬ, УБЛЮД-...[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineWizard" Caption=""/>
   </Box>
-  Wizards are a force of chaos and unpredictability, generally sent by the [color=#FF00FF]Space Wizards Federation[/color]. You never know when one is going to show up, or what they'll do!
-  Wizards generally do as they please, having [bold]no specific objectives[/bold] other than to cause chaos on the station. What form that chaos takes is up to you; you might elect to vaporize the Clown for telling a bad joke, steal valuable items just to prove that you can, turn the Captain into a monkey, or just indiscriminately throw fireballs at people.
+  Волшебники — это сила хаоса и непредсказуемости, обычно засылаемая [color=#FF00FF]Федерацией Космических Волшебников[/color]. Никогда не знаешь, когда появится один из них и что он вытворит!
+  Волшебники обычно делают всё, что им заблагорассудится, и не имеют [bold]никаких конкретных целей[/bold], кроме как сеять хаос на станции. Какую форму примет этот хаос — решать вам: вы можете испепелить Клоуна за плохую шутку, украсть ценные вещи просто ради того, чтобы доказать, что можете, превратить Капитана в обезьяну или просто без разбора швырять в людей огненные шары.
 
-  ## The Grimoire
+  ## Гримуар
   <Box>
-    <GuideEntityEmbed Entity="WizardsGrimoire" Caption="Wizards Grimoire"/>
+    <GuideEntityEmbed Entity="WizardsGrimoire" Caption="Гримуар волшебника"/>
   </Box>
 
-  [bold]By wizard law of eld your Grimoire is bound to you.[/bold] This means you cannot share your Grimoire with anyone else. The spells and equipment inside are for you and you alone.
-  The Wizard's Grimoire is used to get all sorts of magical spells, equipment, and creatures. What's available to you is [italic]extremely powerful[/italic] so you only have 10 [color=#FF0000]W[/color][color=#FFA500]i[/color][color=#FFFF00]z[/color][color=#00FF00]€[/color][color=#0000FF]o[/color][color=#4B0082]i[/color][color=#8F00FF]n[/color]™ to spend on them.
-  Your only limit, other than the price, is your creativity. Try to find some combinations!
+  [bold]По древнему закону волшебников ваш Гримуар привязан к вам.[/bold] Это означает, что вы не можете поделиться своим Гримуаром ни с кем другим. Заклинания и снаряжение внутри предназначены только и исключительно для вас.
+  Гримуар волшебника используется для получения всевозможных магических заклинаний, снаряжения и существ. То, что вам доступно, [italic]невероятно могущественно[/italic], поэтому у вас есть всего 10 [color=#FF0000]W[/color][color=#FFA500]i[/color][color=#FFFF00]z[/color][color=#00FF00]€[/color][color=#0000FF]o[/color][color=#4B0082]i[/color][color=#8F00FF]n[/color]™, чтобы потратить их.
+  Ваше единственное ограничение, помимо цены, — это ваша фантазия. Попробуйте найти интересные комбинации!
 
   <Box>
-    <GuideEntityEmbed Entity="PonderingOrbWizard" Caption="The Pondering Orb"/>
+    <GuideEntityEmbed Entity="PonderingOrbWizard" Caption="Сфера раздумий"/>
   </Box>
 
-  If you ever find yourself wanting to ponder, look no further! The [bold]Pondering Orb[/bold] allows the Wizard to tap into the Station's camera network to spy on others unsuspectingly.
-  Could be useful if you're trying to plan something out or stay one step ahead of [color=red]Security[/color].
+  Если вам когда-нибудь захочется предаться размышлениям, вы нашли то, что нужно! [bold]Сфера раздумий[/bold] позволяет Волшебнику подключаться к сети камер станции, чтобы незаметно шпионить за окружающими.
+  Это может пригодиться, если вы пытаетесь что-то спланировать или хотите оставаться на шаг впереди [color=red]Службы безопасности[/color].
 
 </Document>

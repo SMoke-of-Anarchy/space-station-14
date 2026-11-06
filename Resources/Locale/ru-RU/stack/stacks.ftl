@@ -233,6 +233,8 @@ stack-ointment = мазь
 
 stack-aloe-cream = алоэ крем
 
+stack-dragon-tail-compress = компресс из драконьего хвоста
+
 stack-gauze = марлевый бинт
 
 stack-brutepack = набор от ушибов

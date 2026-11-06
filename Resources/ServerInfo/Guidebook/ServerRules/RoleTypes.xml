@@ -1,22 +1,22 @@
-﻿<Document>
-  # Role Types
+<Document>
+  # Виды ролей
 
-  ## Crew Aligned/Non-antagonist
-  In most rounds, a majority of players will be non-antagonists, meaning that they are crew aligned. This is the "default" role, if the game doesn't tell you that you are one of the other roles defined here, then you are a non-antagonist. Overall, non-antagonists are intended to work towards a net positive effect on the round.
+  ## Член экипажа / Не-антагонист
+  В большинстве раундов основная часть игроков не является антагонистами, то есть выступает на стороне экипажа. Это роль «по умолчанию»: если игра не сообщает вам, что вы принадлежите к одной из других описанных здесь ролей, значит, вы не-антагонист. В целом предполагается, что не-антагонисты действуют на благо станции и раунда.
 
-  ## Solo Antagonist
-  Certain roles are intended to cause problems for the round or for non-antagonists. You are only a solo antagonist if the game clearly and explicitly tells you that you are a solo antagonist. Antagonists are exempt from many but not all roleplay rules.
+  ## Одиночный антагонист
+  Определённые роли призваны создавать проблемы в раунде или мешать не-антагонистам. Вы являетесь одиночным антагонистом только в том случае, если игра чётко и явно сообщает вам об этом. Антагонисты освобождены от многих, но не от всех правил ролевой игры.
 
-  ## Team Antagonist
-  Team antagonists are like solo antagonists but they have other antagonists who they are expected to not hinder, and who they may be expected to help. You are only a team antagonist if the game clearly and explicitly tells you that you are a team antagonist.
+  ## Командный антагонист
+  Командные антагонисты похожи на одиночных, но у них есть соратники-антагонисты, которым они не должны мешать и которым от них ожидается помощь. Вы являетесь командным антагонистом только в том случае, если игра чётко и явно сообщает вам об этом.
 
-  ## Free Agent
-  Certain roles are free to choose if they want to behave as an antagonist or as a non-antagonist, and may change their mind whenever they'd like. You are only free agent if the game clearly and explicitly tells you that you are a free agent.
+  ## Свободный агент
+  Некоторые роли вольны сами выбирать, вести ли себя как антагонист или как не-антагонист, и могут изменить своё решение в любой момент. Вы являетесь свободным агентом только в том случае, если игра чётко и явно сообщает вам об этом.
 
-  ## Familiar
-  Familiars are considered non-antagonists, but have instructions to obey someone. They must obey this person even if it causes them to violate roleplay rules or die. You are only a familiar if the game clearly and explicitly tells you that you are a familiar. You are only the familiar of the person the game tells you.
+  ## Фамильяр
+  Фамильяры считаются не-антагонистами, но имеют предписание подчиняться определённому лицу. Они обязаны повиноваться этому человеку, даже если это заставит их нарушить правила ролевой игры или приведёт к их гибели. Вы являетесь фамильяром только в том случае, если игра чётко и явно сообщает вам об этом, и подчиняетесь только тому человеку, на которого указала игра.
 
-  ## Silicon / Altered Silicon
-  Silicons have a set of laws that they must follow above all else except the core rules. You are only silicon if the game clearly and explicitly tells you that you are a silicon.
-  Altered Silicons are functionally identical, this role is used to highlight law-sets that have been hacked, corrupted or are otherwise considered non-standard or dangerous.
+  ## Синтетик / Изменённый синтетик
+  У синтетиков есть набор законов, которым они обязаны следовать превыше всего, за исключением основных правил сервера. Вы являетесь синтетиком только в том случае, если игра чётко и явно сообщает вам об этом.
+  Изменённые синтетики функционально идентичны обычным; эта категория используется для обозначения наборов законов, которые были взломаны, повреждены или иным образом считаются нестандартными либо опасными.
 </Document>

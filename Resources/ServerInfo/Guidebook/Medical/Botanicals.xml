@@ -1,7 +1,7 @@
 <Document>
-# Botanicals
+# Ботанические реагенты
 
-Botany and Chemistry can often work together to produce better medicine (or recreational cocktails). It may be worthwhile to give them the fertilizers they need, and request some medicinal plants in return.
+Ботаника и химия часто могут работать сообща для создания более качественных лекарств (или рекреационных коктейлей). Имеет смысл снабжать ботаников необходимыми удобрениями, а взамен запрашивать лекарственные растения.
 
 <Box>
 <GuideEntityEmbed Entity="FoodGalaxythistle"/>
