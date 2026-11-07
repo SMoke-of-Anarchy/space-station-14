@@ -10,9 +10,12 @@ using System.Threading.Tasks;
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
 using Content.Shared.Humanoid;
+using Content.Shared.Radio.Components;
 using Content.Shared.Silicons.Borgs.Components;
 using Content.Shared.Silicons.Laws.Components;
+using Content.Shared.Speech;
 using Content.Shared.TTS;
+using Content.Shared.VendingMachines.Components;
 using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
 using Robust.Shared.GameObjects.Components.Localization;
@@ -122,6 +125,39 @@ public sealed partial class TTSSystem : EntitySystem
         _ = DispatchTTSAsync(cleanText, speaker, pitch, speed, "radio", seed, species, null, isWhisper: false, isRadio: true, [recipient]);
     }
 
+    public void RequestAnnouncementTTS(string message, Filter filter, string? sender = null)
+    {
+        if (!_enabled || string.IsNullOrWhiteSpace(_apiUrl))
+            return;
+
+        if (DateTime.UtcNow < _backoffUntilUtc)
+            return;
+
+        var sessions = new List<ICommonSession>();
+        foreach (var session in filter.Recipients)
+        {
+            sessions.Add(session);
+        }
+
+        if (sessions.Count == 0)
+            return;
+
+        var cleanText = NormalizeTextForRussianTTS(FormattedMessage.RemoveMarkupPermissive(message));
+        if (string.IsNullOrWhiteSpace(cleanText) || !ContainsCyrillic(cleanText))
+            return;
+
+        var maxAnnounceChars = Math.Max(_maxChars, 400);
+        if (cleanText.Length > maxAnnounceChars)
+            cleanText = cleanText[..maxAnnounceChars];
+
+        var senderKey = string.IsNullOrWhiteSpace(sender) ? "CentCom" : sender;
+        var hashBytes = SHA256.HashData(Encoding.UTF8.GetBytes(senderKey));
+        var announceSpeakers = new[] { "xenia", "eugene", "kseniya", "aidar" };
+        var speaker = announceSpeakers[hashBytes[0] % announceSpeakers.Length];
+
+        _ = DispatchTTSAsync(cleanText, speaker, 0, 1.0f, "announce", hashBytes[0], "Human", null, isWhisper: false, isRadio: true, sessions);
+    }
+
     private (string Speaker, int Pitch, float Speed, string Effect, int Seed, string Species) ResolveVoiceParameters(EntityUid uid, bool isRadio)
     {
         var nameEv = new TransformSpeakerNameEvent(uid, MetaData(uid).EntityName);
@@ -146,16 +182,16 @@ public sealed partial class TTSSystem : EntitySystem
             if (profile.Age >= 55)
             {
                 pitchOffset -= 1;
-                speedOffset -= 0.04f;
+                speedOffset -= 0.05f;
             }
 
             speciesId = profile.Species.Id;
             if (speciesId == "Dwarf")
-                pitchOffset -= 2;
+                pitchOffset -= 3;
             else if (speciesId is "Moth" or "Arachnid")
-                pitchOffset += 1;
+                pitchOffset += 2;
             else if (speciesId is "Reptilian" or "Vox")
-                pitchOffset -= 1;
+                pitchOffset -= 2;
         }
         else if (TryComp<GrammarComponent>(uid, out var grammar))
         {
@@ -165,26 +201,44 @@ public sealed partial class TTSSystem : EntitySystem
         var speakerPool = isFemale ? FemaleSpeakers : MaleSpeakers;
         var speaker = speakerPool[h0 % speakerPool.Length];
 
-        // Keep male pitch in [-3, +1] and female in [-2, +2] so voices stay natural
+        // Wide per-character pitch range (server.py preserves formants via rubberband/pyworld)
         int pitch;
         if (isFemale)
         {
-            var basePitch = (h1 % 5) - 2; // -2 .. +2
-            pitch = Math.Clamp(basePitch + pitchOffset, -2, 2);
+            var basePitch = (h1 % 9) - 4; // -4 .. +4
+            pitch = Math.Clamp(basePitch + pitchOffset, -5, 5);
         }
         else
         {
-            var basePitch = (h1 % 5) - 3; // -3 .. +1
-            pitch = Math.Clamp(basePitch + pitchOffset, -3, 1);
+            var basePitch = (h1 % 9) - 5; // -5 .. +3
+            pitch = Math.Clamp(basePitch + pitchOffset, -6, 3);
         }
 
-        var baseSpeed = 0.94f + (h2 / 255f) * 0.12f;
-        var speed = (float)Math.Round(Math.Clamp(baseSpeed + speedOffset, 0.88f, 1.12f), 2);
+        var baseSpeed = 0.88f + (h2 / 255f) * 0.24f;
+        var speed = (float)Math.Round(Math.Clamp(baseSpeed + speedOffset, 0.84f, 1.18f), 2);
 
-        var isSilicon = HasComp<BorgChassisComponent>(uid) || HasComp<SiliconLawBoundComponent>(uid);
-        var effect = isRadio ? "radio" : (isSilicon ? "borg" : "normal");
+        string effect;
+        if (isRadio || HasComp<RadioSpeakerComponent>(uid))
+        {
+            effect = "radio";
+        }
+        else if (HasComp<VendingMachineComponent>(uid))
+        {
+            effect = "vendor";
+        }
+        else if (HasComp<BorgChassisComponent>(uid) ||
+                 HasComp<SiliconLawBoundComponent>(uid) ||
+                 (TryComp<SpeechComponent>(uid, out var speech) && speech.SpeechVerb == "Robotic"))
+        {
+            effect = "borg";
+        }
+        else
+        {
+            effect = "normal";
+        }
 
-        return (speaker, pitch, speed, effect, h0, speciesId);
+        var seed = h0 | (h1 << 8);
+        return (speaker, pitch, speed, effect, seed, speciesId);
     }
 
     private async Task DispatchTTSAsync(
