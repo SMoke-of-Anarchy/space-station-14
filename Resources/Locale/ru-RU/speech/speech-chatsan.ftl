@@ -178,7 +178,7 @@ chatsan-replacement-47 = пока
 
 chatsan-word-48 = щас
 
-chatsan-replacement-48 = щас
+chatsan-replacement-48 = сейчас
 
 chatsan-word-49 = атм
 
