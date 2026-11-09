@@ -178,7 +178,7 @@ chatsan-replacement-47 = пока
 
 chatsan-word-48 = щас
 
-chatsan-replacement-48 = прямо сейчас
+chatsan-replacement-48 = щас
 
 chatsan-word-49 = атм
 
@@ -222,7 +222,7 @@ chatsan-replacement-58 = как дела
 
 chatsan-word-59 = мб
 
-chatsan-replacement-59 = мой косяк
+chatsan-replacement-59 = может быть
 
 chatsan-word-60 = гб
 
