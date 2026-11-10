@@ -9,6 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
+using Content.Shared.Ghost.Components;
 using Content.Shared.Humanoid;
 using Content.Shared.Radio.Components;
 using Content.Shared.Silicons.Borgs.Components;
@@ -70,10 +71,15 @@ public sealed partial class TTSSystem : EntitySystem
         {
             foreach (var session in item.Recipients)
             {
-                if (session.Status == Robust.Shared.Enums.SessionStatus.InGame)
+                if (session.Status == Robust.Shared.Enums.SessionStatus.InGame && !IsGhost(session))
                     RaiseNetworkEvent(item.Event, session.Channel);
             }
         }
+    }
+
+    private bool IsGhost(ICommonSession session)
+    {
+        return session.AttachedEntity is { Valid: true } uid && HasComp<GhostComponent>(uid);
     }
 
     public void RequestSpeakTTS(
@@ -88,6 +94,16 @@ public sealed partial class TTSSystem : EntitySystem
         if (DateTime.UtcNow < _backoffUntilUtc)
             return;
 
+        var sessions = new List<ICommonSession>(recipients.Count);
+        foreach (var session in recipients)
+        {
+            if (!IsGhost(session))
+                sessions.Add(session);
+        }
+
+        if (sessions.Count == 0)
+            return;
+
         var cleanText = NormalizeTextForRussianTTS(FormattedMessage.RemoveMarkupPermissive(message));
         if (string.IsNullOrWhiteSpace(cleanText) || !ContainsCyrillic(cleanText))
             return;
@@ -97,7 +113,6 @@ public sealed partial class TTSSystem : EntitySystem
 
         var (speaker, pitch, speed, effect, seed, species) = ResolveVoiceParameters(source, isRadio: false);
         var netSource = GetNetEntity(source);
-        var sessions = new List<ICommonSession>(recipients);
 
         _ = DispatchTTSAsync(cleanText, speaker, pitch, speed, effect, seed, species, netSource, isWhisper, isRadio: false, sessions);
     }
@@ -107,7 +122,7 @@ public sealed partial class TTSSystem : EntitySystem
         string message,
         ICommonSession recipient)
     {
-        if (!_enabled || string.IsNullOrWhiteSpace(_apiUrl))
+        if (!_enabled || string.IsNullOrWhiteSpace(_apiUrl) || IsGhost(recipient))
             return;
 
         if (DateTime.UtcNow < _backoffUntilUtc)
@@ -136,7 +151,8 @@ public sealed partial class TTSSystem : EntitySystem
         var sessions = new List<ICommonSession>();
         foreach (var session in filter.Recipients)
         {
-            sessions.Add(session);
+            if (!IsGhost(session))
+                sessions.Add(session);
         }
 
         if (sessions.Count == 0)
