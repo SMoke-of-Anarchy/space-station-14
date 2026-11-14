@@ -25,6 +25,13 @@ public sealed partial class ServerNavMapSystem : NavMapSystem
     [Dependency] private EntityQuery<NavMapComponent> _navQuery;
 
     [SubscribeLocalEvent]
+    private void OnNavMapInit(Entity<NavMapComponent> ent, ref MapInitEvent args)
+    {
+        if (_gridQuery.TryComp(ent, out var grid))
+            RefreshGrid(ent, ent.Comp, grid);
+    }
+
+    [SubscribeLocalEvent]
     private void OnStationInit(StationGridAddedEvent ev)
     {
         var comp = EnsureComp<NavMapComponent>(ev.GridId);
@@ -194,7 +201,7 @@ public sealed partial class ServerNavMapSystem : NavMapSystem
 
     #region: Grid functions
 
-    private void RefreshGrid(EntityUid uid, NavMapComponent component, MapGridComponent mapGrid)
+    public void RefreshGrid(EntityUid uid, NavMapComponent component, MapGridComponent mapGrid)
     {
         // Clear stale data
         component.Chunks.Clear();
