@@ -120388,13 +120388,6 @@ entities:
     - type: Transform
       parent: 60
       pos: 21.334734,-11.3924055
-- proto: LGBTQHandyFlag
-  entities:
-  - uid: 9548
-    components:
-    - type: Transform
-      parent: 60
-      pos: -41.49743,-36.512333
 - proto: LightBulb
   entities:
   - uid: 19737

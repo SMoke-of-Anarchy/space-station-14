@@ -156350,13 +156350,6 @@ entities:
     - type: Transform
       parent: 12
       pos: -30.630095,60.763496
-- proto: LGBTQHandyFlag
-  entities:
-  - uid: 11014
-    components:
-    - type: Transform
-      parent: 12
-      pos: -2.3469918,13.6069565
 - proto: LightBulbBroken
   entities:
   - uid: 26006
