@@ -27876,7 +27876,7 @@ entities:
     - type: Transform
       parent: 31
       pos: -28.4315,17.631725
-- proto: ClothingNeckNonBinaryPin
+- proto: ClothingNeckAutismPin
   entities:
   - uid: 11135
     components:
@@ -27928,7 +27928,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingNeckTransPin
+- proto: ClothingNeckGoldAutismPin
   entities:
   - uid: 11137
     components:

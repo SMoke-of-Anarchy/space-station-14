@@ -652,9 +652,6 @@
   id: GeigerCounter # Storage whitelist: BaseClothingBeltEngineering
 
 - type: Tag
-  id: GenderPin #  Chameleon key for ClothingGenderPinBase.
-
-- type: Tag
   id: GlassAirlock # Used in ConstructionGraph "Airlock" to navigate between regular, glass, and highsec airlocks.
 
 - type: Tag

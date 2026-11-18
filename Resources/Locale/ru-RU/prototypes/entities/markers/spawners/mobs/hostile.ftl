@@ -50,5 +50,4 @@ ent-SpawnMobWatcherLavaland = спавнер наблюдатель лавале
 ent-SpawnMobWatcherMagmawing = спавнер наблюдатель-магмакрыл
     .desc = { ent-MarkerBase.desc }
 
-ent-SpawnMobWatcherPride = гордый наблюдатель
-    .desc = { ent-MarkerBase.desc }
+

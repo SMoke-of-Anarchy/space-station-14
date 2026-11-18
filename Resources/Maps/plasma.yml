@@ -158699,7 +158699,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -45.5,-18.5
-- proto: VendingMachinePride
+- proto: VendingMachineClothing
   entities:
   - uid: 16887
     components:

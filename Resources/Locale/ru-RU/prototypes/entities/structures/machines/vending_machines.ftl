@@ -211,9 +211,6 @@ ent-VendingMachineCentDrobe = ЦентШкаф
 ent-VendingMachineHappyHonk = Хэппи Хонк
     .desc = Раздатчик коробок обедов Хэппи Хонк, разработанный компанией «Honk! co.».
 
-ent-VendingMachinePride = Прайд-О-Мат
-    .desc = Торговый автомат, наполненный гордостью.
-
 ent-VendingMachineTankDispenserEVA = раздатчик газовых баллонов
     .desc = Автомат по выдаче газовых баллонов.
     .suffix = ВКД [O2, N2]

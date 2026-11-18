@@ -194,12 +194,6 @@
   beginMonth: June
 
 - type: holiday
-  id: StonewallRiotsAnniversary
-  name: holiday-name-stonewall-riots-anniversary
-  beginDay: 28
-  beginMonth: June
-
-- type: holiday
   id: DoctorDay
   name: holiday-name-doctor-day
   beginDay: 1
@@ -266,12 +260,6 @@
     dayOfYear: 256
 
 - type: holiday
-  id: BisexualPrideDay
-  name: holiday-name-bisexual-pride-day
-  beginDay: 23
-  beginMonth: September
-
-- type: holiday
   id: StupidQuestionsDay
   name: holiday-name-stupid-questions-day
   beginDay: 28
@@ -290,18 +278,6 @@
   beginMonth: October
 
 - type: holiday
-  id: LesbianDay
-  name: holiday-name-lesbian-day
-  beginDay: 8
-  beginMonth: October
-
-- type: holiday
-  id: NationalComingOutDay
-  name: holiday-name-national-coming-out-day
-  beginDay: 11
-  beginMonth: October
-
-- type: holiday
   id: CanadianThanksgiving
   name: holiday-name-canadian-thanksgiving
   beginMonth: October
@@ -309,15 +285,6 @@
     !type:WeekdayInMonth
     occurrence: 2
     weekday: Monday
-
-- type: holiday
-  id: SpiritDay
-  name: holiday-name-spirit-day
-  beginMonth: October
-  shouldCelebrate:
-    !type:WeekdayInMonth
-    occurrence: 3
-    weekday: Thursday
 
 - type: holiday
   id: Halloween
@@ -359,12 +326,6 @@
   id: FlowersDay
   name: holiday-name-flowers-day
   beginDay: 19
-  beginMonth: November
-
-- type: holiday
-  id: TransgenderRemembranceDay
-  name: holiday-name-transgender-remembrance-day
-  beginDay: 20
   beginMonth: November
 
 - type: holiday
@@ -438,9 +399,4 @@
   shouldCelebrate:
     !type:FridayThirteenth { }
 
-- type: holiday
-  id: PrideMonth
-  name: holiday-name-pride-month
-  beginDay: 1
-  endDay: 31
-  beginMonth: June
+

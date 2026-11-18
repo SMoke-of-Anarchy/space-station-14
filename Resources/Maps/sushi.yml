@@ -146320,7 +146320,7 @@ entities:
     - type: Transform
       parent: 2
       pos: 53.5,80.5
-- proto: VendingMachinePride
+- proto: VendingMachineClothing
   entities:
   - uid: 21317
     components:

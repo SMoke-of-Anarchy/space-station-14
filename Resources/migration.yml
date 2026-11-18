@@ -1179,3 +1179,37 @@ AirlockStandardGlass: AirlockGlass
 
 # 2026-10-30
 PlushieArachind: PlushieArachnid
+
+# 2026-11-18
+VendingMachinePride: VendingMachineClothing
+ClothingNeckLGBTPin: null
+ClothingNeckAllyPin: null
+ClothingNeckAromanticPin: null
+ClothingNeckAroacePin: null
+ClothingNeckAsexualPin: null
+ClothingNeckBisexualPin: null
+ClothingNeckGayPin: null
+ClothingNeckIntersexPin: null
+ClothingNeckLesbianPin: null
+ClothingNeckNonBinaryPin: null
+ClothingNeckPansexualPin: null
+ClothingNeckPluralPin: null
+ClothingNeckOmnisexualPin: null
+ClothingNeckGenderqueerPin: null
+ClothingNeckGenderfluidPin: null
+ClothingNeckTransPin: null
+ClothingNeckScarfStripedAce: null
+ClothingNeckScarfStripedAro: null
+ClothingNeckScarfStripedAroace: null
+ClothingNeckScarfStripedBiSexual: null
+ClothingNeckScarfStripedGay: null
+ClothingNeckScarfStripedInter: null
+ClothingNeckScarfStripedLesbian: null
+ClothingNeckScarfStripedPan: null
+ClothingNeckScarfStripedNonBinary: null
+ClothingNeckScarfStripedRainbow: null
+ClothingNeckScarfStripedTrans: null
+ClothingNeckScarfStripedLesbianLong: null
+MobWatcherPride: null
+SpawnMobWatcherPride: null
+

@@ -69695,7 +69695,7 @@ entities:
     - type: Transform
       parent: 60
       pos: -38.4609,19.6876
-- proto: ClothingNeckAromanticPin
+- proto: ClothingNeckGoldAutismPin
   entities:
   - uid: 24089
     components:
@@ -148026,7 +148026,7 @@ entities:
     - type: Transform
       parent: 60
       pos: 32.5,-30.5
-- proto: VendingMachinePride
+- proto: VendingMachineClothing
   entities:
   - uid: 20464
     components:

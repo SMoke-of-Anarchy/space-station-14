@@ -190226,7 +190226,7 @@ entities:
     - type: Transform
       parent: 12
       pos: 77.5,45.5
-- proto: VendingMachinePride
+- proto: VendingMachineClothing
   entities:
   - uid: 12295
     components:

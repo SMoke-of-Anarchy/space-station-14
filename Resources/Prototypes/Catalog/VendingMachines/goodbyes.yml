@@ -118,8 +118,4 @@
     prefix: thankyou-syndiedrobe-
     count: 5
 
-- type: localizedDataset
-  id: PrideDrobeGoodbyes
-  values:
-    prefix: thankyou-pride-
-    count: 3
+

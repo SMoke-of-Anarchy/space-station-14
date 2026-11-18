@@ -106087,7 +106087,7 @@ entities:
     - type: Transform
       parent: 1
       pos: 61.5,79.5
-- proto: VendingMachinePride
+- proto: VendingMachineClothing
   entities:
   - uid: 16572
     components:

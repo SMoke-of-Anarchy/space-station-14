@@ -64,8 +64,6 @@ holiday-name-fathers-day = Дня отца
 
 holiday-name-summer-solstice = летнего солнцестояния
 
-holiday-name-stonewall-riots-anniversary = дня годовщины Стоунволлских бунтов
-
 holiday-name-doctor-day = Национального дня врача в США
 
 holiday-name-ufo-day = Международного дня НЛО
@@ -84,19 +82,13 @@ holiday-name-talk-like-a-pirate-day = Дня «Говори как пират»
 
 holiday-name-programmers-day = Дня программиста
 
-holiday-name-bisexual-pride-day = Дня празднования бисексуальности
-
 holiday-name-stupid-questions-day = Дня глупых вопросов
 
 holiday-name-animals-day = Дня защиты животных
 
 holiday-name-smiling-day = Дня улыбки
 
-holiday-name-lesbian-day = Дня осведомлённости о лесбиянках
-
 holiday-name-canadian-thanksgiving = Дня благодарения в Канаде
-
-holiday-name-spirit-day = Дня сильных духом
 
 holiday-name-halloween = Хэллоуина
 
@@ -109,8 +101,6 @@ holiday-name-kindness-day = Дня доброты
 holiday-name-life-day = Дня жизни у вуки
 
 holiday-name-flowers-day = Дня цветов
-
-holiday-name-transgender-remembrance-day = Дня памяти трансгендерных людей
 
 holiday-name-saying-hello-day = Дня приветствий
 
@@ -131,10 +121,6 @@ holiday-name-festive-season = наступающего Нового года
 holiday-name-boxing-day = Дня подарков
 
 holiday-name-friday-thirteenth = Дня неприятностей
-
-holiday-name-national-coming-out-day = Национального дня каминг-аута
-
-holiday-name-pride-month = Месяца гордости
 
 ## Custom congrats
 
