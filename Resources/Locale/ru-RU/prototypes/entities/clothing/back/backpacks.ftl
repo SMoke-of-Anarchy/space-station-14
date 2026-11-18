@@ -98,10 +98,6 @@ ent-ClothingBackpackDebug2 = большой чудной рюкзак
     .desc = Что это, чёрт возьми, такое?
     .suffix = Отладка
 
-ent-ClothingBackpackDebug3 = гейский чудной рюкзак
-    .desc = Что это, чёрт возьми, такое?
-    .suffix = Отладка
-
 ent-ClothingBackpackDebug4 = смещённый чудной рюкзак
     .desc = Что это, чёрт возьми, такое?
     .suffix = Отладка

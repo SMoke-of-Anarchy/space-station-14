@@ -466,7 +466,7 @@
 
 - type: entity
   parent: PlushieLizard
-  id: PlushieRainbowLizard #Weh but gay
+  id: PlushieRainbowLizard
   name: rainbow lizard plushie
   description: An adorable stuffed toy that resembles a lizardperson of every color. You just might trip while staring at it...
   components:

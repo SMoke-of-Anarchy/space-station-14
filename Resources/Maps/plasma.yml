@@ -71891,13 +71891,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -116.47996,12.489793
-- proto: ClothingNeckCloakLesbian
-  entities:
-  - uid: 22951
-    components:
-    - type: Transform
-      parent: 2
-      pos: -24.48211,-68.415665
 - proto: ClothingNeckClownmedal
   entities:
   - uid: 3277

@@ -47592,20 +47592,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 10.28999,-87.42052
-- proto: ClothingNeckCloakAce
-  entities:
-  - uid: 17323
-    components:
-    - type: Transform
-      parent: 2
-      pos: -9.488791,-1.3849742
-- proto: ClothingNeckCloakLesbian
-  entities:
-  - uid: 3874
-    components:
-    - type: Transform
-      parent: 2
-      pos: 68.37186,-17.557957
 - proto: ClothingNeckCloakMoth
   entities:
   - uid: 17237
@@ -47613,20 +47599,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -31.529379,-64.33237
-- proto: ClothingNeckCloakPan
-  entities:
-  - uid: 3532
-    components:
-    - type: Transform
-      parent: 2
-      pos: 44.5,-38.5
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 17331
-    components:
-    - type: Transform
-      parent: 2
-      pos: 77.515434,-20.379131
 - proto: ClothingNeckStethoscope
   entities:
   - uid: 6660

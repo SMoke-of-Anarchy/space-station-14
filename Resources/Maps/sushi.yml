@@ -65183,27 +65183,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 71.51361,19.573505
-- proto: ClothingNeckCloakAro
-  entities:
-  - uid: 9153
-    components:
-    - type: Transform
-      parent: 2
-      pos: 133.5,26.5
-- proto: ClothingNeckCloakEnby
-  entities:
-  - uid: 9154
-    components:
-    - type: Transform
-      parent: 2
-      pos: 54.571075,75.59845
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 9155
-    components:
-    - type: Transform
-      parent: 2
-      pos: 54.652596,57.736435
 - proto: ClothingNeckGoldAutismPin
   entities:
   - uid: 16895

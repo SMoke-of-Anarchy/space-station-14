@@ -1215,4 +1215,17 @@ SpawnMobWatcherPride: null
 # LGBT flags
 LGBTQHandyFlag: null
 LGBTQFlag: null
+# Pride cloaks
+ClothingNeckCloakAce: null
+ClothingNeckCloakAro: null
+ClothingNeckCloakAroace: null
+ClothingNeckCloakBi: null
+ClothingNeckCloakIntersex: null
+ClothingNeckCloakLesbian: null
+ClothingNeckCloakGay: null
+ClothingNeckCloakEnby: null
+ClothingNeckCloakPan: null
+# Removed by user request
+ClothingNeckCloakTrans: null
+ClothingBackpackDebug3: null
 

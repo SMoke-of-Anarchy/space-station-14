@@ -89243,20 +89243,6 @@ entities:
     - type: Transform
       parent: 12
       pos: -56.12058,-14.337082
-- proto: ClothingNeckCloakAce
-  entities:
-  - uid: 18303
-    components:
-    - type: Transform
-      parent: 12
-      pos: -4.464142,51.52777
-- proto: ClothingNeckCloakAroace
-  entities:
-  - uid: 28258
-    components:
-    - type: Transform
-      parent: 12
-      pos: -60.496708,-24.319038
 - proto: ClothingNeckCloakPirateCap
   entities:
   - uid: 396
@@ -89264,13 +89250,6 @@ entities:
     - type: Transform
       parent: 12
       pos: -19.553106,21.484625
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 25486
-    components:
-    - type: Transform
-      parent: 12
-      pos: -0.13286686,29.66557
 - proto: ClothingNeckScarfStripedBlue
   entities:
   - uid: 23850

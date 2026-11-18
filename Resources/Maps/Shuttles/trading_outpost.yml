@@ -3260,13 +3260,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 3.5963347,-25.420385
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 253
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5464499,-25.441368
 - proto: ComfyChair
   entities:
   - uid: 384
