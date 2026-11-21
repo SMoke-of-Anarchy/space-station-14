@@ -136,8 +136,8 @@ namespace Content.Shared.Localizations
             {
                 <= 0 => string.Empty,
                 1 => list[0],
-                2 => $"{list[0]} и {list[1]}",
-                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))} и {list[^1]}"
+                2 => $"{list[0]} {Loc.GetString("generic-and")} {list[1]}",
+                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, {Loc.GetString("generic-and")} {list[^1]}"
             };
         }
 
@@ -150,8 +150,8 @@ namespace Content.Shared.Localizations
             {
                 <= 0 => string.Empty,
                 1 => list[0],
-                2 => $"{list[0]} или {list[1]}",
-                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))} или {list[^1]}"
+                2 => $"{list[0]} {Loc.GetString("generic-or")} {list[1]}",
+                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, {Loc.GetString("generic-or")} {list[^1]}"
             };
         }
 
